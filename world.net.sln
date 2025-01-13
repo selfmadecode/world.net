@@ -5,8 +5,26 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59C370F1-6E5D-488B-B46B-2370B43A69AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C98AE176-8503-4D46-A3DC-0441C881D32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World.Net", "src\World.Net\World.Net.csproj", "{2550BD61-4CFB-4B16-8413-961D6EECCFBE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2550BD61-4CFB-4B16-8413-961D6EECCFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2550BD61-4CFB-4B16-8413-961D6EECCFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2550BD61-4CFB-4B16-8413-961D6EECCFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2550BD61-4CFB-4B16-8413-961D6EECCFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C98AE176-8503-4D46-A3DC-0441C881D32A} = {59C370F1-6E5D-488B-B46B-2370B43A69AD}
+		{2550BD61-4CFB-4B16-8413-961D6EECCFBE} = {C98AE176-8503-4D46-A3DC-0441C881D32A}
 	EndGlobalSection
 EndGlobal
