@@ -1,7 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+	 <TargetFrameworks>$(DefaultTargetFrameworks);$(CompatibilityTargetFrameworks)</TargetFrameworks>
+	<IncludeSymbols>true</IncludeSymbols>
+	<IncludeSource>true</IncludeSource>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<LangVersion>latest</LangVersion>
   </PropertyGroup>
+	<PropertyGroup>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="States\" />
+  </ItemGroup>
 
 </Project>
