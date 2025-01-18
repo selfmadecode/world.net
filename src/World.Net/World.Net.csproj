@@ -11,8 +11,4 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="States\" />
-  </ItemGroup>
-
 </Project>
