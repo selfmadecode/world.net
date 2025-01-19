@@ -41,4 +41,22 @@ public static class CountryProvider
     {
         return _countries.Value.Values.ToList().AsReadOnly();
     }
+
+    /// <summary>
+    /// Retrieves a country by its unique identifier.
+    /// </summary>
+    /// <param name="countryId">The unique identifier of the country to retrieve.</param>
+    /// <returns>The <see cref="ICountry"/> instance corresponding to the specified <paramref name="countryId"/>.</returns>
+    /// <exception cref="CountryNotFoundException">
+    /// Thrown when no country with the specified <paramref name="countryId"/> exists.
+    /// </exception>
+    public static ICountry GetCountry(int countryId)
+    {
+        if (_countries.Value.TryGetValue(countryId, out ICountry? country))
+        {
+            return country;
+        }
+
+        throw new CountryNotFoundException($"Country with id {countryId} was not found.");
+    }
 }
