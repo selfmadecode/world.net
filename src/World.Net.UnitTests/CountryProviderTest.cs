@@ -38,4 +38,15 @@ public sealed class CountryProviderTest
         Assert.Equal(34, country.States.Count());
         Assert.Equal("Kabul", country.Capital);
     }
+
+    [Fact]
+    public void GetCountry_ShouldThrow_CountryNotFoundException_WhenCountryDoesNotExist()
+    {
+        // Arrange
+        int nonExistingCountryId = -9999;
+
+        // Act & Assert
+        var exception = Assert.Throws<CountryNotFoundException>(() => CountryProvider.GetCountry(nonExistingCountryId));
+        Assert.Equal($"Country with id {nonExistingCountryId} was not found.", exception.Message);
+    }
 }
