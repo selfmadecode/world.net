@@ -27,5 +27,18 @@ public static class CountryProvider
         };
     });
 
-    
+    /// <summary>
+    /// Retrieves a read-only collection of all available countries.
+    /// </summary>
+    /// <returns>
+    /// An <see cref="IReadOnlyCollection{ICountry}"/> representing all available countries.
+    /// </returns>
+    /// <remarks>
+    /// This method ensures that the countries dictionary is initialized upon first access, and the returned
+    /// collection is read-only and thread-safe.
+    /// </remarks>
+    public static IReadOnlyCollection<ICountry> GetAllCountries()
+    {
+        return _countries.Value.Values.ToList().AsReadOnly();
+    }
 }
