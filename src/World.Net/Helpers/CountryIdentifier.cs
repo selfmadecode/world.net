@@ -1,4 +1,7 @@
-﻿namespace World.Net.Helpers;
+﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
+// Licensed under the MIT License.
+
+namespace World.Net.Helpers;
 
 /// <summary>
 /// Provides unique identifiers for countries.
