@@ -1,4 +1,6 @@
-﻿namespace World.Net.Countries;
+﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
+// Licensed under the MIT License.
+namespace World.Net.Countries;
 
 internal sealed class Afghanistan : ICountry
 {
