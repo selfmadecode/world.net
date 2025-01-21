@@ -1,4 +1,7 @@
-﻿namespace World.Net;
+﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
+// Licensed under the MIT License.
+
+namespace World.Net;
 
 /// <summary>
 /// Represents a country with relevant geographical and identification information.
