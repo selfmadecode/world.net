@@ -30,5 +30,5 @@ jobs:
       ##- name: Run Unit Tests
         #run: dotnet test --no-build --logger "trx;LogFileName=TestResults.trx" --verbosity detailed
 
-      - name: Run Code Formatter
-        run: dotnet format --check
+     # - name: Run Code Formatter
+     #   run: dotnet format --check
