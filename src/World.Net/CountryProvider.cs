@@ -20,11 +20,7 @@ public static class CountryProvider
     /// </remarks>
     private static readonly Lazy<IDictionary<int, ICountry>> _countries = new(() =>
     {
-        return new Dictionary<int, ICountry>
-        {
-            { CountryIdentifier.AfghanistanId, new Afghanistan() }
-            // Future countries can be added here in the same format.
-        };
+        return CountryInitializer.Initialize();
     });
 
     /// <summary>

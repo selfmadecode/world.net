@@ -1,4 +1,6 @@
-﻿namespace World.Net;
+﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
+// Licensed under the MIT License.
+namespace World.Net;
 
 /// <summary>
 /// The exception that is thrown when a country is not found in the collection.
