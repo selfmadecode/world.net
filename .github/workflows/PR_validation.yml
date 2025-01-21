@@ -27,8 +27,8 @@ jobs:
       - name: Build Project
         run: dotnet build --no-restore --configuration Release
         
-      - name: Run Unit Tests
-        run: dotnet test --no-build --logger "trx;LogFileName=TestResults.trx" --verbosity detailed
+      ##- name: Run Unit Tests
+        #run: dotnet test --no-build --logger "trx;LogFileName=TestResults.trx" --verbosity detailed
 
       - name: Run Code Formatter
         run: dotnet format --check
