@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anyan\\source\\repos\\world.net\\",
+  "WorkspaceRootPath": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|c:\\users\\anyan\\source\\repos\\world.net\\src\\world.net\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|solutionrelative:src\\world.net\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD584E36-2331-4DD7-9FAD-0567C5DDD25D}|src\\World.Net.UnitTests\\World.Net.UnitTests.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net.unittests\\countries\\alandislandstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD584E36-2331-4DD7-9FAD-0567C5DDD25D}|src\\World.Net.UnitTests\\World.Net.UnitTests.csproj|solutionrelative:src\\world.net.unittests\\countries\\alandislandstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58CE3FC4-6578-4019-8EFB-45DD5BE785CB}|src\\World.Net.Console\\World.Net.Console.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58CE3FC4-6578-4019-8EFB-45DD5BE785CB}|src\\World.Net.Console\\World.Net.Console.csproj|solutionrelative:src\\world.net.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net\\countryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|solutionrelative:src\\world.net\\countryprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD584E36-2331-4DD7-9FAD-0567C5DDD25D}|src\\World.Net.UnitTests\\World.Net.UnitTests.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net.unittests\\countryprovidertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD584E36-2331-4DD7-9FAD-0567C5DDD25D}|src\\World.Net.UnitTests\\World.Net.UnitTests.csproj|solutionrelative:src\\world.net.unittests\\countryprovidertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net\\helpers\\countryidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|solutionrelative:src\\world.net\\helpers\\countryidentifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net\\helpers\\countryinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|solutionrelative:src\\world.net\\helpers\\countryinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net\\countries\\afghanistan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|solutionrelative:src\\world.net\\countries\\afghanistan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|c:\\users\\sword\\documents\\projects\\world.net\\src\\world.net\\exceptions\\countrynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2550BD61-4CFB-4B16-8413-961D6EECCFBE}|src\\World.Net\\World.Net.csproj|solutionrelative:src\\world.net\\exceptions\\countrynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C370F1-6E5D-488B-B46B-2370B43A69AD}|Solution Items{59C370F1-6E5D-488B-B46B-2370B43A69AD}|C:\\Users\\SWORD\\Documents\\Projects\\world.net\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{59C370F1-6E5D-488B-B46B-2370B43A69AD}|Solution Items{59C370F1-6E5D-488B-B46B-2370B43A69AD}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
@@ -37,20 +69,120 @@
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlandIslandsTest.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net.UnitTests\\Countries\\AlandIslandsTest.cs",
+              "RelativeDocumentMoniker": "src\\World.Net.UnitTests\\Countries\\AlandIslandsTest.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net.UnitTests\\Countries\\AlandIslandsTest.cs",
+              "RelativeToolTip": "src\\World.Net.UnitTests\\Countries\\AlandIslandsTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:21:22.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\anyan\\source\\repos\\world.net\\src\\World.Net\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\World.Net\\Class1.cs",
-              "ToolTip": "C:\\Users\\anyan\\source\\repos\\world.net\\src\\World.Net\\Class1.cs",
-              "RelativeToolTip": "src\\World.Net\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CountryIdentifier.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Helpers\\CountryIdentifier.cs",
+              "RelativeDocumentMoniker": "src\\World.Net\\Helpers\\CountryIdentifier.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Helpers\\CountryIdentifier.cs",
+              "RelativeToolTip": "src\\World.Net\\Helpers\\CountryIdentifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T22:30:51.287Z",
+              "WhenOpened": "2025-01-21T22:12:19.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CountryInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Helpers\\CountryInitializer.cs",
+              "RelativeDocumentMoniker": "src\\World.Net\\Helpers\\CountryInitializer.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Helpers\\CountryInitializer.cs",
+              "RelativeToolTip": "src\\World.Net\\Helpers\\CountryInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:10:23.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CountryProvider.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\CountryProvider.cs",
+              "RelativeDocumentMoniker": "src\\World.Net\\CountryProvider.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\CountryProvider.cs",
+              "RelativeToolTip": "src\\World.Net\\CountryProvider.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:52:02.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CountryNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Exceptions\\CountryNotFoundException.cs",
+              "RelativeDocumentMoniker": "src\\World.Net\\Exceptions\\CountryNotFoundException.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Exceptions\\CountryNotFoundException.cs",
+              "RelativeToolTip": "src\\World.Net\\Exceptions\\CountryNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:51:56.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net.Console\\Program.cs",
+              "RelativeDocumentMoniker": "src\\World.Net.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net.Console\\Program.cs",
+              "RelativeToolTip": "src\\World.Net.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:54:17.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Afghanistan.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Countries\\Afghanistan.cs",
+              "RelativeDocumentMoniker": "src\\World.Net\\Countries\\Afghanistan.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net\\Countries\\Afghanistan.cs",
+              "RelativeToolTip": "src\\World.Net\\Countries\\Afghanistan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:47:55.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CountryProviderTest.cs",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net.UnitTests\\CountryProviderTest.cs",
+              "RelativeDocumentMoniker": "src\\World.Net.UnitTests\\CountryProviderTest.cs",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\src\\World.Net.UnitTests\\CountryProviderTest.cs",
+              "RelativeToolTip": "src\\World.Net.UnitTests\\CountryProviderTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:46:24.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\SWORD\\Documents\\Projects\\world.net\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-19T14:45:57.566Z",
               "EditorCaption": ""
             }
           ]
