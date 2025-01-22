@@ -1,11 +1,9 @@
-﻿using World.Net.Helpers;
-
-namespace World.Net.UnitTests.Countries;
+﻿namespace World.Net.UnitTests.Countries;
 
 public sealed class AlandIslandsTest
 {
     [Fact]
-    public void AlandIslands_HasExpectedInformation()
+    public void GetCountry_ReturnsCorrectInformation_ForAlandIslands()
     {
         // Arrange
         int existingCountryId = CountryIdentifier.AlandIslands;
@@ -24,5 +22,4 @@ public sealed class AlandIslandsTest
         Assert.Equal("ALA", country.ISO3Code);
         Assert.Equal("+358", country.CallingCode);
     }
-
 }
