@@ -25,7 +25,6 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Aland Islands in operations that require a country ID.
     /// </remarks>
     public static readonly int AlandIslands = 2;
-
     /// <summary>
     /// The unique identifier for Albania.
     /// </summary>
@@ -33,7 +32,6 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Albania in operations that require a country ID.
     /// </remarks>
     public static readonly int Albania = 3;
-
     /// <summary>
     /// The unique identifier for Algeria.
     /// </summary>
@@ -48,7 +46,6 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference American Samoa in operations that require a country ID.
     /// </remarks>
     public static readonly int AmericanSamoa = 5;
-
     /// <summary>
     /// The unique identifier for Andorra.
     /// </summary>
