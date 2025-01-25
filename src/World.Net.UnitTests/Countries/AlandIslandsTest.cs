@@ -1,6 +1,4 @@
-﻿using World.Net.Helpers;
-
-namespace World.Net.UnitTests.Countries;
+﻿namespace World.Net.UnitTests.Countries;
 
 public sealed class AlandIslandsTest
 {

@@ -25,4 +25,11 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Aland Islands in operations that require a country ID.
     /// </remarks>
     public static readonly int AlandIslands = 2;
+    /// <summary>
+    /// The unique identifier for Algeria.
+    /// </summary>
+    /// <remarks>
+    /// Use this identifier to reference Algeria in operations that require a country ID.
+    /// </remarks>
+    public static readonly int Algeria = 4;
 }
