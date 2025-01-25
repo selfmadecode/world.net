@@ -13,7 +13,7 @@ public sealed class AlandIslandsTest
 
         //Assert
         Assert.Equal(2, country.Id);
-        Assert.Equal("AlandIslands", country.Name);
+        Assert.Equal("Aland Islands", country.Name);
         Assert.Equal("Åland Islands", country.OfficialName);
         Assert.Equal("Åland", country.NativeName);
         Assert.Equal("Mariehamn", country.Capital);
