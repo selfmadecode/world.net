@@ -8,7 +8,8 @@ internal sealed class CountryInitializer
         {
             { CountryIdentifier.AfghanistanId, new Afghanistan() },
             { CountryIdentifier.AlandIslands, new AlandIslands() },
-            { CountryIdentifier.Algeria, new Algeria() }
+            { CountryIdentifier.Algeria, new Algeria() },
+            { CountryIdentifier.AmericanSamoa, new AmericanSamoa() },
             // Future countries can be added here in the same format.
         };
     }

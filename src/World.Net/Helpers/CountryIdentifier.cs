@@ -32,4 +32,11 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Algeria in operations that require a country ID.
     /// </remarks>
     public static readonly int Algeria = 4;
+    /// <summary>
+    /// The unique identifier for American Samoa.
+    /// </summary>
+    /// <remarks>
+    /// Use this identifier to reference American Samoa in operations that require a country ID.
+    /// </remarks>
+    public static readonly int AmericanSamoa = 5;
 }
