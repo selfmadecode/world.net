@@ -10,9 +10,11 @@ public sealed class AngolaTest
     private const string ANGOLA_ISO3_CODE = "AGO";
     private const int ANGOLA_NUMERIC_CODE = 024;
     private const string ANGOLA_CALLING_CODE = "+244";
+    private const string ANGOLA_STATE_TYPE = "Province";
+
 
     [Fact]
-    public void GetCountry_ReturnsCorrectInformation_ForAlandIslands()
+    public void GetCountry_ReturnsCorrectInformation_ForAngola()
     {
         // Arrange
         int existingCountryId = CountryIdentifier.Angola;
@@ -31,6 +33,8 @@ public sealed class AngolaTest
         Assert.Equal(ANGOLA_ISO2_CODE, country.ISO2Code);
         Assert.Equal(ANGOLA_ISO3_CODE, country.ISO3Code);
         Assert.Equal(ANGOLA_CALLING_CODE, country.CallingCode);
+        Assert.NotNull(country.States);
         Assert.Equal(17, country.States.Count());
+        Assert.All(country.States, state => Assert.Equal(ANGOLA_STATE_TYPE, state.Type));
     }
 }
