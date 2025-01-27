@@ -1,4 +1,5 @@
 ﻿namespace World.Net.Countries;
+
 internal sealed class Albania : ICountry
 {
     ///<inheritdoc/>

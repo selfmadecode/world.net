@@ -1,7 +1,9 @@
 ﻿namespace World.Net.UnitTests.Countries;
+
 public sealed class AlbaniaTests
 {
     private const string ALBANIA_NAME = "Albania";
+    private const int ALBANIA_STATE_COUNT = 47;
     private const string ALBANIA_OFFICIAL_NAME = "Republic of Albania";
     private const string ALBANIA_NATIVE_NAME = "Republika e Shqipërisë";
     private const string ALBANIA_CAPITAL = "Tirana";
@@ -23,6 +25,8 @@ public sealed class AlbaniaTests
         //Assert
         Assert.Equal(existingCountryId, country.Id);
         Assert.Equal(ALBANIA_NAME, country.Name);
+        Assert.NotNull(country.States);
+        Assert.Equal(ALBANIA_STATE_COUNT, country.States.Count());
         Assert.Equal(ALBANIA_OFFICIAL_NAME, country.OfficialName);
         Assert.Equal(ALBANIA_NATIVE_NAME, country.NativeName);
         Assert.Equal(ALBANIA_CAPITAL, country.Capital);
