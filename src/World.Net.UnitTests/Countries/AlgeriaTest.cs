@@ -10,6 +10,9 @@ public sealed class AlgeriaTest
     private const string ALGERIA_ISO2_CODE = "DZ";
     private const string ALGERIA_ISO3_CODE = "DZA";
     private const string ALGERIA_CALLING_CODE = "+213";
+    private const int ALGERIA_PROVINCE_COUNT = 57;
+    private const string ALGERIA_STATE_TYPE = "Province";
+    
     [Fact]
     public void Algeria_HasExpectedInformation()
     {
@@ -29,5 +32,8 @@ public sealed class AlgeriaTest
         Assert.Equal(ALGERIA_ISO2_CODE, country.ISO2Code);
         Assert.Equal(ALGERIA_ISO3_CODE, country.ISO3Code);
         Assert.Equal(ALGERIA_CALLING_CODE, country.CallingCode);
+        Assert.NotNull(country.States);
+        Assert.Equal(ALGERIA_PROVINCE_COUNT, country.States.Count());
+        Assert.All(country.States, state => Assert.Equal(ALGERIA_STATE_TYPE, state.Type));
     }
 }

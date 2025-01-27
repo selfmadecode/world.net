@@ -10,6 +10,9 @@ public sealed class AndorraTest
     private const string ANDORRA_ISO2_CODE = "AD";
     private const string ANDORRA_ISO3_CODE = "AND";
     private const string ANDORRA_CALLING_CODE = "+376";
+    private const int ANDORRA_PARISH_COUNT = 7;
+    private const string ANDORRA_STATE_TYPE = "Parish";
+    
     [Fact]
     public void Andorra_HasExpectedInformation()
     {
@@ -29,5 +32,8 @@ public sealed class AndorraTest
         Assert.Equal(ANDORRA_ISO2_CODE, country.ISO2Code);
         Assert.Equal(ANDORRA_ISO3_CODE, country.ISO3Code);
         Assert.Equal(ANDORRA_CALLING_CODE, country.CallingCode);
+        Assert.NotNull(country.States);
+        Assert.Equal(ANDORRA_PARISH_COUNT, country.States.Count());
+        Assert.All(country.States, state => Assert.Equal(ANDORRA_STATE_TYPE, state.Type));
     }
 }
