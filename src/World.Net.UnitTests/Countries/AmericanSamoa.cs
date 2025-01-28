@@ -32,6 +32,5 @@ public sealed class AmericanSamoaTest
         Assert.Equal(AmericanSamoa_ISO3_CODE, country.ISO3Code);
         Assert.Equal(AmericanSamoa_CALLING_CODE, country.CallingCode);
         Assert.Empty(country.States);
-        Assert.Equal(AmericanSamoa_STATE_COUNT, country.States.Count());
     }
 }
