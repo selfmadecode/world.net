@@ -1,18 +1,18 @@
 ﻿namespace World.Net.Countries;
 
-internal sealed class Antartica : ICountry
+internal sealed class Antarctica : ICountry
 {
     ///<inheritdoc/>
     public int Id { get; } = CountryIdentifier.Antarctica;
 
     ///<inheritdoc/>
-    public string Name { get; } = nameof(Antartica);
+    public string Name { get; } = nameof(Antarctica);
 
     ///<inheritdoc/>
-    public string OfficialName { get; } = nameof(Antartica);
+    public string OfficialName { get; } = nameof(Antarctica);
 
     ///<inheritdoc/>
-    public string NativeName { get; } = nameof(Antartica);
+    public string NativeName { get; } = nameof(Antarctica);
 
     ///<inheritdoc/>
     public string Capital { get; } = string.Empty;
