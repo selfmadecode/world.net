@@ -10,6 +10,10 @@ internal sealed class CountryInitializer
         {
             { CountryIdentifier.AfghanistanId, new Afghanistan() },
             { CountryIdentifier.AlandIslands, new AlandIslands() },
+            { CountryIdentifier.Albania, new Albania() },
+            { CountryIdentifier.Algeria, new Algeria() },
+            { CountryIdentifier.AmericanSamoa, new AmericanSamoa() },
+            { CountryIdentifier.Andorra, new Andorra() },
             { CountryIdentifier.Angola, new Angola() },
             { CountryIdentifier.Anguilla, new Anguilla() },
             { CountryIdentifier.Antarctica, new Antarctica() }
