@@ -2,24 +2,34 @@
 
 internal sealed class Angola : ICountry
 {
+    ///<inheritdoc/>
     public int Id => CountryIdentifier.Angola;
 
+    ///<inheritdoc/>
     public string Name { get; } = nameof(Angola);
 
+    ///<inheritdoc/>
     public string OfficialName { get; } = "Republic of Angola";
 
+    ///<inheritdoc/>
     public string NativeName { get; } = nameof(Angola);
 
+    ///<inheritdoc/>
     public string Capital { get; } = "Luanda";
 
+    ///<inheritdoc/>
     public int NumericCode { get; } = 024;
 
+    ///<inheritdoc/>
     public string ISO2Code { get; } = "AO";
 
+    ///<inheritdoc/>
     public string ISO3Code { get; } = "AGO";
 
+    ///<inheritdoc/>
     public string CallingCode { get; } = "+244";
 
+    ///<inheritdoc/>
     public IEnumerable<State> States =>
     [
         new("Bengo", "BGO"),
