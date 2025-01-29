@@ -56,6 +56,5 @@ internal sealed class Argentina : ICountry
         new("Santiago del Estero", "AR-G", "Province"),
         new("Tierra del Fuego", "AR-V", "Province"),
         new("Tucumán", "AR-T", "Province"),
-
     ];
 }

@@ -12,7 +12,7 @@ internal sealed class Armenia : ICountry
     public string OfficialName { get; } = "Armenia";
 
     ///<inheritdoc/>
-    public string NativeName { get; } = "Armenia";
+    public string NativeName { get; } = "Հայաստան";
 
     ///<inheritdoc/>
     public string Capital { get; } = "Yerevan";
@@ -43,6 +43,5 @@ internal sealed class Armenia : ICountry
         new("Tavush", "AM-TV", "Region"),
         new("Vayots Dzor", "AM-VD", "Region"),
         new("Yerevan", "AM-ER", "City"),
-
     ];
 }

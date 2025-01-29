@@ -6,7 +6,7 @@ internal sealed class AntiguaAndBarbuda : ICountry
     public int Id => CountryIdentifier.AntiguaAndBarbuda;
 
     ///<inheritdoc/>
-    public string Name => nameof(AntiguaAndBarbuda);
+    public string Name => "Antigua and Barbuda";
 
     ///<inheritdoc/>
     public string OfficialName { get; } = "Antigua and Barbuda";
@@ -15,7 +15,7 @@ internal sealed class AntiguaAndBarbuda : ICountry
     public string NativeName { get; } = "Antigua and Barbuda";
 
     ///<inheritdoc/>
-    public string Capital { get; } = "St.John's";
+    public string Capital { get; } = "St. John's";
 
     ///<inheritdoc/>
     public int NumericCode { get; } = 028;
@@ -40,6 +40,5 @@ internal sealed class AntiguaAndBarbuda : ICountry
         new("Saint Paul", "AG-06", "Parish"),
         new("Saint Peter", "AG-07", "Parish"),
         new("Saint Philip", "AG-08", "Parish")
-
     ];
 }
