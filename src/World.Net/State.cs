@@ -3,6 +3,9 @@
 
 namespace World.Net;
 
+/// <summary>
+/// Represents a state, province, or region with relevant details such as its name, ISO code, and type.
+/// </summary>
 public class State
 {
     /// <summary>

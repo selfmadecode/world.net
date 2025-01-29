@@ -4,6 +4,15 @@ namespace World.Net.UnitTests;
 
 public sealed class CountryProviderTest
 {
+    private const string AFGHANISTAN_ISO2_CODE = "AF";
+    private const string AFGHANISTAN_ISO3_CODE = "AFG";
+    private const string AFGHANISTAN_CAPITAL = "Kabul";
+    private const int AFGHANISTAN_NUMERIC_CODE = 004;
+    private const string AFGHANISTAN_CALLING_CODE = "+93";
+    private const int AFGHANISTAN_STATE_COUNT = 34;
+    private const string AFGHANISTAN_NAME = "Afghanistan";
+    private const string AFGHANISTAN_NATIVE_NAME = "افغانستان";
+    private const string AFGHANISTAN_OFFICIAL_NAME = "Islamic Republic of Afghanistan";
     [Fact]
     public void GetAllCountries_ShouldReturn_NonEmptyAndNonNullCollection()
     {
@@ -26,16 +35,16 @@ public sealed class CountryProviderTest
         Assert.NotNull(country);
         Assert.NotEmpty(country.Name);
         Assert.NotEmpty(country.States);
-        Assert.Equal("AF", country.ISO2Code);
-        Assert.Equal("AFG", country.ISO3Code);
-        Assert.Equal("Kabul", country.Capital);
-        Assert.Equal(004, country.NumericCode);
-        Assert.Equal("+93", country.CallingCode);
-        Assert.Equal(34, country.States.Count());
-        Assert.Equal("Afghanistan", country.Name);
+        Assert.Equal(AFGHANISTAN_ISO2_CODE, country.ISO2Code);
+        Assert.Equal(AFGHANISTAN_ISO3_CODE, country.ISO3Code);
+        Assert.Equal(AFGHANISTAN_CAPITAL, country.Capital);
+        Assert.Equal(AFGHANISTAN_NUMERIC_CODE, country.NumericCode);
+        Assert.Equal(AFGHANISTAN_CALLING_CODE, country.CallingCode);
+        Assert.Equal(AFGHANISTAN_STATE_COUNT, country.States.Count());
+        Assert.Equal(AFGHANISTAN_NAME, country.Name);
         Assert.Equal(existingCountryId, country.Id);
-        Assert.Equal("افغانستان", country.NativeName);
-        Assert.Equal("Islamic Republic of Afghanistan", country.OfficialName);        
+        Assert.Equal(AFGHANISTAN_NATIVE_NAME, country.NativeName);
+        Assert.Equal(AFGHANISTAN_OFFICIAL_NAME, country.OfficialName);        
     }
 
     [Fact]

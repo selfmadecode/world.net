@@ -18,6 +18,7 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Afghanistan in operations that require a country ID.
     /// </remarks>
     public static readonly int AfghanistanId = 1;
+    
     /// <summary>
     /// The unique identifier for Aland Islands.
     /// </summary>
@@ -25,7 +26,7 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Aland Islands in operations that require a country ID.
     /// </remarks>
     public static readonly int AlandIslands = 2;
-
+    
     /// <summary>
     /// The unique identifier for Albania.
     /// </summary>
@@ -33,7 +34,7 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Albania in operations that require a country ID.
     /// </remarks>
     public static readonly int Albania = 3;
-
+    
     /// <summary>
     /// The unique identifier for Algeria.
     /// </summary>
@@ -41,7 +42,7 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference Algeria in operations that require a country ID.
     /// </remarks>
     public static readonly int Algeria = 4;
-
+    
     /// <summary>
     /// The unique identifier for American Samoa.
     /// </summary>
@@ -49,7 +50,7 @@ public sealed partial class CountryIdentifier
     /// Use this identifier to reference American Samoa in operations that require a country ID.
     /// </remarks>
     public static readonly int AmericanSamoa = 5;
-
+    
     /// <summary>
     /// The unique identifier for Andorra.
     /// </summary>
@@ -410,12 +411,6 @@ public sealed partial class CountryIdentifier
     /// </remarks>
     public static readonly int Congo = 50;
 
-    /// <summary>
-    /// The unique identifier for the Democratic Republic of the Congo.
-    /// </summary>
-    /// <remarks>
-    /// Use this identifier to reference the Democratic Republic of the Congo in operations that require a country ID.
-    /// </remarks>
     /// <summary>
     /// The unique identifier for the Democratic Republic of the Congo.
     /// </summary>
@@ -1047,12 +1042,6 @@ public sealed partial class CountryIdentifier
     /// </remarks>
     public static readonly int NorthMacedonia = 129;
 
-    /// <summary>
-    /// The unique identifier for Madagascar.
-    /// </summary>
-    /// <remarks>
-    /// Use this identifier to reference Madagascar in operations that require a country ID.
-    /// </remarks>
     /// <summary>
     /// The unique identifier for Madagascar.
     /// </summary>
