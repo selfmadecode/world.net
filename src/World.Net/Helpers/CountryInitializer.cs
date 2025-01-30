@@ -1,6 +1,4 @@
-﻿using World.Net.Countries;
-
-namespace World.Net.Helpers;
+﻿namespace World.Net.Helpers;
 
 internal sealed class CountryInitializer
 {
