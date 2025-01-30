@@ -27,7 +27,7 @@ internal sealed class Anguilla : ICountry
     public string ISO3Code { get; } = "AIA";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+1264";
+    public string CallingCode { get; } = "+1-264";
 
     ///<inheritdoc/>
     public IEnumerable<State> States =>

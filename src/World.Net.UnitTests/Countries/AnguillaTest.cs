@@ -9,7 +9,7 @@ public sealed class AnguillaTest
     private const string ANGUILLA_ISO2_CODE = "AI";
     private const string ANGUILLA_ISO3_CODE = "AIA";
     private const int ANGUILLA_NUMERIC_CODE = 660;
-    private const string ANGUILLA_CALLING_CODE = "+1264";
+    private const string ANGUILLA_CALLING_CODE = "+1-264";
     private const int ANGUILLA_DISTRICT_COUNT = 14;
     private const string ANGUILLA_STATE_TYPE = "District";
 
