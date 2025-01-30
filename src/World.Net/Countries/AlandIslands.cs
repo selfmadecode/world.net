@@ -1,5 +1,4 @@
-﻿
-namespace World.Net.Countries;
+﻿namespace World.Net.Countries;
 
 internal sealed class AlandIslands : ICountry
 {
