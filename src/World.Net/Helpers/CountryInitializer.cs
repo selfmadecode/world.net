@@ -12,6 +12,9 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Algeria, new Algeria() },
             { CountryIdentifier.AmericanSamoa, new AmericanSamoa() },
             { CountryIdentifier.Andorra, new Andorra() },
+            { CountryIdentifier.AntiguaAndBarbuda, new AntiguaAndBarbuda() },
+            { CountryIdentifier.Armenia, new Armenia() },
+            { CountryIdentifier.Argentina, new Argentina() },
             { CountryIdentifier.Angola, new Angola() },
             { CountryIdentifier.Anguilla, new Anguilla() },
             { CountryIdentifier.Antarctica, new Antarctica() }
