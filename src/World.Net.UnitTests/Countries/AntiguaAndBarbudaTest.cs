@@ -1,6 +1,6 @@
 ﻿namespace World.Net.UnitTests.Countries;
 
-public sealed class ANTIGUA_AND_BERBUDATest
+public sealed class AntiguaAndBarbudaTest
 {
     private const string ANTIGUA_AND_BERBUDA_NAME = "Antigua and Barbuda";
     private const int ANTIGUA_AND_BERBUDA_STATE_COUNT = 8;
