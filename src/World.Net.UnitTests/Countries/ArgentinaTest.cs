@@ -1,6 +1,6 @@
 ﻿namespace World.Net.UnitTests.Countries;
 
-public sealed class ARGENTINATest
+public sealed class ArgentinaTest
 {
     private const string ARGENTINA_NAME = "Argentina";
     private const int ARGENTINA_STATE_COUNT = 24;
