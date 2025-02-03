@@ -17,7 +17,10 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Argentina, new Argentina() },
             { CountryIdentifier.Angola, new Angola() },
             { CountryIdentifier.Anguilla, new Anguilla() },
-            { CountryIdentifier.Antarctica, new Antarctica() }
+            { CountryIdentifier.Antarctica, new Antarctica() },
+            { CountryIdentifier.Aruba, new Aruba() },
+            { CountryIdentifier.Australia, new Australia() },
+            { CountryIdentifier.Austria, new Austria() },
             // Future countries can be added here in the same format.
         };
     }
