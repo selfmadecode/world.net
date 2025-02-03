@@ -1,6 +1,6 @@
 ﻿namespace World.Net.UnitTests.Countries;
 
-public sealed class ARMENIATest
+public sealed class ArmeniaTest
 {
     private const string ARMENIA_NAME = "Armenia";
     private const int ARMENIA_STATE_COUNT = 11;
