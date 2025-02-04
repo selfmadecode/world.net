@@ -1,4 +1,5 @@
 ﻿namespace World.Net.UnitTests.Countries;
+
 public sealed class ArubaTest
 {
     private const string ARUBA_NAME = "Aruba";

@@ -1,4 +1,5 @@
 ﻿namespace World.Net.UnitTests.Countries;
+
 public sealed class AustraliaTest
 {
     private const string AUSTRALIA_NAME = "Australia";
