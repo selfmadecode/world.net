@@ -14,7 +14,7 @@ public sealed class TheBahamasTest
     private static readonly string[] VALID_STATE_TYPES = { "District", "Island" };
 
     [Fact]
-    public void GetCountry_ReturnsCorrectInformation_ForTHEBAHAMAS()
+    public void GetCountry_ReturnsCorrectInformation_ForTheBahamas()
     {
         // Arrange
         int existingCountryId = CountryIdentifier.Bahamas;
