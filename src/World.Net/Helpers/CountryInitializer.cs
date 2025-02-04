@@ -23,7 +23,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Austria, new Austria() },
             { CountryIdentifier.Azerbaijan, new Azerbaijan() },
             { CountryIdentifier.Bahamas, new TheBahamas() },
-            { CountryIdentifier.Bahrain, new Bahrain() }
+            { CountryIdentifier.Bahrain, new Bahrain() },
             { CountryIdentifier.Bangladesh, new Bangladesh() },
             { CountryIdentifier.Barbados, new Barbados() },
             { CountryIdentifier.Belarus, new Belarus() },
