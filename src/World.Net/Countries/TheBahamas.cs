@@ -9,7 +9,7 @@ internal sealed class TheBahamas : ICountry
 
     public string OfficialName { get; } = "Commonwealth of the Bahamas";
 
-    public string NativeName => nameof(TheBahamas);
+    public string NativeName => "Bahamas";
 
     public string Capital { get; } = "Nassau";
 
