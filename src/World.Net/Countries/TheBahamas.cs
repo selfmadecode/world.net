@@ -1,7 +1,7 @@
 ﻿
 namespace World.Net.Countries;
 
-internal sealed class Bahamas : ICountry
+internal sealed class TheBahamas : ICountry
 {
     public int Id => CountryIdentifier.Bahamas;
 
@@ -9,7 +9,7 @@ internal sealed class Bahamas : ICountry
 
     public string OfficialName { get; } = "Commonwealth of the Bahamas";
 
-    public string NativeName => nameof(Bahamas);
+    public string NativeName => nameof(TheBahamas);
 
     public string Capital { get; } = "Nassau";
 
