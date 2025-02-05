@@ -27,7 +27,7 @@ internal sealed class Benin : ICountry
     public string ISO3Code { get; } = "BEN";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "229";
+    public string CallingCode { get; } = "+229";
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
