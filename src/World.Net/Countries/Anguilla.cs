@@ -1,6 +1,7 @@
-﻿namespace World.Net.Countries;
+﻿
+namespace World.Net.Countries;
 
-internal sealed class Anguilla : ICountry
+internal sealed class Anguilla : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id { get; } = CountryIdentifier.Anguilla;
@@ -47,4 +48,12 @@ internal sealed class Anguilla : ICountry
         new State("The Valley", string.Empty, "District"),
         new State("West End", string.Empty, "District")
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Anguilla, new Anguilla() }
+        };
+    }
 }

@@ -1,8 +1,9 @@
 ﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
 // Licensed under the MIT License.
+
 namespace World.Net.Countries;
 
-internal sealed class Andorra : ICountry
+internal sealed class Andorra : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id => CountryIdentifier.Andorra;
@@ -42,4 +43,12 @@ internal sealed class Andorra : ICountry
         new("Sant Julià de Lòria", "AD-06", "Parish"),
         new("Escaldes-Engordany", "AD-08", "Parish"),
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Andorra, new Andorra() }
+        };
+    }
 }

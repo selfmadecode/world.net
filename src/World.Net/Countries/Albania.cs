@@ -1,6 +1,7 @@
-﻿namespace World.Net.Countries;
+﻿
+namespace World.Net.Countries;
 
-internal sealed class Albania : ICountry
+internal sealed class Albania : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id => CountryIdentifier.Albania;
@@ -80,4 +81,12 @@ internal sealed class Albania : ICountry
         new("Vlorë", "AL-12", "County"),
         new("Vlorë", "AL-VL", "District"),
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Albania, new Albania() }
+        };
+    }
 }

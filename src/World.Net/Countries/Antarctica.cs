@@ -1,6 +1,7 @@
-﻿namespace World.Net.Countries;
+﻿
+namespace World.Net.Countries;
 
-internal sealed class Antarctica : ICountry
+internal sealed class Antarctica : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id { get; } = CountryIdentifier.Antarctica;
@@ -31,4 +32,12 @@ internal sealed class Antarctica : ICountry
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } = [];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Antarctica, new Antarctica() }
+        };
+    }
 }
