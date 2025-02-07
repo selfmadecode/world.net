@@ -32,20 +32,18 @@ internal sealed class Belgium : ICountry
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
     [
-        new("Brussels-Capital Region", "BE-BRU", "Region"),
-        new("Flemish Region", "BE-VLG", "Region"),
-        new("Walloon Region", "BE-WAL", "Region"),
-    
-        new("Antwerp", "BE-VAN"),
-        new("Flemish Brabant", "BE-VBR"),
-        new("West Flanders", "BE-VWV"),
-        new("East Flanders", "BE-VOV"),
-        new("Limburg", "BE-VLI"),
-
-        new("Walloon Brabant", "BE-WBR"),
-        new("Hainaut", "BE-WHT"),
-        new("Liège", "BE-WLG"),
-        new("Luxembourg", "BE-WLX"),
-        new("Namur", "BE-WNA"),
+        new("Antwerp", "VAN"),
+        new("Brussels-Capital Region", "BRU", "Region"),
+        new("East Flanders", "VOV"),
+        new("Flemish Brabant", "VBR"),
+        new("Flemish Region", "VLG", "Region"),
+        new("Hainaut", "WHT"),
+        new("Liège", "WLG"),
+        new("Limburg", "VLI"),
+        new("Luxembourg", "WLX"),
+        new("Namur", "WNA"),
+        new("Walloon Brabant", "WBR"),
+        new("Walloon Region", "WAL", "Region"),
+        new("West Flanders", "VWV")
     ];
 }

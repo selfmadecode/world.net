@@ -32,11 +32,11 @@ internal sealed class Belize : ICountry
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
     [
-        new("Belize", "BZ-BZ", "District"),
-        new("Cayo", "BZ-CY", "District"),
-        new("Corozal", "BZ-CZL", "District"),
-        new("Orange Walk", "BZ-OW", "District"),
-        new("Stann Creek", "BZ-SC", "District"),
-        new("Toledo", "BZ-TOL", "District")
+        new("Belize", "BZ", "District"),
+        new("Cayo", "CY", "District"),
+        new("Corozal", "CZL", "District"),
+        new("Orange Walk", "OW", "District"),
+        new("Stann Creek", "SC", "District"),
+        new("Toledo", "TOL", "District")
     ];
 }

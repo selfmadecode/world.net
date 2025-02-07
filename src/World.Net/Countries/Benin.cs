@@ -32,17 +32,17 @@ internal sealed class Benin : ICountry
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
     [
-        new("Alibori", "BJ-AL", "Department"),
-        new("Atakora", "BJ-AK", "Department"),
-        new("Atlantique", "BJ-AT", "Department"),
-        new("Borgou", "BJ-BO", "Department"),
-        new("Collines", "BJ-CO", "Department"),
-        new("Donga", "BJ-DO", "Department"),
-        new("Kouffo", "BJ-KO", "Department"),
-        new("Littoral", "BJ-LI", "Department"),
-        new("Mono", "BJ-MO", "Department"),
-        new("Ouémé", "BJ-OU", "Department"),
-        new("Plateau", "BJ-PL", "Department"),
-        new("Zou", "BJ-ZO", "Department")
+        new("Alibori", "AL", "Department"),
+        new("Atakora", "AK", "Department"),
+        new("Atlantique", "AT", "Department"),
+        new("Borgou", "BO", "Department"),
+        new("Collines", "CO", "Department"),
+        new("Donga", "DO", "Department"),
+        new("Kouffo", "KO", "Department"),
+        new("Littoral", "LI", "Department"),
+        new("Mono", "MO", "Department"),
+        new("Ouémé", "OU", "Department"),
+        new("Plateau", "PL", "Department"),
+        new("Zou", "ZO", "Department")
     ];
 }
