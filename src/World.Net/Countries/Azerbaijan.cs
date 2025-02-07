@@ -1,26 +1,35 @@
-﻿
-namespace World.Net.Countries;
+﻿namespace World.Net.Countries;
 
 internal sealed class Azerbaijan : ICountry
 {
+    //<inheritdoc/>
     public int Id => CountryIdentifier.Azerbaijan;
 
+    //<inheritdoc/>
     public string Name { get; } = "Azerbaijan";
 
+    //<inheritdoc/>
     public string OfficialName { get; } = "Republic of Azerbaijan";
 
+    //<inheritdoc/>
     public string NativeName { get; } = "Azərbaycan";
 
+    //<inheritdoc/>
     public string Capital { get; } = "Baku";
 
+    //<inheritdoc/>
     public int NumericCode { get; } = 031;
 
+    //<inheritdoc/>
     public string ISO2Code { get; } = "AZ";
 
+    //<inheritdoc/>
     public string ISO3Code { get; } = "AZE";
 
+    //<inheritdoc/>
     public string CallingCode { get; } = "+994";
 
+    //<inheritdoc/>
     public IEnumerable<State> States =>
     [
         new("Absheron", "ABS", "District"),
