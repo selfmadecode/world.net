@@ -1,26 +1,35 @@
-﻿
-namespace World.Net.Countries;
+﻿namespace World.Net.Countries;
 
 internal sealed class TheBahamas : ICountry
 {
+    //<inheritdoc/>
     public int Id => CountryIdentifier.Bahamas;
 
+    //<inheritdoc/>
     public string Name { get; } = "The Bahamas";
 
+    //<inheritdoc/>
     public string OfficialName { get; } = "Commonwealth of the Bahamas";
 
+    //<inheritdoc/>
     public string NativeName => "Bahamas";
 
+    //<inheritdoc/>
     public string Capital { get; } = "Nassau";
 
+    //<inheritdoc/>
     public int NumericCode { get; } = 044;
 
+    //<inheritdoc/>
     public string ISO2Code { get; } = "BS";
 
+    //<inheritdoc/>
     public string ISO3Code { get; } = "BHS";
 
+    //<inheritdoc/>
     public string CallingCode { get; } = "+1 242";
 
+    //<inheritdoc/>
     public IEnumerable<State> States =>
     [
         new("Acklins", "AK", "District"),
