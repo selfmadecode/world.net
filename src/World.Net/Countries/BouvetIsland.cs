@@ -5,7 +5,7 @@ internal sealed class BouvetIsland : ICountry
     public int Id => CountryIdentifier.BouvetIsland;
 
     ///<inheritdoc/>
-    public string Name => nameof(BouvetIsland);
+    public string Name => "Bouvet Island";
 
     ///<inheritdoc/>
     public string OfficialName { get; } = "Bouvetøya";

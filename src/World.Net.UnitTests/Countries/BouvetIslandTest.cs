@@ -2,7 +2,7 @@
 
 public sealed class BouvetIslandTest
 {
-    private const string BOUVETISLAND_NAME = "BouvetIsland";
+    private const string BOUVETISLAND_NAME = "Bouvet Island";
     private const string BOUVETISLAND_OFFICIAL_NAME = "Bouvetøya";
     private const string BOUVETISLAND_NATIVE_NAME = "Bouvetøya";
     private const string BOUVETISLAND_CAPITAL = "";
