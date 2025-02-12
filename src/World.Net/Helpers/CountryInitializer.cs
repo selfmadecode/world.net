@@ -27,6 +27,9 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Bangladesh, new Bangladesh() },
             { CountryIdentifier.Barbados, new Barbados() },
             { CountryIdentifier.Belarus, new Belarus() },
+            { CountryIdentifier.BosniaAndHerzegovina, new BosniaAndHerzegovina() },
+            { CountryIdentifier.Botswana, new Botswana() },
+            { CountryIdentifier.BouvetIsland, new BouvetIsland() },
 
             // Future countries can be added here in the same format.
         };
