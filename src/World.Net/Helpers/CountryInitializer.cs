@@ -35,6 +35,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.BouvetIsland, new BouvetIsland() },
             { CountryIdentifier.Bermuda, new Bermuda() },
             { CountryIdentifier.Bhutan, new Bhutan() },
+            { CountryIdentifier.Bolivia, new Bolivia() },
 
             // Future countries can be added here in the same format.
         };
