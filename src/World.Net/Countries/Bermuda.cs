@@ -27,7 +27,7 @@ internal sealed class Bermuda : ICountry
     public string ISO3Code { get; } = "BMU";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+1441";
+    public string CallingCode { get; } = "+1-441";
 
     //<inheritdoc/>
     public IEnumerable<State> States =>
