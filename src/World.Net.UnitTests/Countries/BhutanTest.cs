@@ -1,17 +1,17 @@
 ﻿namespace World.Net.UnitTests.Countries;
 
-public static class BhutanTestData
+internal static class BhutanTestData
 {
-    public const string COUNTRY_NAME = "Bhutan";
-    public const string NATIVE_NAME = "ʼbrug-yul";
-    public const string CAPITAL = "Thimphu";
-    public const string OFFICIAL_NAME = "Kingdom of Bhutan";
-    public const string ISO2_CODE = "BT";
-    public const string ISO3_CODE = "BTN";
-    public const int NUMERIC_CODE = 64;
-    public const string CALLING_CODE = "+975";
-    public const string STATE_TYPE = "District";
-    public const int EXPECTED_STATE_COUNT = 20;
+    internal const string COUNTRY_NAME = "Bhutan";
+    internal const string NATIVE_NAME = "ʼbrug-yul";
+    internal const string CAPITAL = "Thimphu";
+    internal const string OFFICIAL_NAME = "Kingdom of Bhutan";
+    internal const string ISO2_CODE = "BT";
+    internal const string ISO3_CODE = "BTN";
+    internal const int NUMERIC_CODE = 64;
+    internal const string CALLING_CODE = "+975";
+    internal const string STATE_TYPE = "District";
+    internal const int EXPECTED_STATE_COUNT = 20;
 }
 
 public sealed class BhutanTest

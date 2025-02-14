@@ -1,16 +1,16 @@
 ﻿namespace World.Net.UnitTests.Countries;
-public static class BermudaTestData
+internal static class BermudaTestData
 {
-    public const string COUNTRY_NAME = "Bermuda";
-    public const string NATIVE_NAME = "Bermuda";
-    public const string CAPITAL = "Hamilton";
-    public const string OFFICIAL_NAME = "Bermuda";
-    public const string ISO2_CODE = "BM";
-    public const string ISO3_CODE = "BMU";
-    public const int NUMERIC_CODE = 60;
-    public const string CALLING_CODE = "+1-441";
-    public const string STATE_TYPE = "Municipality";
-    public const int EXPECTED_STATE_COUNT = 9;
+    internal const string COUNTRY_NAME = "Bermuda";
+    internal const string NATIVE_NAME = "Bermuda";
+    internal const string CAPITAL = "Hamilton";
+    internal const string OFFICIAL_NAME = "Bermuda";
+    internal const string ISO2_CODE = "BM";
+    internal const string ISO3_CODE = "BMU";
+    internal const int NUMERIC_CODE = 60;
+    internal const string CALLING_CODE = "+1-441";
+    internal const string STATE_TYPE = "Municipality";
+    internal const int EXPECTED_STATE_COUNT = 9;
 }
 
 public sealed class BermudaTest
