@@ -1,4 +1,5 @@
 ﻿namespace World.Net.UnitTests.Countries;
+
 internal static class BermudaTestData
 {
     internal const string COUNTRY_NAME = "Bermuda";
