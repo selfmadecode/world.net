@@ -1,25 +1,45 @@
-﻿
-namespace World.Net.Countries;
+﻿namespace World.Net.Countries;
 
 internal sealed class Bermuda : ICountry
 {
-    public int Id => throw new NotImplementedException();
+    //<inheritdoc/>
+    public int Id => CountryIdentifier.Bermuda;
 
-    public string Name => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string Name => "Bermuda";
 
-    public string OfficialName => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string OfficialName => "Bermuda";
 
-    public string NativeName => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string NativeName => "Bermuda";
 
-    public string Capital => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string Capital { get; } = "Hamilton";
 
-    public int NumericCode => throw new NotImplementedException();
+    //<inheritdoc/>
+    public int NumericCode { get; } = 060;
 
-    public string ISO2Code => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string ISO2Code { get; } = "BM";
 
-    public string ISO3Code => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string ISO3Code { get; } = "BMU";
 
-    public string CallingCode => throw new NotImplementedException();
+    //<inheritdoc/>
+    public string CallingCode { get; } = "+1441";
 
-    public IEnumerable<State> States => throw new NotImplementedException();
+    //<inheritdoc/>
+    public IEnumerable<State> States =>
+    [
+        new("Devonshire", "DEV", "Municipality"),
+        new("Hamilton", "HA", "Municipality"),
+        new("Paget", "PAG", "Municipality"),
+        new("Pembroke", "PEM", "Municipality"),
+        new("Saint George's", "SGE", "Municipality"),
+        new("Sandys", "SAN", "Municipality"),
+        new("Smith's", "SMI", "Municipality"),
+        new("Southampton", "SOU", "Municipality"),
+        new("Warwick", "WAR", "Municipality")
+    ];
 }
