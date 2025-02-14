@@ -20,7 +20,7 @@ public static class CountryProvider
     /// </remarks>
     private static readonly Lazy<IDictionary<int, ICountry>> _countries = new(() =>
     {
-        return CountryInitializer.Initialize();
+        return CountryInitializer.InitializeByReflection();
     });
 
     /// <summary>

@@ -1,6 +1,7 @@
-﻿namespace World.Net.Countries;
+﻿
+namespace World.Net.Countries;
 
-internal sealed class AntiguaAndBarbuda : ICountry
+internal sealed class AntiguaAndBarbuda : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id => CountryIdentifier.AntiguaAndBarbuda;
@@ -41,4 +42,12 @@ internal sealed class AntiguaAndBarbuda : ICountry
         new("Saint Peter", "AG-07", "Parish"),
         new("Saint Philip", "AG-08", "Parish")
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.AntiguaAndBarbuda, new AntiguaAndBarbuda() }
+        };
+    }
 }

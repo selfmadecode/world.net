@@ -1,6 +1,7 @@
-﻿namespace World.Net.Countries;
+﻿
+namespace World.Net.Countries;
 
-internal sealed class Bahrain : ICountry
+internal sealed class Bahrain : ICountry, ICountryRegistry
 {
     //<inheritdoc/>
     public int Id => CountryIdentifier.Bahrain;
@@ -38,4 +39,12 @@ internal sealed class Bahrain : ICountry
         new("Northern", "17", "Governorate"),
         new("Southern", "14", "Governorate")
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Bahrain, new Bahrain() }
+        };
+    }
 }

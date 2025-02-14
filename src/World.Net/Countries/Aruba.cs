@@ -1,6 +1,7 @@
-﻿namespace World.Net.Countries;
+﻿
+namespace World.Net.Countries;
 
-internal sealed class Aruba : ICountry
+internal sealed class Aruba : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id => CountryIdentifier.Aruba;
@@ -41,4 +42,12 @@ internal sealed class Aruba : ICountry
         new("Santa Cruz", "AW-SC", "Region"),
         new("Savaneta", "AW-SA", "Region"),
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Aruba, new Aruba() }
+        };
+    }
 }

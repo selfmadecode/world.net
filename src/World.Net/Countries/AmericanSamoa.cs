@@ -1,8 +1,9 @@
 ﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
 // Licensed under the MIT License.
+
 namespace World.Net.Countries;
 
-internal sealed class AmericanSamoa : ICountry
+internal sealed class AmericanSamoa : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id => CountryIdentifier.AmericanSamoa;
@@ -35,4 +36,12 @@ internal sealed class AmericanSamoa : ICountry
     public IEnumerable<State> States { get; } =
     [
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.AmericanSamoa, new AmericanSamoa() }
+        };
+    }
 }

@@ -1,8 +1,9 @@
 ﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
 // Licensed under the MIT License.
+
 namespace World.Net.Countries;
 
-internal sealed class Algeria : ICountry
+internal sealed class Algeria : ICountry, ICountryRegistry
 {
     ///<inheritdoc/>
     public int Id => CountryIdentifier.Algeria;
@@ -92,4 +93,12 @@ internal sealed class Algeria : ICountry
         new("Timimoun", "DZ-49"),
         new("Touggourt", "DZ-55")
     ];
+
+    public Dictionary<int, ICountry> GetCountry()
+    {
+        return new Dictionary<int, ICountry>
+        {
+            { CountryIdentifier.Algeria, new Algeria() }
+        };
+    }
 }
