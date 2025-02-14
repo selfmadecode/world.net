@@ -21,10 +21,10 @@ internal sealed class Bhutan : ICountry
     public int NumericCode { get; } = 064;
 
     //<inheritdoc/>
-    public string ISO2Code { get; } = "BM";
+    public string ISO2Code { get; } = "BT";
 
     //<inheritdoc/>
-    public string ISO3Code { get; } = "BMU";
+    public string ISO3Code { get; } = "BTN";
 
     //<inheritdoc/>
     public string CallingCode { get; } = "+975";
