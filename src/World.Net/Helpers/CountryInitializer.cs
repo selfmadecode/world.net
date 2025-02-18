@@ -36,7 +36,12 @@ internal sealed class CountryInitializer
             { CountryIdentifier.BosniaAndHerzegovina, new BosniaAndHerzegovina() },
             { CountryIdentifier.Botswana, new Botswana() },
             { CountryIdentifier.BouvetIsland, new BouvetIsland() },
-
+            { CountryIdentifier.Burundi, new Burundi() },
+            { CountryIdentifier.Cambodia, new Cambodia() },
+            { CountryIdentifier.Cameroon, new Cameroon() },
+            { CountryIdentifier.Canada, new Canada() },
+            { CountryIdentifier.CapeVerde, new CapeVerde() }
+            
             // Future countries can be added here in the same format.
         };
     }
