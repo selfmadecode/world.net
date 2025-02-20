@@ -12,9 +12,8 @@
         private const string BURKINA_FASO_ISO3_CODE = "BFA";
         private const string BURKINA_FASO_CALLING_CODE = "+226";
 
-
         [Fact]
-        public void Burkina_Faso_HasExpectedInformation()
+        public void GetCountry_ReturnsCorrectInformation_for_BurkinaFaso()
         {
             // Arrange
             int existingCountryId = CountryIdentifier.BurkinaFaso;

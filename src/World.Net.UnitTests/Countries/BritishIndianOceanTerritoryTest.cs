@@ -3,7 +3,6 @@
     public sealed class BritishIndianOceanTerritoryTest
     {
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_NAME = "British Indian Ocean Territory";
-        private const int BRITISH_INDIAN_OCEAN_TERRITORY_STATE_COUNT = 0;
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_OFFICIAL_NAME = "British Indian Ocean Territory";
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_NATIVE_NAME = "British Indian Ocean Territory";
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_CAPITAL = "Diego Garcia";
@@ -12,9 +11,8 @@
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_ISO3_CODE = "IOT";
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_CALLING_CODE = "+246";
 
-
         [Fact]
-        public void British_Indian_Ocean_Territory_HasExpectedInformation()
+        public void GetCountry_ReturnsCorrectInformation_for_BritishIndianOceanTerritory()
         {
             // Arrange
             int existingCountryId = CountryIdentifier.BritishIndianOceanTerritory;
@@ -26,7 +24,7 @@
             Assert.Equal(existingCountryId, country.Id);
             Assert.Equal(BRITISH_INDIAN_OCEAN_TERRITORY_NAME, country.Name);
             Assert.NotNull(country.States);
-            Assert.Equal(BRITISH_INDIAN_OCEAN_TERRITORY_STATE_COUNT, country.States.Count());
+            Assert.Empty(country.States);
             Assert.Equal(BRITISH_INDIAN_OCEAN_TERRITORY_OFFICIAL_NAME, country.OfficialName);
             Assert.Equal(BRITISH_INDIAN_OCEAN_TERRITORY_NATIVE_NAME, country.NativeName);
             Assert.Equal(BRITISH_INDIAN_OCEAN_TERRITORY_CAPITAL, country.Capital);

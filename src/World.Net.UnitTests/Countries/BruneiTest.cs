@@ -12,9 +12,8 @@
         private const string BRUNEI_ISO3_CODE = "BRN";
         private const string BRUNEI_CALLING_CODE = "+673";
 
-
         [Fact]
-        public void Brunei_HasExpectedInformation()
+        public void GetCountry_ReturnsCorrectInformation_for_Brunei()
         {
             // Arrange
             int existingCountryId = CountryIdentifier.Brunei;

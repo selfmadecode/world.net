@@ -12,9 +12,8 @@
         private const string BULGARIA_ISO3_CODE = "BGR";
         private const string BULGARIA_CALLING_CODE = "+359";
 
-
         [Fact]
-        public void Bulgaria_HasExpectedInformation()
+        public void GetCountry_ReturnsCorrectInformation_for_Bulgaria()
         {
             // Arrange
             int existingCountryId = CountryIdentifier.Bulgaria;

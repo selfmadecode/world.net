@@ -12,9 +12,8 @@
         private const string BRAZIL_ISO3_CODE = "BRA";
         private const string BRAZIL_CALLING_CODE = "+55";
 
-
         [Fact]
-        public void Brazil_HasExpectedInformation()
+        public void GetCountry_ReturnsCorrectInformation_for_Brazil()
         {
             // Arrange
             int existingCountryId = CountryIdentifier.Brazil;
