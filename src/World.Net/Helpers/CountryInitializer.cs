@@ -6,7 +6,7 @@ internal sealed class CountryInitializer
     {
         return new Dictionary<int, ICountry>
         {
-            { CountryIdentifier.AfghanistanId, new Afghanistan() },
+            { CountryIdentifier.Afghanistan, new Afghanistan() },
             { CountryIdentifier.AlandIslands, new AlandIslands() },
             { CountryIdentifier.Albania, new Albania() },
             { CountryIdentifier.Algeria, new Algeria() },
