@@ -17,7 +17,7 @@ public sealed class BarbadosTest
     public void Barbados_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Barbados;
+        CountryIdentifier existingCountryId = CountryIdentifier.Barbados;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

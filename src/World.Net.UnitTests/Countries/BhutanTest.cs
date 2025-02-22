@@ -20,7 +20,7 @@ public sealed class BhutanTest
     public void GetCountry_ReturnsCorrectInformation_ForBhutan()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Bhutan;
+        CountryIdentifier existingCountryId = CountryIdentifier.Bhutan;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

@@ -20,7 +20,7 @@ public sealed class BermudaTest
     public void GetCountry_ReturnsCorrectInformation_ForBermuda()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Bermuda;
+        CountryIdentifier existingCountryId = CountryIdentifier.Bermuda;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

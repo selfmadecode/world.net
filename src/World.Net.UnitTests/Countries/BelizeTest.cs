@@ -17,7 +17,7 @@ public sealed class BelizeTest
     public void BelizeTest_HasExpectedInformation()
     {
         // Arrange
-        int belizeCountryId = CountryIdentifier.Belize;
+        CountryIdentifier belizeCountryId = CountryIdentifier.Belize;
 
         // Act
         var country = CountryProvider.GetCountry(belizeCountryId);

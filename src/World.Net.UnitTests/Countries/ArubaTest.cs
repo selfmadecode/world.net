@@ -17,7 +17,7 @@ public sealed class ArubaTest
     public void Aruba_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Aruba;
+        CountryIdentifier existingCountryId = CountryIdentifier.Aruba;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

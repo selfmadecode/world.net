@@ -17,7 +17,7 @@ public sealed class TheBahamasTest
     public void GetCountry_ReturnsCorrectInformation_ForTheBahamas()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Bahamas;
+        CountryIdentifier existingCountryId = CountryIdentifier.Bahamas;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

@@ -17,7 +17,7 @@ public sealed class BangladeshTest
     public void Bangladesh_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Bangladesh;
+        CountryIdentifier existingCountryId = CountryIdentifier.Bangladesh;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

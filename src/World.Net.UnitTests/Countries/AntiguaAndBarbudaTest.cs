@@ -17,7 +17,7 @@ public sealed class AntiguaAndBarbudaTest
     public void ANTIGUA_AND_BERBUDA_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.AntiguaAndBarbuda;
+        CountryIdentifier existingCountryId = CountryIdentifier.AntiguaAndBarbuda;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

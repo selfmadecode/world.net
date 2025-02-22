@@ -17,7 +17,7 @@ public sealed class ArgentinaTest
     public void ARGENTINA_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Argentina;
+        CountryIdentifier existingCountryId = CountryIdentifier.Argentina;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

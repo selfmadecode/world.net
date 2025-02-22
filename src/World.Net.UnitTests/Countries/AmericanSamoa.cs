@@ -16,7 +16,7 @@ public sealed class AmericanSamoaTest
     public void AmericanSamoa_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.AmericanSamoa;
+        CountryIdentifier existingCountryId = CountryIdentifier.AmericanSamoa;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

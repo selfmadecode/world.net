@@ -20,7 +20,7 @@ public sealed class BoliviaTest
     public void GetCountry_ReturnsCorrectInformation_ForBolivia()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Bolivia;
+        CountryIdentifier existingCountryId = CountryIdentifier.Bolivia;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

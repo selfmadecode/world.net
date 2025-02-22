@@ -17,7 +17,7 @@ public sealed class BeninTest
     public void BeninTest_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Benin;
+        CountryIdentifier existingCountryId = CountryIdentifier.Benin;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

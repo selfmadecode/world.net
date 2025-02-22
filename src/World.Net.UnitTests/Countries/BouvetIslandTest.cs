@@ -16,7 +16,7 @@ public sealed class BouvetIslandTest
     public void BouvetIsland_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.BouvetIsland;
+        CountryIdentifier existingCountryId = CountryIdentifier.BouvetIsland;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

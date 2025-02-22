@@ -17,7 +17,7 @@ public sealed class AnguillaTest
     public void GetCountry_ReturnsCorrectInformation_ForAnguilla()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Anguilla;
+        CountryIdentifier existingCountryId = CountryIdentifier.Anguilla;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

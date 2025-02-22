@@ -26,7 +26,7 @@ public sealed class CountryProviderTest
     public void GetCountry_ShouldReturn_Country_WhenCountryExists()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.AfghanistanId;
+        CountryIdentifier existingCountryId = CountryIdentifier.Afghanistan;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);
@@ -51,7 +51,7 @@ public sealed class CountryProviderTest
     public void GetCountry_ShouldThrow_CountryNotFoundException_WhenCountryDoesNotExist()
     {
         // Arrange
-        int nonExistingCountryId = -9999;
+        CountryIdentifier nonExistingCountryId = (CountryIdentifier)9999999;
 
         // Act & Assert
         var exception = Assert.Throws<CountryNotFoundException>(() => CountryProvider.GetCountry(nonExistingCountryId));

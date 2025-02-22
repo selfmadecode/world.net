@@ -12,7 +12,7 @@ PrintSeparator("Afghanistan");
 
 try
 {
-    var afghanistan = CountryProvider.GetCountry(CountryIdentifier.AfghanistanId);
+    var afghanistan = CountryProvider.GetCountry(CountryIdentifier.Afghanistan);
     Console.WriteLine($"Official Name: {afghanistan.OfficialName}");
     Console.WriteLine($"Capital: {afghanistan.Capital}");
 }

@@ -17,7 +17,7 @@ public sealed class BahrainTest
     public void GetCountry_ReturnsCorrectInformation_ForBahrain()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Bahrain;
+        CountryIdentifier existingCountryId = CountryIdentifier.Bahrain;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);
