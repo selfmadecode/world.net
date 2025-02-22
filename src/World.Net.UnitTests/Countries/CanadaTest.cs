@@ -17,7 +17,7 @@ public sealed class CanadaTest
     public void GetCountry_ReturnsCorrectInformation_ForCanada()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Canada;
+        CountryIdentifier existingCountryId = CountryIdentifier.Canada;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

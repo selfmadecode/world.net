@@ -3,7 +3,7 @@
 internal sealed class Cameroon : ICountry
 {
     //<inheritdoc/>
-    public int Id => CountryIdentifier.Cameroon;
+    public CountryIdentifier Id => CountryIdentifier.Cameroon;
 
     //<inheritdoc/>
     public string Name { get; } = "Cameroon";

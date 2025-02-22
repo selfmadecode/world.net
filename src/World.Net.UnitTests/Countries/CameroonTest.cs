@@ -17,7 +17,7 @@ public sealed class CameroonTest
     public void GetCountry_ReturnsCorrectInformation_ForCameroon()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Cameroon;
+        CountryIdentifier existingCountryId = CountryIdentifier.Cameroon;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

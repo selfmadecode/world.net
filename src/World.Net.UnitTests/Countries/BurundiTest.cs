@@ -17,7 +17,7 @@ public sealed class BurundiTest
     public void GetCountry_ReturnsCorrectInformation_ForBurundi()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Burundi;
+        CountryIdentifier existingCountryId = CountryIdentifier.Burundi;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);
