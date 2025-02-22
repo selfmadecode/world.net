@@ -2,9 +2,9 @@
 
 internal sealed class CountryInitializer
 {
-    public static Dictionary<int, ICountry> Initialize()
+    public static Dictionary<CountryIdentifier, ICountry> Initialize()
     {
-        return new Dictionary<int, ICountry>
+        return new Dictionary<CountryIdentifier, ICountry>
         {
             { CountryIdentifier.Afghanistan, new Afghanistan() },
             { CountryIdentifier.AlandIslands, new AlandIslands() },
