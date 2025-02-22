@@ -3,7 +3,7 @@
 internal sealed class Australia : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.Australia;
+    public CountryIdentifier Id => CountryIdentifier.Australia;
 
     ///<inheritdoc/>
     public string Name => nameof(Australia);

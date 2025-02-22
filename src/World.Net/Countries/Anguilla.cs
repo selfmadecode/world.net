@@ -3,7 +3,7 @@
 internal sealed class Anguilla : ICountry
 {
     ///<inheritdoc/>
-    public int Id { get; } = CountryIdentifier.Anguilla;
+    public CountryIdentifier Id { get; } = CountryIdentifier.Anguilla;
 
     ///<inheritdoc/>
     public string Name { get; } = nameof(Anguilla);

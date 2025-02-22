@@ -5,7 +5,7 @@ namespace World.Net.Countries;
 internal sealed class AmericanSamoa : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.AmericanSamoa;
+    public CountryIdentifier Id => CountryIdentifier.AmericanSamoa;
 
     ///<inheritdoc/>
     public string Name => "American Samoa";

@@ -11,7 +11,7 @@ public interface ICountry
     /// <summary>
     /// A unique identifier for the country.
     /// </summary>
-    int Id { get; }
+    CountryIdentifier Id { get; }
 
     /// <summary>
     /// The common name of the country.

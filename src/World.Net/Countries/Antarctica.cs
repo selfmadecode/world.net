@@ -3,7 +3,7 @@
 internal sealed class Antarctica : ICountry
 {
     ///<inheritdoc/>
-    public int Id { get; } = CountryIdentifier.Antarctica;
+    public CountryIdentifier Id { get; } = CountryIdentifier.Antarctica;
 
     ///<inheritdoc/>
     public string Name { get; } = nameof(Antarctica);

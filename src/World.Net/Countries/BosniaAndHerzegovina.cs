@@ -3,7 +3,7 @@
 internal sealed class BosniaAndHerzegovina : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.BosniaAndHerzegovina;
+    public CountryIdentifier Id => CountryIdentifier.BosniaAndHerzegovina;
 
     ///<inheritdoc/>
     public string Name => "Bosnia And Herzegovina";

@@ -3,7 +3,7 @@
 internal sealed class AlandIslands : ICountry
 {
     ///<inheritdoc/>
-    public int Id { get; } = CountryIdentifier.AlandIslands;
+    public CountryIdentifier Id { get; } = CountryIdentifier.AlandIslands;
 
     ///<inheritdoc/>
     public string Name { get; } = "Aland Islands";
