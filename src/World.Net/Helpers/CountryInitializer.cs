@@ -40,7 +40,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Cambodia, new Cambodia() },
             { CountryIdentifier.Cameroon, new Cameroon() },
             { CountryIdentifier.Canada, new Canada() },
-            { CountryIdentifier.CapeVerde, new CapeVerde() }           
+            { CountryIdentifier.CapeVerde, new CapeVerde() },           
             { CountryIdentifier.Bulgaria, new Bulgaria() },
             { CountryIdentifier.BurkinaFaso, new BurkinaFaso() },
             { CountryIdentifier.Brazil, new Brazil() },
