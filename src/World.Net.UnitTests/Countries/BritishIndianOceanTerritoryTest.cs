@@ -15,7 +15,7 @@
         public void GetCountry_ReturnsCorrectInformation_for_BritishIndianOceanTerritory()
         {
             // Arrange
-            int existingCountryId = CountryIdentifier.BritishIndianOceanTerritory;
+            CountryIdentifier existingCountryId = CountryIdentifier.BritishIndianOceanTerritory;
 
             // Act
             var country = CountryProvider.GetCountry(existingCountryId);

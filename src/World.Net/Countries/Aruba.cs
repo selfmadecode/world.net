@@ -3,7 +3,7 @@
 internal sealed class Aruba : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.Aruba;
+    public CountryIdentifier Id => CountryIdentifier.Aruba;
 
     ///<inheritdoc/>
     public string Name => nameof(Aruba);

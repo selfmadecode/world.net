@@ -17,7 +17,7 @@ public sealed class AngolaTest
     public void GetCountry_ReturnsCorrectInformation_ForAngola()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Angola;
+        CountryIdentifier existingCountryId = CountryIdentifier.Angola;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

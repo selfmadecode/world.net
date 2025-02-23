@@ -16,7 +16,7 @@
         public void GetCountry_ReturnsCorrectInformation_for_Bulgaria()
         {
             // Arrange
-            int existingCountryId = CountryIdentifier.Bulgaria;
+            CountryIdentifier existingCountryId = CountryIdentifier.Bulgaria;
 
             // Act
             var country = CountryProvider.GetCountry(existingCountryId);

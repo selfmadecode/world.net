@@ -15,7 +15,7 @@ public sealed class AlandIslandsTest
     public void GetCountry_ReturnsCorrectInformation_ForAlandIslands()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.AlandIslands;
+        CountryIdentifier existingCountryId = CountryIdentifier.AlandIslands;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

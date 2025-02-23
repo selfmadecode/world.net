@@ -15,7 +15,7 @@ public class AntarticaTest
     public void GetCountry_ReturnsCorrectInformation_ForAntarctica()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Antarctica;
+        CountryIdentifier existingCountryId = CountryIdentifier.Antarctica;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

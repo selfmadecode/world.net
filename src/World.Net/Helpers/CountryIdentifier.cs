@@ -9,7 +9,7 @@ namespace World.Net.Helpers;
 /// <remarks>
 /// This class defines constants representing unique IDs for countries
 /// </remarks>
-public sealed partial class CountryIdentifier
+public enum CountryIdentifier
 {
     /// <summary>
     /// The unique identifier for Afghanistan.
@@ -17,7 +17,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Afghanistan in operations that require a country ID.
     /// </remarks>
-    public const int AfghanistanId = 1;
+    Afghanistan = 1,
     
     /// <summary>
     /// The unique identifier for Aland Islands.
@@ -25,7 +25,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Aland Islands in operations that require a country ID.
     /// </remarks>
-    public const int AlandIslands = 2;
+    AlandIslands,
     
     /// <summary>
     /// The unique identifier for Albania.
@@ -33,7 +33,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Albania in operations that require a country ID.
     /// </remarks>
-    public const int Albania = 3;
+    Albania,
     
     /// <summary>
     /// The unique identifier for Algeria.
@@ -41,7 +41,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Algeria in operations that require a country ID.
     /// </remarks>
-    public const int Algeria = 4;
+    Algeria,
     
     /// <summary>
     /// The unique identifier for American Samoa.
@@ -49,7 +49,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference American Samoa in operations that require a country ID.
     /// </remarks>
-    public const int AmericanSamoa = 5;
+    AmericanSamoa,
     
     /// <summary>
     /// The unique identifier for Andorra.
@@ -57,7 +57,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Andorra in operations that require a country ID.
     /// </remarks>
-    public const int Andorra = 6;
+    Andorra,
 
     /// <summary>
     /// The unique identifier for Angola.
@@ -65,7 +65,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Angola in operations that require a country ID.
     /// </remarks>
-    public const int Angola = 7;
+    Angola,
 
     /// <summary>
     /// The unique identifier for Anguilla.
@@ -73,7 +73,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Anguilla in operations that require a country ID.
     /// </remarks>
-    public const int Anguilla = 8;
+    Anguilla,
 
     /// <summary>
     /// The unique identifier for Antarctica.
@@ -81,7 +81,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Antarctica in operations that require a country ID.
     /// </remarks>
-    public const int Antarctica = 9;
+    Antarctica,
 
     /// <summary>
     /// The unique identifier for Antigua and Barbuda.
@@ -89,7 +89,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Antigua and Barbuda in operations that require a country ID.
     /// </remarks>
-    public const int AntiguaAndBarbuda = 10;
+    AntiguaAndBarbuda,
 
     /// <summary>
     /// The unique identifier for Argentina.
@@ -97,7 +97,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Argentina in operations that require a country ID.
     /// </remarks>
-    public const int Argentina = 11;
+    Argentina,
 
     /// <summary>
     /// The unique identifier for Armenia.
@@ -105,7 +105,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Armenia in operations that require a country ID.
     /// </remarks>
-    public const int Armenia = 12;
+    Armenia,
 
     /// <summary>
     /// The unique identifier for Aruba.
@@ -113,7 +113,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Aruba in operations that require a country ID.
     /// </remarks>
-    public const int Aruba = 13;
+    Aruba,
 
     /// <summary>
     /// The unique identifier for Australia.
@@ -121,7 +121,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Australia in operations that require a country ID.
     /// </remarks>
-    public const int Australia = 14;
+    Australia,
 
     /// <summary>
     /// The unique identifier for Austria.
@@ -129,7 +129,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Austria in operations that require a country ID.
     /// </remarks>
-    public const int Austria = 15;
+    Austria,
 
     /// <summary>
     /// The unique identifier for Azerbaijan.
@@ -137,7 +137,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Azerbaijan in operations that require a country ID.
     /// </remarks>
-    public const int Azerbaijan = 16;
+    Azerbaijan,
 
     /// <summary>
     /// The unique identifier for The Bahamas.
@@ -145,7 +145,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference The Bahamas in operations that require a country ID.
     /// </remarks>
-    public const int Bahamas = 17;
+    Bahamas,
 
     /// <summary>
     /// The unique identifier for Bahrain.
@@ -153,7 +153,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bahrain in operations that require a country ID.
     /// </remarks>
-    public const int Bahrain = 18;
+    Bahrain,
 
     /// <summary>
     /// The unique identifier for Bangladesh.
@@ -161,7 +161,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bangladesh in operations that require a country ID.
     /// </remarks>
-    public const int Bangladesh = 19;
+    Bangladesh,
 
     /// <summary>
     /// The unique identifier for Barbados.
@@ -169,7 +169,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Barbados in operations that require a country ID.
     /// </remarks>
-    public const int Barbados = 20;
+    Barbados,
 
     /// <summary>
     /// The unique identifier for Belarus.
@@ -177,7 +177,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Belarus in operations that require a country ID.
     /// </remarks>
-    public const int Belarus = 21;
+    Belarus,
 
     /// <summary>
     /// The unique identifier for Belgium.
@@ -185,7 +185,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Belgium in operations that require a country ID.
     /// </remarks>
-    public const int Belgium = 22;
+    Belgium,
 
     /// <summary>
     /// The unique identifier for Belize.
@@ -193,7 +193,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Belize in operations that require a country ID.
     /// </remarks>
-    public const int Belize = 23;
+    Belize,
 
     /// <summary>
     /// The unique identifier for Benin.
@@ -201,7 +201,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Benin in operations that require a country ID.
     /// </remarks>
-    public const int Benin = 24;
+    Benin,
 
     /// <summary>
     /// The unique identifier for Bermuda.
@@ -209,7 +209,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bermuda in operations that require a country ID.
     /// </remarks>
-    public const int Bermuda = 25;
+    Bermuda,
 
     /// <summary>
     /// The unique identifier for Bhutan.
@@ -217,7 +217,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bhutan in operations that require a country ID.
     /// </remarks>
-    public const int Bhutan = 26;
+    Bhutan,
 
     /// <summary>
     /// The unique identifier for Bolivia.
@@ -225,7 +225,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bolivia in operations that require a country ID.
     /// </remarks>
-    public const int Bolivia = 27;
+    Bolivia,
 
     /// <summary>
     /// The unique identifier for Bosnia and Herzegovina.
@@ -233,7 +233,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bosnia and Herzegovina in operations that require a country ID.
     /// </remarks>
-    public const int BosniaAndHerzegovina = 28;
+    BosniaAndHerzegovina,
 
     /// <summary>
     /// The unique identifier for Botswana.
@@ -241,7 +241,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Botswana in operations that require a country ID.
     /// </remarks>
-    public const int Botswana = 29;
+    Botswana,
 
     /// <summary>
     /// The unique identifier for Bouvet Island.
@@ -249,7 +249,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bouvet Island in operations that require a country ID.
     /// </remarks>
-    public const int BouvetIsland = 30;
+    BouvetIsland,
 
     /// <summary>
     /// The unique identifier for Brazil.
@@ -257,7 +257,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Brazil in operations that require a country ID.
     /// </remarks>
-    public const int Brazil = 31;
+    Brazil,
 
     /// <summary>
     /// The unique identifier for the British Indian Ocean Territory.
@@ -265,7 +265,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the British Indian Ocean Territory in operations that require a country ID.
     /// </remarks>
-    public const int BritishIndianOceanTerritory = 32;
+    BritishIndianOceanTerritory,
 
     /// <summary>
     /// The unique identifier for Brunei.
@@ -273,7 +273,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Brunei in operations that require a country ID.
     /// </remarks>
-    public const int Brunei = 33;
+    Brunei,
 
     /// <summary>
     /// The unique identifier for Bulgaria.
@@ -281,7 +281,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bulgaria in operations that require a country ID.
     /// </remarks>
-    public const int Bulgaria = 34;
+    Bulgaria,
 
     /// <summary>
     /// The unique identifier for Burkina Faso.
@@ -289,7 +289,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Burkina Faso in operations that require a country ID.
     /// </remarks>
-    public const int BurkinaFaso = 35;
+    BurkinaFaso,
 
     /// <summary>
     /// The unique identifier for Burundi.
@@ -297,7 +297,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Burundi in operations that require a country ID.
     /// </remarks>
-    public const int Burundi = 36;
+    Burundi,
 
     /// <summary>
     /// The unique identifier for Cambodia.
@@ -305,7 +305,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Cambodia in operations that require a country ID.
     /// </remarks>
-    public const int Cambodia = 37;
+    Cambodia,
 
     /// <summary>
     /// The unique identifier for Cameroon.
@@ -313,7 +313,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Cameroon in operations that require a country ID.
     /// </remarks>
-    public const int Cameroon = 38;
+    Cameroon,
 
     /// <summary>
     /// The unique identifier for Canada.
@@ -321,7 +321,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Canada in operations that require a country ID.
     /// </remarks>
-    public const int Canada = 39;
+    Canada,
 
     /// <summary>
     /// The unique identifier for Cape Verde.
@@ -329,7 +329,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Cape Verde in operations that require a country ID.
     /// </remarks>
-    public const int CapeVerde = 40;
+    CapeVerde,
 
     /// <summary>
     /// The unique identifier for the Cayman Islands.
@@ -337,7 +337,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Cayman Islands in operations that require a country ID.
     /// </remarks>
-    public const int CaymanIslands = 41;
+    CaymanIslands,
 
     /// <summary>
     /// The unique identifier for the Central African Republic.
@@ -345,7 +345,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Central African Republic in operations that require a country ID.
     /// </remarks>
-    public const int CentralAfricanRepublic = 42;
+    CentralAfricanRepublic,
 
     /// <summary>
     /// The unique identifier for Chad.
@@ -353,7 +353,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Chad in operations that require a country ID.
     /// </remarks>
-    public const int Chad = 43;
+    Chad,
 
     /// <summary>
     /// The unique identifier for Chile.
@@ -361,7 +361,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Chile in operations that require a country ID.
     /// </remarks>
-    public const int Chile = 44;
+    Chile,
 
     /// <summary>
     /// The unique identifier for China.
@@ -369,7 +369,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference China in operations that require a country ID.
     /// </remarks>
-    public const int China = 45;
+    China,
 
     /// <summary>
     /// The unique identifier for Christmas Island.
@@ -377,7 +377,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Christmas Island in operations that require a country ID.
     /// </remarks>
-    public const int ChristmasIsland = 46;
+    ChristmasIsland,
 
     /// <summary>
     /// The unique identifier for the Cocos (Keeling) Islands.
@@ -385,7 +385,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Cocos (Keeling) Islands in operations that require a country ID.
     /// </remarks>
-    public const int CocosKeelingIslands = 47;
+    CocosKeelingIslands,
 
     /// <summary>
     /// The unique identifier for Colombia.
@@ -393,7 +393,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Colombia in operations that require a country ID.
     /// </remarks>
-    public const int Colombia = 48;
+    Colombia,
 
     /// <summary>
     /// The unique identifier for Comoros.
@@ -401,7 +401,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Comoros in operations that require a country ID.
     /// </remarks>
-    public const int Comoros = 49;
+    Comoros,
 
     /// <summary>
     /// The unique identifier for Congo.
@@ -409,7 +409,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Congo in operations that require a country ID.
     /// </remarks>
-    public const int Congo = 50;
+    Congo,
 
     /// <summary>
     /// The unique identifier for the Democratic Republic of the Congo.
@@ -417,7 +417,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Democratic Republic of the Congo in operations that require a country ID.
     /// </remarks>
-    public const int DemocraticRepublicOfTheCongo = 51;
+    DemocraticRepublicOfTheCongo,
 
     /// <summary>
     /// The unique identifier for the Cook Islands.
@@ -425,7 +425,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Cook Islands in operations that require a country ID.
     /// </remarks>
-    public const int CookIslands = 52;
+    CookIslands,
 
     /// <summary>
     /// The unique identifier for Costa Rica.
@@ -433,7 +433,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Costa Rica in operations that require a country ID.
     /// </remarks>
-    public const int CostaRica = 53;
+    CostaRica,
 
     /// <summary>
     /// The unique identifier for Cote D'Ivoire (Ivory Coast).
@@ -441,7 +441,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Cote D'Ivoire (Ivory Coast) in operations that require a country ID.
     /// </remarks>
-    public const int CoteDIvoire = 54;
+    CoteDIvoire,
 
     /// <summary>
     /// The unique identifier for Croatia.
@@ -449,7 +449,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Croatia in operations that require a country ID.
     /// </remarks>
-    public const int Croatia = 55;
+    Croatia,
 
     /// <summary>
     /// The unique identifier for Cuba.
@@ -457,7 +457,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Cuba in operations that require a country ID.
     /// </remarks>
-    public const int Cuba = 56;
+    Cuba,
 
     /// <summary>
     /// The unique identifier for Cyprus.
@@ -465,7 +465,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Cyprus in operations that require a country ID.
     /// </remarks>
-    public const int Cyprus = 57;
+    Cyprus,
 
     /// <summary>
     /// The unique identifier for the Czech Republic.
@@ -473,7 +473,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Czech Republic in operations that require a country ID.
     /// </remarks>
-    public const int CzechRepublic = 58;
+    CzechRepublic,
 
     /// <summary>
     /// The unique identifier for Denmark.
@@ -481,7 +481,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Denmark in operations that require a country ID.
     /// </remarks>
-    public const int Denmark = 59;
+    Denmark,
 
     /// <summary>
     /// The unique identifier for Djibouti.
@@ -489,7 +489,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Djibouti in operations that require a country ID.
     /// </remarks>
-    public const int Djibouti = 60;
+    Djibouti,
 
     /// <summary>
     /// The unique identifier for Dominica.
@@ -497,7 +497,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Dominica in operations that require a country ID.
     /// </remarks>
-    public const int Dominica = 61;
+    Dominica,
 
     /// <summary>
     /// The unique identifier for the Dominican Republic.
@@ -505,7 +505,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Dominican Republic in operations that require a country ID.
     /// </remarks>
-    public const int DominicanRepublic = 62;
+    DominicanRepublic,
 
     /// <summary>
     /// The unique identifier for Timor-Leste.
@@ -513,7 +513,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Timor-Leste in operations that require a country ID.
     /// </remarks>
-    public const int TimorLeste = 63;
+    TimorLeste,
 
     /// <summary>
     /// The unique identifier for Ecuador.
@@ -521,7 +521,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Ecuador in operations that require a country ID.
     /// </remarks>
-    public const int Ecuador = 64;
+    Ecuador,
 
     /// <summary>
     /// The unique identifier for Egypt.
@@ -529,7 +529,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Egypt in operations that require a country ID.
     /// </remarks>
-    public const int Egypt = 65;
+    Egypt,
 
     /// <summary>
     /// The unique identifier for El Salvador.
@@ -537,7 +537,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference El Salvador in operations that require a country ID.
     /// </remarks>
-    public const int ElSalvador = 66;
+    ElSalvador,
 
     /// <summary>
     /// The unique identifier for Equatorial Guinea.
@@ -545,7 +545,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Equatorial Guinea in operations that require a country ID.
     /// </remarks>
-    public const int EquatorialGuinea = 67;
+    EquatorialGuinea,
 
     /// <summary>
     /// The unique identifier for Eritrea.
@@ -553,7 +553,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Eritrea in operations that require a country ID.
     /// </remarks>
-    public const int Eritrea = 68;
+    Eritrea,
 
     /// <summary>
     /// The unique identifier for Estonia.
@@ -561,7 +561,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Estonia in operations that require a country ID.
     /// </remarks>
-    public const int Estonia = 69;
+    Estonia,
 
     /// <summary>
     /// The unique identifier for Ethiopia.
@@ -569,7 +569,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Ethiopia in operations that require a country ID.
     /// </remarks>
-    public const int Ethiopia = 70;
+    Ethiopia,
 
     /// <summary>
     /// The unique identifier for the Falkland Islands.
@@ -577,7 +577,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Falkland Islands in operations that require a country ID.
     /// </remarks>
-    public const int FalklandIslands = 71;
+    FalklandIslands,
 
     /// <summary>
     /// The unique identifier for the Faroe Islands.
@@ -585,7 +585,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Faroe Islands in operations that require a country ID.
     /// </remarks>
-    public const int FaroeIslands = 72;
+    FaroeIslands,
 
     /// <summary>
     /// The unique identifier for the Fiji Islands.
@@ -593,7 +593,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Fiji Islands in operations that require a country ID.
     /// </remarks>
-    public const int FijiIslands = 73;
+    FijiIslands,
 
     /// <summary>
     /// The unique identifier for Finland.
@@ -601,7 +601,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Finland in operations that require a country ID.
     /// </remarks>
-    public const int Finland = 74;
+    Finland,
 
     /// <summary>
     /// The unique identifier for France.
@@ -609,7 +609,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference France in operations that require a country ID.
     /// </remarks>
-    public const int France = 75;
+    France,
 
     /// <summary>
     /// The unique identifier for French Guiana.
@@ -617,7 +617,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference French Guiana in operations that require a country ID.
     /// </remarks>
-    public const int FrenchGuiana = 76;
+    FrenchGuiana,
 
     /// <summary>
     /// The unique identifier for French Polynesia.
@@ -625,7 +625,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference French Polynesia in operations that require a country ID.
     /// </remarks>
-    public const int FrenchPolynesia = 77;
+    FrenchPolynesia,
 
     /// <summary>
     /// The unique identifier for the French Southern Territories.
@@ -633,7 +633,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the French Southern Territories in operations that require a country ID.
     /// </remarks>
-    public const int FrenchSouthernTerritories = 78;
+    FrenchSouthernTerritories,
 
     /// <summary>
     /// The unique identifier for Gabon.
@@ -641,7 +641,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Gabon in operations that require a country ID.
     /// </remarks>
-    public const int Gabon = 79;
+    Gabon,
 
     /// <summary>
     /// The unique identifier for Gambia.
@@ -649,7 +649,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Gambia in operations that require a country ID.
     /// </remarks>
-    public const int Gambia = 80;
+    Gambia,
 
     /// <summary>
     /// The unique identifier for Georgia.
@@ -657,7 +657,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Georgia in operations that require a country ID.
     /// </remarks>
-    public const int Georgia = 81;
+    Georgia,
 
     /// <summary>
     /// The unique identifier for Germany.
@@ -665,7 +665,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Germany in operations that require a country ID.
     /// </remarks>
-    public const int Germany = 82;
+    Germany,
 
     /// <summary>
     /// The unique identifier for Ghana.
@@ -673,7 +673,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Ghana in operations that require a country ID.
     /// </remarks>
-    public const int Ghana = 83;
+    Ghana,
 
     /// <summary>
     /// The unique identifier for Gibraltar.
@@ -681,7 +681,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Gibraltar in operations that require a country ID.
     /// </remarks>
-    public const int Gibraltar = 84;
+    Gibraltar,
 
     /// <summary>
     /// The unique identifier for Greece.
@@ -689,7 +689,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Greece in operations that require a country ID.
     /// </remarks>
-    public const int Greece = 85;
+    Greece,
 
     /// <summary>
     /// The unique identifier for Greenland.
@@ -697,7 +697,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Greenland in operations that require a country ID.
     /// </remarks>
-    public const int Greenland = 86;
+    Greenland,
 
     /// <summary>
     /// The unique identifier for Grenada.
@@ -705,7 +705,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Grenada in operations that require a country ID.
     /// </remarks>
-    public const int Grenada = 87;
+    Grenada,
 
     /// <summary>
     /// The unique identifier for Guadeloupe.
@@ -713,7 +713,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Guadeloupe in operations that require a country ID.
     /// </remarks>
-    public const int Guadeloupe = 88;
+    Guadeloupe,
 
     /// <summary>
     /// The unique identifier for Guam.
@@ -721,7 +721,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Guam in operations that require a country ID.
     /// </remarks>
-    public const int Guam = 89;
+    Guam,
 
     /// <summary>
     /// The unique identifier for Guatemala.
@@ -729,14 +729,14 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Guatemala in operations that require a country ID.
     /// </remarks>
-    public const int Guatemala = 90;
+    Guatemala,
     /// <summary>
     /// The unique identifier for Guernsey and Alderney.
     /// </summary>
     /// <remarks>
     /// Use this identifier to reference Guernsey and Alderney in operations that require a country ID.
     /// </remarks>
-    public const int GuernseyAndAlderney = 91;
+    GuernseyAndAlderney,
 
     /// <summary>
     /// The unique identifier for Guinea.
@@ -744,7 +744,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Guinea in operations that require a country ID.
     /// </remarks>
-    public const int Guinea = 92;
+    Guinea,
 
     /// <summary>
     /// The unique identifier for Guinea-Bissau.
@@ -752,7 +752,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Guinea-Bissau in operations that require a country ID.
     /// </remarks>
-    public const int GuineaBissau = 93;
+    GuineaBissau,
 
     /// <summary>
     /// The unique identifier for Guyana.
@@ -760,7 +760,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Guyana in operations that require a country ID.
     /// </remarks>
-    public const int Guyana = 94;
+    Guyana,
 
     /// <summary>
     /// The unique identifier for Haiti.
@@ -768,7 +768,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Haiti in operations that require a country ID.
     /// </remarks>
-    public const int Haiti = 95;
+    Haiti,
 
     /// <summary>
     /// The unique identifier for Heard Island and McDonald Islands.
@@ -776,7 +776,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Heard Island and McDonald Islands in operations that require a country ID.
     /// </remarks>
-    public const int HeardIslandAndMcDonaldIslands = 96;
+    HeardIslandAndMcDonaldIslands,
 
     /// <summary>
     /// The unique identifier for Honduras.
@@ -784,7 +784,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Honduras in operations that require a country ID.
     /// </remarks>
-    public const int Honduras = 97;
+    Honduras,
 
     /// <summary>
     /// The unique identifier for Hong Kong SAR.
@@ -792,7 +792,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Hong Kong SAR in operations that require a country ID.
     /// </remarks>
-    public const int HongKongSAR = 98;
+    HongKongSAR,
 
     /// <summary>
     /// The unique identifier for Hungary.
@@ -800,7 +800,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Hungary in operations that require a country ID.
     /// </remarks>
-    public const int Hungary = 99;
+    Hungary,
 
     /// <summary>
     /// The unique identifier for Iceland.
@@ -808,7 +808,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Iceland in operations that require a country ID.
     /// </remarks>
-    public const int Iceland = 100;
+    Iceland,
 
     /// <summary>
     /// The unique identifier for India.
@@ -816,7 +816,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference India in operations that require a country ID.
     /// </remarks>
-    public const int India = 101;
+    India,
 
     /// <summary>
     /// The unique identifier for Indonesia.
@@ -824,7 +824,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Indonesia in operations that require a country ID.
     /// </remarks>
-    public const int Indonesia = 102;
+    Indonesia,
 
     /// <summary>
     /// The unique identifier for Iran.
@@ -832,7 +832,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Iran in operations that require a country ID.
     /// </remarks>
-    public const int Iran = 103;
+    Iran,
 
     /// <summary>
     /// The unique identifier for Iraq.
@@ -840,7 +840,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Iraq in operations that require a country ID.
     /// </remarks>
-    public const int Iraq = 104;
+    Iraq,
 
     /// <summary>
     /// The unique identifier for Ireland.
@@ -848,7 +848,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Ireland in operations that require a country ID.
     /// </remarks>
-    public const int Ireland = 105;
+    Ireland,
 
     /// <summary>
     /// The unique identifier for Israel.
@@ -856,7 +856,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Israel in operations that require a country ID.
     /// </remarks>
-    public const int Israel = 106;
+    Israel,
 
     /// <summary>
     /// The unique identifier for Italy.
@@ -864,7 +864,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Italy in operations that require a country ID.
     /// </remarks>
-    public const int Italy = 107;
+    Italy,
 
     /// <summary>
     /// The unique identifier for Jamaica.
@@ -872,7 +872,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Jamaica in operations that require a country ID.
     /// </remarks>
-    public const int Jamaica = 108;
+    Jamaica,
 
     /// <summary>
     /// The unique identifier for Japan.
@@ -880,7 +880,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Japan in operations that require a country ID.
     /// </remarks>
-    public const int Japan = 109;
+    Japan,
 
     /// <summary>
     /// The unique identifier for Jersey.
@@ -888,7 +888,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Jersey in operations that require a country ID.
     /// </remarks>
-    public const int Jersey = 110;
+    Jersey,
 
     /// <summary>
     /// The unique identifier for Jordan.
@@ -896,7 +896,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Jordan in operations that require a country ID.
     /// </remarks>
-    public const int Jordan = 111;
+    Jordan,
 
     /// <summary>
     /// The unique identifier for Kazakhstan.
@@ -904,7 +904,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Kazakhstan in operations that require a country ID.
     /// </remarks>
-    public const int Kazakhstan = 112;
+    Kazakhstan,
 
     /// <summary>
     /// The unique identifier for Kenya.
@@ -912,7 +912,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Kenya in operations that require a country ID.
     /// </remarks>
-    public const int Kenya = 113;
+    Kenya,
 
     /// <summary>
     /// The unique identifier for Kiribati.
@@ -920,7 +920,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Kiribati in operations that require a country ID.
     /// </remarks>
-    public const int Kiribati = 114;
+    Kiribati,
 
     /// <summary>
     /// The unique identifier for North Korea.
@@ -928,7 +928,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference North Korea in operations that require a country ID.
     /// </remarks>
-    public const int NorthKorea = 115;
+    NorthKorea,
 
     /// <summary>
     /// The unique identifier for South Korea.
@@ -936,7 +936,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference South Korea in operations that require a country ID.
     /// </remarks>
-    public const int SouthKorea = 116;
+    SouthKorea,
 
     /// <summary>
     /// The unique identifier for Kuwait.
@@ -944,7 +944,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Kuwait in operations that require a country ID.
     /// </remarks>
-    public const int Kuwait = 117;
+    Kuwait,
 
     /// <summary>
     /// The unique identifier for Kyrgyzstan.
@@ -952,7 +952,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Kyrgyzstan in operations that require a country ID.
     /// </remarks>
-    public const int Kyrgyzstan = 118;
+    Kyrgyzstan,
 
     /// <summary>
     /// The unique identifier for Laos.
@@ -960,7 +960,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Laos in operations that require a country ID.
     /// </remarks>
-    public const int Laos = 119;
+    Laos,
 
     /// <summary>
     /// The unique identifier for Latvia.
@@ -968,7 +968,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Latvia in operations that require a country ID.
     /// </remarks>
-    public const int Latvia = 120;
+    Latvia,
 
     /// <summary>
     /// The unique identifier for Lebanon.
@@ -976,7 +976,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Lebanon in operations that require a country ID.
     /// </remarks>
-    public const int Lebanon = 121;
+    Lebanon,
 
     /// <summary>
     /// The unique identifier for Lesotho.
@@ -984,7 +984,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Lesotho in operations that require a country ID.
     /// </remarks>
-    public const int Lesotho = 122;
+    Lesotho,
 
     /// <summary>
     /// The unique identifier for Liberia.
@@ -992,7 +992,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Liberia in operations that require a country ID.
     /// </remarks>
-    public const int Liberia = 123;
+    Liberia,
 
     /// <summary>
     /// The unique identifier for Libya.
@@ -1000,7 +1000,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Libya in operations that require a country ID.
     /// </remarks>
-    public const int Libya = 124;
+    Libya,
 
     /// <summary>
     /// The unique identifier for Liechtenstein.
@@ -1008,7 +1008,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Liechtenstein in operations that require a country ID.
     /// </remarks>
-    public const int Liechtenstein = 125;
+    Liechtenstein,
 
     /// <summary>
     /// The unique identifier for Lithuania.
@@ -1016,7 +1016,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Lithuania in operations that require a country ID.
     /// </remarks>
-    public const int Lithuania = 126;
+    Lithuania,
 
     /// <summary>
     /// The unique identifier for Luxembourg.
@@ -1024,7 +1024,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Luxembourg in operations that require a country ID.
     /// </remarks>
-    public const int Luxembourg = 127;
+    Luxembourg,
 
     /// <summary>
     /// The unique identifier for Macau SAR.
@@ -1032,7 +1032,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Macau SAR in operations that require a country ID.
     /// </remarks>
-    public const int MacauSAR = 128;
+    MacauSAR,
 
     /// <summary>
     /// The unique identifier for North Macedonia.
@@ -1040,7 +1040,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference North Macedonia in operations that require a country ID.
     /// </remarks>
-    public const int NorthMacedonia = 129;
+    NorthMacedonia,
 
     /// <summary>
     /// The unique identifier for Madagascar.
@@ -1048,7 +1048,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Madagascar in operations that require a country ID.
     /// </remarks>
-    public const int Madagascar = 130;
+    Madagascar,
 
     /// <summary>
     /// The unique identifier for Malawi.
@@ -1056,7 +1056,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Malawi in operations that require a country ID.
     /// </remarks>
-    public const int Malawi = 131;
+    Malawi,
 
     /// <summary>
     /// The unique identifier for Malaysia.
@@ -1064,7 +1064,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Malaysia in operations that require a country ID.
     /// </remarks>
-    public const int Malaysia = 132;
+    Malaysia,
 
     /// <summary>
     /// The unique identifier for Maldives.
@@ -1072,7 +1072,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Maldives in operations that require a country ID.
     /// </remarks>
-    public const int Maldives = 133;
+    Maldives,
 
     /// <summary>
     /// The unique identifier for Mali.
@@ -1080,7 +1080,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mali in operations that require a country ID.
     /// </remarks>
-    public const int Mali = 134;
+    Mali,
 
     /// <summary>
     /// The unique identifier for Malta.
@@ -1088,7 +1088,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Malta in operations that require a country ID.
     /// </remarks>
-    public const int Malta = 135;
+    Malta,
 
     /// <summary>
     /// The unique identifier for Isle of Man.
@@ -1096,7 +1096,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Isle of Man in operations that require a country ID.
     /// </remarks>
-    public const int IsleOfMan = 136;
+    IsleOfMan,
 
     /// <summary>
     /// The unique identifier for Marshall Islands.
@@ -1104,7 +1104,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Marshall Islands in operations that require a country ID.
     /// </remarks>
-    public const int MarshallIslands = 137;
+    MarshallIslands,
 
     /// <summary>
     /// The unique identifier for Martinique.
@@ -1112,7 +1112,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Martinique in operations that require a country ID.
     /// </remarks>
-    public const int Martinique = 138;
+    Martinique,
 
     /// <summary>
     /// The unique identifier for Mauritania.
@@ -1120,7 +1120,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mauritania in operations that require a country ID.
     /// </remarks>
-    public const int Mauritania = 139;
+    Mauritania,
 
     /// <summary>
     /// The unique identifier for Mauritius.
@@ -1128,7 +1128,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mauritius in operations that require a country ID.
     /// </remarks>
-    public const int Mauritius = 140;
+    Mauritius,
 
     /// <summary>
     /// The unique identifier for Mayotte.
@@ -1136,7 +1136,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mayotte in operations that require a country ID.
     /// </remarks>
-    public const int Mayotte = 141;
+    Mayotte,
 
     /// <summary>
     /// The unique identifier for Mexico.
@@ -1144,7 +1144,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mexico in operations that require a country ID.
     /// </remarks>
-    public const int Mexico = 142;
+    Mexico,
 
     /// <summary>
     /// The unique identifier for Micronesia.
@@ -1152,7 +1152,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Micronesia in operations that require a country ID.
     /// </remarks>
-    public const int Micronesia = 143;
+    Micronesia,
 
     /// <summary>
     /// The unique identifier for Moldova.
@@ -1160,7 +1160,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Moldova in operations that require a country ID.
     /// </remarks>
-    public const int Moldova = 144;
+    Moldova,
 
     /// <summary>
     /// The unique identifier for Monaco.
@@ -1168,7 +1168,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Monaco in operations that require a country ID.
     /// </remarks>
-    public const int Monaco = 145;
+    Monaco,
 
     /// <summary>
     /// The unique identifier for Mongolia.
@@ -1176,7 +1176,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mongolia in operations that require a country ID.
     /// </remarks>
-    public const int Mongolia = 146;
+    Mongolia,
 
     /// <summary>
     /// The unique identifier for Montenegro.
@@ -1184,7 +1184,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Montenegro in operations that require a country ID.
     /// </remarks>
-    public const int Montenegro = 147;
+    Montenegro,
 
     /// <summary>
     /// The unique identifier for Montserrat.
@@ -1192,7 +1192,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Montserrat in operations that require a country ID.
     /// </remarks>
-    public const int Montserrat = 148;
+    Montserrat,
 
     /// <summary>
     /// The unique identifier for Morocco.
@@ -1200,7 +1200,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Morocco in operations that require a country ID.
     /// </remarks>
-    public const int Morocco = 149;
+    Morocco,
 
     /// <summary>
     /// The unique identifier for Mozambique.
@@ -1208,7 +1208,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Mozambique in operations that require a country ID.
     /// </remarks>
-    public const int Mozambique = 150;
+    Mozambique,
 
     /// <summary>
     /// The unique identifier for Myanmar.
@@ -1216,7 +1216,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Myanmar in operations that require a country ID.
     /// </remarks>
-    public const int Myanmar = 151;
+    Myanmar,
 
     /// <summary>
     /// The unique identifier for Namibia.
@@ -1224,7 +1224,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Namibia in operations that require a country ID.
     /// </remarks>
-    public const int Namibia = 152;
+    Namibia,
 
     /// <summary>
     /// The unique identifier for Nauru.
@@ -1232,7 +1232,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Nauru in operations that require a country ID.
     /// </remarks>
-    public const int Nauru = 153;
+    Nauru,
 
     /// <summary>
     /// The unique identifier for Nepal.
@@ -1240,7 +1240,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Nepal in operations that require a country ID.
     /// </remarks>
-    public const int Nepal = 154;
+    Nepal,
 
     /// <summary>
     /// The unique identifier for Bonaire, Sint Eustatius, and Saba.
@@ -1248,14 +1248,14 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Bonaire, Sint Eustatius, and Saba in operations that require a country ID.
     /// </remarks>
-    public const int BonaireSintEustatiusAndSaba = 155;
+    BonaireSintEustatiusAndSaba,
     /// <summary>
     /// The unique identifier for the Netherlands.
     /// </summary>
     /// <remarks>
     /// Use this identifier to reference the Netherlands in operations that require a country ID.
     /// </remarks>
-    public const int Netherlands = 156;
+    Netherlands,
 
     /// <summary>
     /// The unique identifier for New Caledonia.
@@ -1263,7 +1263,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference New Caledonia in operations that require a country ID.
     /// </remarks>
-    public const int NewCaledonia = 157;
+    NewCaledonia,
 
     /// <summary>
     /// The unique identifier for New Zealand.
@@ -1271,7 +1271,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference New Zealand in operations that require a country ID.
     /// </remarks>
-    public const int NewZealand = 158;
+    NewZealand,
 
     /// <summary>
     /// The unique identifier for Nicaragua.
@@ -1279,7 +1279,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Nicaragua in operations that require a country ID.
     /// </remarks>
-    public const int Nicaragua = 159;
+    Nicaragua,
 
     /// <summary>
     /// The unique identifier for Niger.
@@ -1287,7 +1287,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Niger in operations that require a country ID.
     /// </remarks>
-    public const int Niger = 160;
+    Niger,
 
     /// <summary>
     /// The unique identifier for Nigeria.
@@ -1295,7 +1295,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Nigeria in operations that require a country ID.
     /// </remarks>
-    public const int Nigeria = 161;
+    Nigeria,
 
     /// <summary>
     /// The unique identifier for Niue.
@@ -1303,7 +1303,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Niue in operations that require a country ID.
     /// </remarks>
-    public const int Niue = 162;
+    Niue,
 
     /// <summary>
     /// The unique identifier for Norfolk Island.
@@ -1311,7 +1311,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Norfolk Island in operations that require a country ID.
     /// </remarks>
-    public const int NorfolkIsland = 163;
+    NorfolkIsland,
 
     /// <summary>
     /// The unique identifier for Northern Mariana Islands.
@@ -1319,7 +1319,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Northern Mariana Islands in operations that require a country ID.
     /// </remarks>
-    public const int NorthernMarianaIslands = 164;
+    NorthernMarianaIslands,
 
     /// <summary>
     /// The unique identifier for Norway.
@@ -1327,7 +1327,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Norway in operations that require a country ID.
     /// </remarks>
-    public const int Norway = 165;
+    Norway,
 
     /// <summary>
     /// The unique identifier for Oman.
@@ -1335,7 +1335,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Oman in operations that require a country ID.
     /// </remarks>
-    public const int Oman = 166;
+    Oman,
 
     /// <summary>
     /// The unique identifier for Pakistan.
@@ -1343,7 +1343,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Pakistan in operations that require a country ID.
     /// </remarks>
-    public const int Pakistan = 167;
+    Pakistan,
 
     /// <summary>
     /// The unique identifier for Palau.
@@ -1351,7 +1351,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Palau in operations that require a country ID.
     /// </remarks>
-    public const int Palau = 168;
+    Palau,
 
     /// <summary>
     /// The unique identifier for the Palestinian Territory (Occupied).
@@ -1359,7 +1359,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Palestinian Territory (Occupied) in operations that require a country ID.
     /// </remarks>
-    public const int PalestinianTerritoryOccupied = 169;
+    PalestinianTerritoryOccupied,
 
     /// <summary>
     /// The unique identifier for Panama.
@@ -1367,7 +1367,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Panama in operations that require a country ID.
     /// </remarks>
-    public const int Panama = 170;
+    Panama,
 
     /// <summary>
     /// The unique identifier for Papua New Guinea.
@@ -1375,7 +1375,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Papua New Guinea in operations that require a country ID.
     /// </remarks>
-    public const int PapuaNewGuinea = 171;
+    PapuaNewGuinea,
 
     /// <summary>
     /// The unique identifier for Paraguay.
@@ -1383,7 +1383,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Paraguay in operations that require a country ID.
     /// </remarks>
-    public const int Paraguay = 172;
+    Paraguay,
 
     /// <summary>
     /// The unique identifier for Peru.
@@ -1391,7 +1391,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Peru in operations that require a country ID.
     /// </remarks>
-    public const int Peru = 173;
+    Peru,
 
     /// <summary>
     /// The unique identifier for the Philippines.
@@ -1399,7 +1399,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the Philippines in operations that require a country ID.
     /// </remarks>
-    public const int Philippines = 174;
+    Philippines,
 
     /// <summary>
     /// The unique identifier for Pitcairn Island.
@@ -1407,7 +1407,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Pitcairn Island in operations that require a country ID.
     /// </remarks>
-    public const int PitcairnIsland = 175;
+    PitcairnIsland,
 
     /// <summary>
     /// The unique identifier for Poland.
@@ -1415,7 +1415,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Poland in operations that require a country ID.
     /// </remarks>
-    public const int Poland = 176;
+    Poland,
 
     /// <summary>
     /// The unique identifier for Portugal.
@@ -1423,7 +1423,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Portugal in operations that require a country ID.
     /// </remarks>
-    public const int Portugal = 177;
+    Portugal,
 
     /// <summary>
     /// The unique identifier for Puerto Rico.
@@ -1431,7 +1431,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Puerto Rico in operations that require a country ID.
     /// </remarks>
-    public const int PuertoRico = 178;
+    PuertoRico,
 
     /// <summary>
     /// The unique identifier for Qatar.
@@ -1439,7 +1439,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Qatar in operations that require a country ID.
     /// </remarks>
-    public const int Qatar = 179;
+    Qatar,
 
     /// <summary>
     /// The unique identifier for Reunion.
@@ -1447,14 +1447,14 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Reunion in operations that require a country ID.
     /// </remarks>
-    public const int Reunion = 180;
+    Reunion,
     /// <summary>
     /// The unique identifier for Romania.
     /// </summary>
     /// <remarks>
     /// Use this identifier to reference Romania in operations that require a country ID.
     /// </remarks>
-    public const int Romania = 181;
+    Romania,
 
     /// <summary>
     /// The unique identifier for Russia.
@@ -1462,7 +1462,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Russia in operations that require a country ID.
     /// </remarks>
-    public const int Russia = 182;
+    Russia,
 
     /// <summary>
     /// The unique identifier for Rwanda.
@@ -1470,7 +1470,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Rwanda in operations that require a country ID.
     /// </remarks>
-    public const int Rwanda = 183;
+    Rwanda,
 
     /// <summary>
     /// The unique identifier for Saint Helena.
@@ -1478,7 +1478,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Helena in operations that require a country ID.
     /// </remarks>
-    public const int SaintHelena = 184;
+    SaintHelena,
 
     /// <summary>
     /// The unique identifier for Saint Kitts and Nevis.
@@ -1486,7 +1486,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Kitts and Nevis in operations that require a country ID.
     /// </remarks>
-    public const int SaintKittsAndNevis = 185;
+    SaintKittsAndNevis,
 
     /// <summary>
     /// The unique identifier for Saint Lucia.
@@ -1494,7 +1494,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Lucia in operations that require a country ID.
     /// </remarks>
-    public const int SaintLucia = 186;
+    SaintLucia,
 
     /// <summary>
     /// The unique identifier for Saint Pierre and Miquelon.
@@ -1502,7 +1502,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Pierre and Miquelon in operations that require a country ID.
     /// </remarks>
-    public const int SaintPierreAndMiquelon = 187;
+    SaintPierreAndMiquelon,
 
     /// <summary>
     /// The unique identifier for Saint Vincent and the Grenadines.
@@ -1510,7 +1510,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Vincent and the Grenadines in operations that require a country ID.
     /// </remarks>
-    public const int SaintVincentAndTheGrenadines = 188;
+    SaintVincentAndTheGrenadines,
 
     /// <summary>
     /// The unique identifier for Saint Barthelemy.
@@ -1518,7 +1518,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Barthelemy in operations that require a country ID.
     /// </remarks>
-    public const int SaintBarthelemy = 189;
+    SaintBarthelemy,
 
     /// <summary>
     /// The unique identifier for Saint Martin (French Part).
@@ -1526,7 +1526,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saint Martin (French Part) in operations that require a country ID.
     /// </remarks>
-    public const int SaintMartinFrenchPart = 190;
+    SaintMartinFrenchPart,
 
     /// <summary>
     /// The unique identifier for Samoa.
@@ -1534,7 +1534,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Samoa in operations that require a country ID.
     /// </remarks>
-    public const int Samoa = 191;
+    Samoa,
 
     /// <summary>
     /// The unique identifier for San Marino.
@@ -1542,7 +1542,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference San Marino in operations that require a country ID.
     /// </remarks>
-    public const int SanMarino = 192;
+    SanMarino,
 
     /// <summary>
     /// The unique identifier for Sao Tome and Principe.
@@ -1550,7 +1550,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Sao Tome and Principe in operations that require a country ID.
     /// </remarks>
-    public const int SaoTomeAndPrincipe = 193;
+    SaoTomeAndPrincipe,
 
     /// <summary>
     /// The unique identifier for Saudi Arabia.
@@ -1558,7 +1558,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Saudi Arabia in operations that require a country ID.
     /// </remarks>
-    public const int SaudiArabia = 194;
+    SaudiArabia,
 
     /// <summary>
     /// The unique identifier for Senegal.
@@ -1566,7 +1566,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Senegal in operations that require a country ID.
     /// </remarks>
-    public const int Senegal = 195;
+    Senegal,
 
     /// <summary>
     /// The unique identifier for Serbia.
@@ -1574,7 +1574,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Serbia in operations that require a country ID.
     /// </remarks>
-    public const int Serbia = 196;
+    Serbia,
 
     /// <summary>
     /// The unique identifier for Seychelles.
@@ -1582,7 +1582,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Seychelles in operations that require a country ID.
     /// </remarks>
-    public const int Seychelles = 197;
+    Seychelles,
 
     /// <summary>
     /// The unique identifier for Sierra Leone.
@@ -1590,7 +1590,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Sierra Leone in operations that require a country ID.
     /// </remarks>
-    public const int SierraLeone = 198;
+    SierraLeone,
 
     /// <summary>
     /// The unique identifier for Singapore.
@@ -1598,7 +1598,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Singapore in operations that require a country ID.
     /// </remarks>
-    public const int Singapore = 199;
+    Singapore,
 
     /// <summary>
     /// The unique identifier for Slovakia.
@@ -1606,7 +1606,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Slovakia in operations that require a country ID.
     /// </remarks>
-    public const int Slovakia = 200;
+    Slovakia,
 
     /// <summary>
     /// The unique identifier for Slovenia.
@@ -1614,7 +1614,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Slovenia in operations that require a country ID.
     /// </remarks>
-    public const int Slovenia = 201;
+    Slovenia,
 
     /// <summary>
     /// The unique identifier for Solomon Islands.
@@ -1622,7 +1622,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Solomon Islands in operations that require a country ID.
     /// </remarks>
-    public const int SolomonIslands = 202;
+    SolomonIslands,
 
     /// <summary>
     /// The unique identifier for Somalia.
@@ -1630,7 +1630,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Somalia in operations that require a country ID.
     /// </remarks>
-    public const int Somalia = 203;
+    Somalia,
 
     /// <summary>
     /// The unique identifier for South Africa.
@@ -1638,7 +1638,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference South Africa in operations that require a country ID.
     /// </remarks>
-    public const int SouthAfrica = 204;
+    SouthAfrica,
 
     /// <summary>
     /// The unique identifier for South Georgia.
@@ -1646,7 +1646,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference South Georgia in operations that require a country ID.
     /// </remarks>
-    public const int SouthGeorgia = 205;
+    SouthGeorgia,
 
     /// <summary>
     /// The unique identifier for South Sudan.
@@ -1654,7 +1654,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference South Sudan in operations that require a country ID.
     /// </remarks>
-    public const int SouthSudan = 206;
+    SouthSudan,
 
     /// <summary>
     /// The unique identifier for Spain.
@@ -1662,7 +1662,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Spain in operations that require a country ID.
     /// </remarks>
-    public const int Spain = 207;
+    Spain,
 
     /// <summary>
     /// The unique identifier for Sri Lanka.
@@ -1670,14 +1670,14 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Sri Lanka in operations that require a country ID.
     /// </remarks>
-    public const int SriLanka = 208;
+    SriLanka,
     /// <summary>
     /// The unique identifier for Sudan.
     /// </summary>
     /// <remarks>
     /// Use this identifier to reference Sudan in operations that require a country ID.
     /// </remarks>
-    public const int Sudan = 209;
+    Sudan,
 
     /// <summary>
     /// The unique identifier for Suriname.
@@ -1685,7 +1685,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Suriname in operations that require a country ID.
     /// </remarks>
-    public const int Suriname = 210;
+    Suriname,
 
     /// <summary>
     /// The unique identifier for Svalbard and Jan Mayen Islands.
@@ -1693,7 +1693,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Svalbard and Jan Mayen Islands in operations that require a country ID.
     /// </remarks>
-    public const int SvalbardAndJanMayenIslands = 211;
+    SvalbardAndJanMayenIslands,
 
     /// <summary>
     /// The unique identifier for Eswatini.
@@ -1701,7 +1701,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Eswatini in operations that require a country ID.
     /// </remarks>
-    public const int Eswatini = 212;
+    Eswatini,
 
     /// <summary>
     /// The unique identifier for Sweden.
@@ -1709,7 +1709,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Sweden in operations that require a country ID.
     /// </remarks>
-    public const int Sweden = 213;
+    Sweden,
 
     /// <summary>
     /// The unique identifier for Switzerland.
@@ -1717,7 +1717,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Switzerland in operations that require a country ID.
     /// </remarks>
-    public const int Switzerland = 214;
+    Switzerland,
 
     /// <summary>
     /// The unique identifier for Syria.
@@ -1725,7 +1725,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Syria in operations that require a country ID.
     /// </remarks>
-    public const int Syria = 215;
+    Syria,
 
     /// <summary>
     /// The unique identifier for Taiwan.
@@ -1733,7 +1733,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Taiwan in operations that require a country ID.
     /// </remarks>
-    public const int Taiwan = 216;
+    Taiwan,
 
     /// <summary>
     /// The unique identifier for Tajikistan.
@@ -1741,7 +1741,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Tajikistan in operations that require a country ID.
     /// </remarks>
-    public const int Tajikistan = 217;
+    Tajikistan,
 
     /// <summary>
     /// The unique identifier for Tanzania.
@@ -1749,7 +1749,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Tanzania in operations that require a country ID.
     /// </remarks>
-    public const int Tanzania = 218;
+    Tanzania,
 
     /// <summary>
     /// The unique identifier for Thailand.
@@ -1757,7 +1757,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Thailand in operations that require a country ID.
     /// </remarks>
-    public const int Thailand = 219;
+    Thailand,
 
     /// <summary>
     /// The unique identifier for Togo.
@@ -1765,7 +1765,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Togo in operations that require a country ID.
     /// </remarks>
-    public const int Togo = 220;
+    Togo,
 
     /// <summary>
     /// The unique identifier for Tokelau.
@@ -1773,7 +1773,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Tokelau in operations that require a country ID.
     /// </remarks>
-    public const int Tokelau = 221;
+    Tokelau,
 
     /// <summary>
     /// The unique identifier for Tonga.
@@ -1781,7 +1781,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Tonga in operations that require a country ID.
     /// </remarks>
-    public const int Tonga = 222;
+    Tonga,
 
     /// <summary>
     /// The unique identifier for Trinidad and Tobago.
@@ -1789,7 +1789,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Trinidad and Tobago in operations that require a country ID.
     /// </remarks>
-    public const int TrinidadAndTobago = 223;
+    TrinidadAndTobago,
 
     /// <summary>
     /// The unique identifier for Tunisia.
@@ -1797,7 +1797,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Tunisia in operations that require a country ID.
     /// </remarks>
-    public const int Tunisia = 224;
+    Tunisia,
 
     /// <summary>
     /// The unique identifier for Turkey.
@@ -1805,7 +1805,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Turkey in operations that require a country ID.
     /// </remarks>
-    public const int Turkey = 225;
+    Turkey,
 
     /// <summary>
     /// The unique identifier for Turkmenistan.
@@ -1813,7 +1813,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Turkmenistan in operations that require a country ID.
     /// </remarks>
-    public const int Turkmenistan = 226;
+    Turkmenistan,
 
     /// <summary>
     /// The unique identifier for Turks and Caicos Islands.
@@ -1821,7 +1821,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Turks and Caicos Islands in operations that require a country ID.
     /// </remarks>
-    public const int TurksAndCaicosIslands = 227;
+    TurksAndCaicosIslands,
 
     /// <summary>
     /// The unique identifier for Tuvalu.
@@ -1829,7 +1829,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Tuvalu in operations that require a country ID.
     /// </remarks>
-    public const int Tuvalu = 228;
+    Tuvalu,
 
     /// <summary>
     /// The unique identifier for Uganda.
@@ -1837,7 +1837,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Uganda in operations that require a country ID.
     /// </remarks>
-    public const int Uganda = 229;
+    Uganda,
 
     /// <summary>
     /// The unique identifier for Ukraine.
@@ -1845,7 +1845,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Ukraine in operations that require a country ID.
     /// </remarks>
-    public const int Ukraine = 230;
+    Ukraine,
 
     /// <summary>
     /// The unique identifier for United Arab Emirates.
@@ -1853,7 +1853,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference United Arab Emirates in operations that require a country ID.
     /// </remarks>
-    public const int UnitedArabEmirates = 231;
+    UnitedArabEmirates,
 
     /// <summary>
     /// The unique identifier for United Kingdom.
@@ -1861,7 +1861,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference United Kingdom in operations that require a country ID.
     /// </remarks>
-    public const int UnitedKingdom = 232;
+    UnitedKingdom,
 
     /// <summary>
     /// The unique identifier for United States.
@@ -1869,7 +1869,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference United States in operations that require a country ID.
     /// </remarks>
-    public const int UnitedStates = 233;
+    UnitedStates,
 
     /// <summary>
     /// The unique identifier for United States Minor Outlying Islands.
@@ -1877,7 +1877,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference United States Minor Outlying Islands in operations that require a country ID.
     /// </remarks>
-    public const int UnitedStatesMinorOutlyingIslands = 234;
+    UnitedStatesMinorOutlyingIslands,
 
     /// <summary>
     /// The unique identifier for Uruguay.
@@ -1885,7 +1885,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Uruguay in operations that require a country ID.
     /// </remarks>
-    public const int Uruguay = 235;
+    Uruguay,
 
     /// <summary>
     /// The unique identifier for Uzbekistan.
@@ -1893,7 +1893,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Uzbekistan in operations that require a country ID.
     /// </remarks>
-    public const int Uzbekistan = 236;
+    Uzbekistan,
 
     /// <summary>
     /// The unique identifier for Vanuatu.
@@ -1901,7 +1901,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Vanuatu in operations that require a country ID.
     /// </remarks>
-    public const int Vanuatu = 237;
+    Vanuatu,
 
     /// <summary>
     /// The unique identifier for Vatican City State.
@@ -1909,7 +1909,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Vatican City State in operations that require a country ID.
     /// </remarks>
-    public const int VaticanCityState = 238;
+    VaticanCityState,
 
     /// <summary>
     /// The unique identifier for Venezuela.
@@ -1917,7 +1917,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Venezuela in operations that require a country ID.
     /// </remarks>
-    public const int Venezuela = 239;
+    Venezuela,
 
     /// <summary>
     /// The unique identifier for Vietnam.
@@ -1925,7 +1925,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Vietnam in operations that require a country ID.
     /// </remarks>
-    public const int Vietnam = 240;
+    Vietnam,
 
     /// <summary>
     /// The unique identifier for the British Virgin Islands.
@@ -1933,7 +1933,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the British Virgin Islands in operations that require a country ID.
     /// </remarks>
-    public const int VirginIslandsBritish = 241;
+    VirginIslandsBritish,
 
     /// <summary>
     /// The unique identifier for the US Virgin Islands.
@@ -1941,7 +1941,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference the US Virgin Islands in operations that require a country ID.
     /// </remarks>
-    public const int VirginIslandsUS = 242;
+    VirginIslandsUS,
 
     /// <summary>
     /// The unique identifier for Wallis and Futuna Islands.
@@ -1949,7 +1949,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Wallis and Futuna Islands in operations that require a country ID.
     /// </remarks>
-    public const int WallisAndFutunaIslands = 243;
+    WallisAndFutunaIslands,
 
     /// <summary>
     /// The unique identifier for Western Sahara.
@@ -1957,7 +1957,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Western Sahara in operations that require a country ID.
     /// </remarks>
-    public const int WesternSahara = 244;
+    WesternSahara,
 
     /// <summary>
     /// The unique identifier for Yemen.
@@ -1965,7 +1965,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Yemen in operations that require a country ID.
     /// </remarks>
-    public const int Yemen = 245;
+    Yemen,
 
     /// <summary>
     /// The unique identifier for Zambia.
@@ -1973,7 +1973,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Zambia in operations that require a country ID.
     /// </remarks>
-    public const int Zambia = 246;
+    Zambia,
 
     /// <summary>
     /// The unique identifier for Zimbabwe.
@@ -1981,7 +1981,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Zimbabwe in operations that require a country ID.
     /// </remarks>
-    public const int Zimbabwe = 247;
+    Zimbabwe,
 
     /// <summary>
     /// The unique identifier for Kosovo.
@@ -1989,7 +1989,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Kosovo in operations that require a country ID.
     /// </remarks>
-    public const int Kosovo = 248;
+    Kosovo,
 
     /// <summary>
     /// The unique identifier for Curaçao.
@@ -1997,7 +1997,7 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Curaçao in operations that require a country ID.
     /// </remarks>
-    public const int Curacao = 249;
+    Curacao,
 
     /// <summary>
     /// The unique identifier for Sint Maarten (Dutch part).
@@ -2005,5 +2005,5 @@ public sealed partial class CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Sint Maarten (Dutch part) in operations that require a country ID.
     /// </remarks>
-    public const int SintMaartenDutchPart = 250;
+    SintMaartenDutchPart,
 }

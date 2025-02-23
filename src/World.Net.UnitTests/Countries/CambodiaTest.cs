@@ -17,7 +17,7 @@ public sealed class CambodiaTest
     public void GetCountry_ReturnsCorrectInformation_ForCambodia()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Cambodia;
+        CountryIdentifier existingCountryId = CountryIdentifier.Cambodia;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

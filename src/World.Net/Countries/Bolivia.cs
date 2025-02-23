@@ -4,7 +4,7 @@ namespace World.Net.Countries;
 internal sealed class Bolivia : ICountry
 {
     //<inheritdoc/>
-    public int Id => CountryIdentifier.Bolivia;
+    public CountryIdentifier Id => CountryIdentifier.Bolivia;
 
     //<inheritdoc/>
     public string Name { get; } = nameof(Bolivia);

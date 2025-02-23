@@ -17,7 +17,7 @@ public sealed class AlbaniaTests
     public void Albania_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Albania;
+        CountryIdentifier existingCountryId = CountryIdentifier.Albania;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

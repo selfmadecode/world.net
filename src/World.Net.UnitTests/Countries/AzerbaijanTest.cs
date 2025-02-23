@@ -17,7 +17,7 @@ public sealed class AzerbaijanTest
     public void GetCountry_ReturnsCorrectInformation_ForAzerbaijan()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Azerbaijan;
+        CountryIdentifier existingCountryId = CountryIdentifier.Azerbaijan;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

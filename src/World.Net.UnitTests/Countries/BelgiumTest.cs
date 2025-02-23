@@ -19,7 +19,7 @@ public sealed class BelgiumTest
     public void BelgiumTest_HasExpectedInformation()
     {
         // Arrange
-        int belgiumCountryId = CountryIdentifier.Belgium;
+        CountryIdentifier belgiumCountryId = CountryIdentifier.Belgium;
 
         // Act
         var country = CountryProvider.GetCountry(belgiumCountryId);

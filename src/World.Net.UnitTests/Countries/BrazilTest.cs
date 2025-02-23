@@ -16,7 +16,7 @@
         public void GetCountry_ReturnsCorrectInformation_for_Brazil()
         {
             // Arrange
-            int existingCountryId = CountryIdentifier.Brazil;
+            CountryIdentifier existingCountryId = CountryIdentifier.Brazil;
 
             // Act
             var country = CountryProvider.GetCountry(existingCountryId);

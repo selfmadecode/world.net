@@ -16,7 +16,7 @@
         public void GetCountry_ReturnsCorrectInformation_for_Brunei()
         {
             // Arrange
-            int existingCountryId = CountryIdentifier.Brunei;
+            CountryIdentifier existingCountryId = CountryIdentifier.Brunei;
 
             // Act
             var country = CountryProvider.GetCountry(existingCountryId);

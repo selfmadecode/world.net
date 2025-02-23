@@ -3,7 +3,7 @@
 internal sealed class AntiguaAndBarbuda : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.AntiguaAndBarbuda;
+    public CountryIdentifier Id => CountryIdentifier.AntiguaAndBarbuda;
 
     ///<inheritdoc/>
     public string Name => "Antigua and Barbuda";

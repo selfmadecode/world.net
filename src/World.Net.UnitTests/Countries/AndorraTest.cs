@@ -17,7 +17,7 @@ public sealed class AndorraTest
     public void Andorra_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Andorra;
+        CountryIdentifier existingCountryId = CountryIdentifier.Andorra;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

@@ -18,7 +18,7 @@ public static class CountryProvider
     /// The collection contains instances of classes that implement the <see cref="ICountry"/> interface.
     /// It is initialized once, upon first access, and remains read-only thereafter.
     /// </remarks>
-    private static readonly Lazy<IDictionary<int, ICountry>> _countries = new(() =>
+    private static readonly Lazy<IDictionary<CountryIdentifier, ICountry>> _countries = new(() =>
     {
         return CountryInitializer.Initialize();
     });
@@ -41,18 +41,18 @@ public static class CountryProvider
     /// <summary>
     /// Retrieves a country by its unique identifier.
     /// </summary>
-    /// <param name="countryId">The unique identifier of the country to retrieve.</param>
-    /// <returns>The <see cref="ICountry"/> instance corresponding to the specified <paramref name="countryId"/>.</returns>
+    /// <param name="countryIdentifier">The unique identifier of the country to retrieve.</param>
+    /// <returns>The <see cref="ICountry"/> instance corresponding to the specified <paramref name="countryIdentifier"/>.</returns>
     /// <exception cref="CountryNotFoundException">
-    /// Thrown when no country with the specified <paramref name="countryId"/> exists.
+    /// Thrown when no country with the specified <paramref name="countryIdentifier"/> exists.
     /// </exception>
-    public static ICountry GetCountry(int countryId)
+    public static ICountry GetCountry(CountryIdentifier countryIdentifier)
     {
-        if (_countries.Value.TryGetValue(countryId, out ICountry? country))
+        if (_countries.Value.TryGetValue(countryIdentifier, out ICountry? country))
         {
             return country;
         }
 
-        throw new CountryNotFoundException($"Country with id {countryId} was not found.");
+        throw new CountryNotFoundException($"Country with id {countryIdentifier} was not found.");
     }
 }

@@ -5,7 +5,7 @@ namespace World.Net.Countries;
 internal sealed class Andorra : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.Andorra;
+    public CountryIdentifier Id => CountryIdentifier.Andorra;
 
     ///<inheritdoc/>
     public string Name => nameof(Andorra);

@@ -5,7 +5,7 @@ namespace World.Net.Countries;
 internal sealed class Afghanistan : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.AfghanistanId;
+    public CountryIdentifier Id { get; } = CountryIdentifier.Afghanistan;
 
     ///<inheritdoc/>
     public string Name => nameof(Afghanistan);

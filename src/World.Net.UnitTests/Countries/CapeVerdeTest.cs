@@ -17,7 +17,7 @@ public sealed class CapeVerdeTest
     public void GetCountry_ReturnsCorrectInformation_ForCapeVerde()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.CapeVerde;
+        CountryIdentifier existingCountryId = CountryIdentifier.CapeVerde;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

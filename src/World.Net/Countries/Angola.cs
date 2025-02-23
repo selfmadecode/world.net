@@ -3,7 +3,7 @@
 internal sealed class Angola : ICountry
 {
     ///<inheritdoc/>
-    public int Id => CountryIdentifier.Angola;
+    public CountryIdentifier Id => CountryIdentifier.Angola;
 
     ///<inheritdoc/>
     public string Name { get; } = nameof(Angola);

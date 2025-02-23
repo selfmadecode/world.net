@@ -3,7 +3,7 @@
     internal sealed class BurkinaFaso : ICountry
     {
         ///<inheritdoc/>
-        public int Id => CountryIdentifier.BurkinaFaso;
+        public CountryIdentifier Id => CountryIdentifier.BurkinaFaso;
 
         ///<inheritdoc/>
         public string Name => "Burkina Faso";

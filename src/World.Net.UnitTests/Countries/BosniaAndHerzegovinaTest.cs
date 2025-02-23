@@ -17,7 +17,7 @@ public sealed class BosniaAndHerzegovinaTest
     public void Bosnia_And_Herzegovina_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.BosniaAndHerzegovina;
+        CountryIdentifier existingCountryId = CountryIdentifier.BosniaAndHerzegovina;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

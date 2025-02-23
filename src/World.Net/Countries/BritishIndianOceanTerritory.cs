@@ -3,7 +3,7 @@
     internal sealed class BritishIndianOceanTerritory : ICountry
     {
         ///<inheritdoc/>
-        public int Id => CountryIdentifier.BritishIndianOceanTerritory;
+        public CountryIdentifier Id => CountryIdentifier.BritishIndianOceanTerritory;
 
         ///<inheritdoc/>
         public string Name => "British Indian Ocean Territory";

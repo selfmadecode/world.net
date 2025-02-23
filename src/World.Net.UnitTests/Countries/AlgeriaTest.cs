@@ -17,7 +17,7 @@ public sealed class AlgeriaTest
     public void Algeria_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Algeria;
+        CountryIdentifier existingCountryId = CountryIdentifier.Algeria;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

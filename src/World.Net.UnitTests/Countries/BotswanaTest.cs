@@ -17,7 +17,7 @@ public sealed class BotswanaTest
     public void Botswana_HasExpectedInformation()
     {
         // Arrange
-        int existingCountryId = CountryIdentifier.Botswana;
+        CountryIdentifier existingCountryId = CountryIdentifier.Botswana;
 
         // Act
         var country = CountryProvider.GetCountry(existingCountryId);

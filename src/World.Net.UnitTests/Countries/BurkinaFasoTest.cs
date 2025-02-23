@@ -16,7 +16,7 @@
         public void GetCountry_ReturnsCorrectInformation_for_BurkinaFaso()
         {
             // Arrange
-            int existingCountryId = CountryIdentifier.BurkinaFaso;
+            CountryIdentifier existingCountryId = CountryIdentifier.BurkinaFaso;
 
             // Act
             var country = CountryProvider.GetCountry(existingCountryId);
