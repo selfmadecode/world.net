@@ -11,15 +11,20 @@ internal sealed class CaymanIslands : ICountry
 
     public string NativeName => "Cayman Islands";
 
-    public string Capital => throw new NotImplementedException();
+    public string Capital => "George Town";
 
-    public int NumericCode => throw new NotImplementedException();
+    public int NumericCode => 136;
 
-    public string ISO2Code => throw new NotImplementedException();
+    public string ISO2Code => "KY";
 
-    public string ISO3Code => throw new NotImplementedException();
+    public string ISO3Code => "CYM";
 
-    public string CallingCode => throw new NotImplementedException();
+    public string CallingCode => "+1 345";
 
-    public IEnumerable<State> States => throw new NotImplementedException();
+    public IEnumerable<State> States =>
+    [
+        new("Cayman Brac", "", ""),
+        new("Grand Cayman", "", ""),
+        new("Little Cayman", "", "")
+    ];
 }
