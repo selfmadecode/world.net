@@ -10,7 +10,7 @@ public sealed class ColombiaTest
     private const string COLOMBIA_ISO3_CODE = "COL";
     private const int COLOMBIA_NUMERIC_CODE = 170;
     private const string COLOMBIA_CALLING_CODE = "+57";
-    private const int COLOMBIA_STATE_COUNT = 33;
+    private const int COLOMBIA_STATE_COUNT = 32;
     private static readonly string[] VALID_STATE_TYPES = { "Department", "Capital District" };
 
     [Fact]
