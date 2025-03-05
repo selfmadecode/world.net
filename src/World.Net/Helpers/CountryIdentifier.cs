@@ -17,7 +17,7 @@ public enum CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Afghanistan in operations that require a country ID.
     /// </remarks>
-    Afghanistan = 1,
+    Afghanistan,
     
     /// <summary>
     /// The unique identifier for Aland Islands.
