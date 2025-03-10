@@ -10,7 +10,6 @@ public sealed class ChristmasIslandTest
     private const string CHRISTMAS_ISLAND_ISO3_CODE = "CXR";
     private const int CHRISTMAS_ISLAND_NUMERIC_CODE = 162;
     private const string CHRISTMAS_ISLAND_CALLING_CODE = "+61";
-    private const int CHRISTMAS_ISLAND_STATE_COUNT = 0; // No administrative divisions
     private static readonly string[] VALID_STATE_TYPES = { };
 
     [Fact]
@@ -34,7 +33,7 @@ public sealed class ChristmasIslandTest
         Assert.Equal(CHRISTMAS_ISLAND_ISO3_CODE, country.ISO3Code);
         Assert.Equal(CHRISTMAS_ISLAND_CALLING_CODE, country.CallingCode);
         Assert.NotNull(country.States);
-        Assert.Equal(CHRISTMAS_ISLAND_STATE_COUNT, country.States.Count());
+        Assert.Empty(country.States);
         Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
     }
 }
