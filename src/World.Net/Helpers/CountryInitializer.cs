@@ -50,7 +50,11 @@ internal sealed class CountryInitializer
             { CountryIdentifier.CentralAfricanRepublic, new CentralAfricanRepublic() },           
             { CountryIdentifier.Chad, new Chad() },           
             { CountryIdentifier.Chile, new Chile() },           
-            { CountryIdentifier.China, new China() },           
+            { CountryIdentifier.China, new China() }, 
+            { CountryIdentifier.ChristmasIsland, new ChristmasIsland() },
+            { CountryIdentifier.CocosKeelingIslands, new CocosKeelingIslands() },
+            { CountryIdentifier.Colombia, new Colombia() },
+            { CountryIdentifier.Comoros, new Comoros() },
 
             // Future countries can be added here in the same format.
         };
