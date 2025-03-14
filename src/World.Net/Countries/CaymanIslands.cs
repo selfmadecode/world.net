@@ -18,12 +18,12 @@ internal sealed class CaymanIslands : ICountry
 
     public string ISO3Code => "CYM";
 
-    public string CallingCode => "+1 345";
+    public string CallingCode => "+1-345";
 
     public IEnumerable<State> States =>
     [
-        new("Cayman Brac", "", ""),
-        new("Grand Cayman", "", ""),
-        new("Little Cayman", "", "")
+        new("Cayman Brac", "", "District"),
+        new("Grand Cayman", "", "District"),
+        new("Little Cayman", "", "District")
     ];
 }
