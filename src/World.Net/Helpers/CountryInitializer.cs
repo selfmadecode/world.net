@@ -46,6 +46,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Cameroon, new Cameroon() },
             { CountryIdentifier.Canada, new Canada() },
             { CountryIdentifier.CapeVerde, new CapeVerde() },           
+            { CountryIdentifier.CaymanIslands, new CaymanIslands() },           
 
             // Future countries can be added here in the same format.
         };
