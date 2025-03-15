@@ -50,6 +50,11 @@ internal sealed class CountryInitializer
             { CountryIdentifier.CocosKeelingIslands, new CocosKeelingIslands() },
             { CountryIdentifier.Colombia, new Colombia() },
             { CountryIdentifier.Comoros, new Comoros() },
+            { CountryIdentifier.Croatia, new Croatia() },
+            { CountryIdentifier.Cuba, new Cuba() },
+            { CountryIdentifier.Curacao, new Curaçao() },
+            { CountryIdentifier.Cyprus, new Cyprus() },
+            { CountryIdentifier.CzechRepublic, new CzechRepublic() },
 
             // Future countries can be added here in the same format.
         };
