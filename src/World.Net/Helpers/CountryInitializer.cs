@@ -45,7 +45,12 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Cambodia, new Cambodia() },
             { CountryIdentifier.Cameroon, new Cameroon() },
             { CountryIdentifier.Canada, new Canada() },
-            { CountryIdentifier.CapeVerde, new CapeVerde() },
+            { CountryIdentifier.CapeVerde, new CapeVerde() },           
+            { CountryIdentifier.CaymanIslands, new CaymanIslands() },           
+            { CountryIdentifier.CentralAfricanRepublic, new CentralAfricanRepublic() },           
+            { CountryIdentifier.Chad, new Chad() },           
+            { CountryIdentifier.Chile, new Chile() },           
+            { CountryIdentifier.China, new China() }, 
             { CountryIdentifier.ChristmasIsland, new ChristmasIsland() },
             { CountryIdentifier.CocosKeelingIslands, new CocosKeelingIslands() },
             { CountryIdentifier.Colombia, new Colombia() },
@@ -54,6 +59,11 @@ internal sealed class CountryInitializer
             { CountryIdentifier.CostaRica, new CostaRica() },
             { CountryIdentifier.CookIslands, new CookIslands() },
             { CountryIdentifier.CoteDIvoire, new CoteDIvoire() },
+            { CountryIdentifier.Croatia, new Croatia() },
+            { CountryIdentifier.Cuba, new Cuba() },
+            { CountryIdentifier.Curacao, new Curaçao() },
+            { CountryIdentifier.Cyprus, new Cyprus() },
+            { CountryIdentifier.CzechRepublic, new CzechRepublic() },
 
             // Future countries can be added here in the same format.
         };
