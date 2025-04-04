@@ -10,7 +10,7 @@ public sealed class AlbaniaTests
     private const int ALBANIA_NUMERIC_CODE = 008;
     private const string ALBANIA_ISO2_CODE = "AL";
     private const string ALBANIA_ISO3_CODE = "ALB";
-    private const string ALBANIA_CALLING_CODE = "+355";
+    private readonly string[] ALBANIA_CALLING_CODE = ["+355"];
 
 
     [Fact]
