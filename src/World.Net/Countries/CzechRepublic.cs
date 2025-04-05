@@ -27,7 +27,7 @@ internal sealed class CzechRepublic : ICountry
     public string ISO3Code { get; } = "CZE";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+420";
+    public string[] CallingCode { get; } = ["+420"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

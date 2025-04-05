@@ -27,7 +27,7 @@ internal sealed class Belarus : ICountry
     public string ISO3Code { get; } = "BLR";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+375";
+    public string[] CallingCode { get; } = ["+375"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

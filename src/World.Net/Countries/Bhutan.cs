@@ -27,7 +27,7 @@ internal sealed class Bhutan : ICountry
     public string ISO3Code { get; } = "BTN";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+975";
+    public string[] CallingCode { get; } = ["+975"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>
