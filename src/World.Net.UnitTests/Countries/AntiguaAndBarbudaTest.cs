@@ -10,7 +10,7 @@ public sealed class AntiguaAndBarbudaTest
     private const int ANTIGUA_AND_BERBUDA_NUMERIC_CODE = 028;
     private const string ANTIGUA_AND_BERBUDA_ISO2_CODE = "AG";
     private const string ANTIGUA_AND_BERBUDA_ISO3_CODE = "ATG";
-    private const string ANTIGUA_AND_BERBUDA_CALLING_CODE = "+1";
+    private readonly string[] ANTIGUA_AND_BERBUDA_CALLING_CODE = ["+1"];
 
 
     [Fact]

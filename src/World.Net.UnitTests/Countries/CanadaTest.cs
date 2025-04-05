@@ -9,7 +9,7 @@ public sealed class CanadaTest
     private const string CANADA_ISO2_CODE = "CA";
     private const string CANADA_ISO3_CODE = "CAN";
     private const int CANADA_NUMERIC_CODE = 124;
-    private const string CANADA_CALLING_CODE = "+1";
+    private readonly string[] CANADA_CALLING_CODE = ["+1"];
     private const int CANADA_STATE_COUNT = 13;
     private static readonly string[] VALID_STATE_TYPES = { "Province", "Territory" };
 

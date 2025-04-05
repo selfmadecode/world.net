@@ -9,7 +9,7 @@ public sealed class CzechRepublicTest
     private const string CZECHREPUBLIC_ISO2_CODE = "CZ";
     private const string CZECHREPUBLIC_ISO3_CODE = "CZE";
     private const int CZECHREPUBLIC_NUMERIC_CODE = 203;
-    private const string CZECHREPUBLIC_CALLING_CODE = "+420";
+    private readonly string[] CZECHREPUBLIC_CALLING_CODE = ["+420"];
     private const int CZECHREPUBLIC_STATE_COUNT = 14;
     private static readonly string[] VALID_STATE_TYPES = { "Region", "Capital City" };
 

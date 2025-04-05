@@ -9,7 +9,7 @@ public sealed class CapeVerdeTest
     private const string CAPEVERDE_ISO2_CODE = "CV";
     private const string CAPEVERDE_ISO3_CODE = "CPV";
     private const int CAPEVERDE_NUMERIC_CODE = 132;
-    private const string CAPEVERDE_CALLING_CODE = "+238";
+    private readonly string[] CAPEVERDE_CALLING_CODE = ["+238"];
     private const int CAPEVERDE_STATE_COUNT = 22;
     private static readonly string[] VALID_STATE_TYPES = { "Municipality" };
 

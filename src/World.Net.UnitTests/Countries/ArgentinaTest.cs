@@ -10,7 +10,7 @@ public sealed class ArgentinaTest
     private const int ARGENTINA_NUMERIC_CODE = 032;
     private const string ARGENTINA_ISO2_CODE = "AR";
     private const string ARGENTINA_ISO3_CODE = "ARG";
-    private const string ARGENTINA_CALLING_CODE = "+54";
+    private readonly string[] ARGENTINA_CALLING_CODE = ["+54"];
 
 
     [Fact]

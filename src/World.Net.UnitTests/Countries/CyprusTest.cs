@@ -9,7 +9,7 @@ public sealed class CyprusTest
     private const string CYPRUS_ISO2_CODE = "CY";
     private const string CYPRUS_ISO3_CODE = "CYP";
     private const int CYPRUS_NUMERIC_CODE = 196;
-    private const string CYPRUS_CALLING_CODE = "+357";
+    private readonly string[] CYPRUS_CALLING_CODE = ["+357"];
     private const int CYPRUS_STATE_COUNT = 6;
     private static readonly string[] VALID_STATE_TYPES = { "District" };
     

@@ -9,7 +9,7 @@ public sealed class BelgiumTest
     private const int BELGIUM_NUMERIC_CODE = 056;
     private const string BELGIUM_ISO2_CODE = "BE";
     private const string BELGIUM_ISO3_CODE = "BEL";
-    private const string BELGIUM_CALLING_CODE = "+32";
+    private readonly string[] BELGIUM_CALLING_CODE = ["+32"];
     private const int BELGIUM_REGION_COUNT = 3;
     private const int BELGIUM_PROVINCE_COUNT = 10;
     private const string BELGIUM_REGION_TYPE = "Region";

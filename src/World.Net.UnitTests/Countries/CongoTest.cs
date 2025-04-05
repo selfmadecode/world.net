@@ -10,7 +10,7 @@
         private const int CONGO_NUMERIC_CODE = 178;
         private const string CONGO_ISO2_CODE = "CG";
         private const string CONGO_ISO3_CODE = "COG";
-        private const string CONGO_CALLING_CODE = "+242";
+        private readonly string[] CONGO_CALLING_CODE = ["+242"];
 
 
         [Fact]

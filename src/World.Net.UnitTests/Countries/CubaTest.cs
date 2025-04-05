@@ -9,7 +9,7 @@ public sealed class CubaTest
     private const string CUBA_ISO2_CODE = "CU";
     private const string CUBA_ISO3_CODE = "CUB";
     private const int CUBA_NUMERIC_CODE = 192;
-    private const string CUBA_CALLING_CODE = "+53";
+    private readonly string[] CUBA_CALLING_CODE = ["+53"];
     private const int CUBA_STATE_COUNT = 16;
     private static readonly string[] VALID_STATE_TYPES = { "Province", "Special Municipality" };
     

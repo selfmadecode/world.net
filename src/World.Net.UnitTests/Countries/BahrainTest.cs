@@ -9,7 +9,7 @@ public sealed class BahrainTest
     private const string BAHRAIN_ISO2_CODE = "BH";
     private const string BAHRAIN_ISO3_CODE = "BHR";
     private const int BAHRAIN_NUMERIC_CODE = 048;
-    private const string BAHRAIN_CALLING_CODE = "+973";
+    private readonly string[] BAHRAIN_CALLING_CODE = ["+973"];
     private const int BAHRAIN_STATE_COUNT = 5;
     private static readonly string[] VALID_STATE_TYPES = { "Governorate", };
 

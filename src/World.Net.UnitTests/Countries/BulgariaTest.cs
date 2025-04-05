@@ -10,7 +10,7 @@
         private const int BULGARIA_NUMERIC_CODE = 100;
         private const string BULGARIA_ISO2_CODE = "BG";
         private const string BULGARIA_ISO3_CODE = "BGR";
-        private const string BULGARIA_CALLING_CODE = "+359";
+        private readonly string[] BULGARIA_CALLING_CODE = ["+359"];
 
         [Fact]
         public void GetCountry_ReturnsCorrectInformation_for_Bulgaria()

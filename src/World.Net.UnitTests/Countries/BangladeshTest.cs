@@ -9,7 +9,7 @@ public sealed class BangladeshTest
     private const int BANGLADESH_NUMERIC_CODE = 050;
     private const string BANGLADESH_ISO2_CODE = "BD";
     private const string BANGLADESH_ISO3_CODE = "BGD";
-    private const string BANGLADESH_CALLING_CODE = "+880";
+    private readonly string[] BANGLADESH_CALLING_CODE = ["+880"];
     private const int BANGLADESH_DIVISION_COUNT = 8;
     private const string BANGLADESH_STATE_TYPE = "Division";
     

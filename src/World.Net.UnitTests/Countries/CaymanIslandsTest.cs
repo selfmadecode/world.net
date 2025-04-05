@@ -9,7 +9,7 @@
         private const string CAYMAN_ISLANDS_ISO2_CODE = "KY";
         private const string CAYMAN_ISLANDS_ISO3_CODE = "CYM";
         private const int CAYMAN_ISLANDS_NUMERIC_CODE = 136;
-        private const string CAYMAN_ISLANDS_CALLING_CODE = "+1-345";
+        private readonly string[] CAYMAN_ISLANDS_CALLING_CODE = ["+1-345"];
         private const int CAYMAN_ISLANDS_STATE_COUNT = 3;
         private static readonly string[] VALID_STATE_TYPES = { "District" };
 

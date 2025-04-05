@@ -10,7 +10,7 @@
         private const int BURKINA_FASO_NUMERIC_CODE = 854;
         private const string BURKINA_FASO_ISO2_CODE = "BF";
         private const string BURKINA_FASO_ISO3_CODE = "BFA";
-        private const string BURKINA_FASO_CALLING_CODE = "+226";
+        private readonly string[] BURKINA_FASO_CALLING_CODE = ["+226"];
 
         [Fact]
         public void GetCountry_ReturnsCorrectInformation_for_BurkinaFaso()

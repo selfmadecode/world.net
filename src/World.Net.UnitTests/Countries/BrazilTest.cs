@@ -10,7 +10,7 @@
         private const int BRAZIL_NUMERIC_CODE = 076;
         private const string BRAZIL_ISO2_CODE = "BR";
         private const string BRAZIL_ISO3_CODE = "BRA";
-        private const string BRAZIL_CALLING_CODE = "+55";
+        private readonly string[] BRAZIL_CALLING_CODE = ["+55"];
 
         [Fact]
         public void GetCountry_ReturnsCorrectInformation_for_Brazil()
