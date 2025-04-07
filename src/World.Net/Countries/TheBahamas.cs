@@ -27,7 +27,7 @@ internal sealed class TheBahamas : ICountry
     public string ISO3Code { get; } = "BHS";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+1 242";
+    public string[] CallingCode { get; } = ["+1 242"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

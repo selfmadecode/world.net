@@ -18,7 +18,7 @@ internal sealed class CentralAfricanRepublic : ICountry
 
     public string ISO3Code => "CAF";
 
-    public string CallingCode => "+236";
+    public string[] CallingCode => ["+236"];
 
     public IEnumerable<State> States =>
     [

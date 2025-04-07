@@ -27,7 +27,7 @@
         public string ISO3Code { get; } = "BFA";
 
         ///<inheritdoc/>
-        public string CallingCode { get; } = "+226";
+        public string[] CallingCode { get; } = ["+226"];
 
         ///<inheritdoc/>
         public IEnumerable<State> States { get; } =

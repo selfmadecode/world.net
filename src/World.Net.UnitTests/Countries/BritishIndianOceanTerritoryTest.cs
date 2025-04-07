@@ -9,7 +9,7 @@
         private const int BRITISH_INDIAN_OCEAN_TERRITORY_NUMERIC_CODE = 086;
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_ISO2_CODE = "IO";
         private const string BRITISH_INDIAN_OCEAN_TERRITORY_ISO3_CODE = "IOT";
-        private const string BRITISH_INDIAN_OCEAN_TERRITORY_CALLING_CODE = "+246";
+        private readonly string[] BRITISH_INDIAN_OCEAN_TERRITORY_CALLING_CODE = ["+246"];
 
         [Fact]
         public void GetCountry_ReturnsCorrectInformation_for_BritishIndianOceanTerritory()

@@ -9,7 +9,7 @@ public sealed class BeninTest
     private const int BENIN_NUMERIC_CODE = 204;
     private const string BENIN_ISO2_CODE = "BJ";
     private const string BENIN_ISO3_CODE = "BEN";
-    private const string BENIN_CALLING_CODE = "+229";
+    private readonly string[] BENIN_CALLING_CODE = ["+229"];
     private const int BENIN_DEPARTMENT_COUNT = 12;
     private const string BENIN_STATE_TYPE = "Department";
     

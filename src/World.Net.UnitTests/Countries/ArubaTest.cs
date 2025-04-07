@@ -10,7 +10,7 @@ public sealed class ArubaTest
     private const int ARUBA_NUMERIC_CODE = 533;
     private const string ARUBA_ISO2_CODE = "AW";
     private const string ARUBA_ISO3_CODE = "ABW";
-    private const string ARUBA_CALLING_CODE = "+297";
+    private readonly string[] ARUBA_CALLING_CODE = ["+297"];
 
 
     [Fact]

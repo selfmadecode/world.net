@@ -10,7 +10,7 @@ public sealed class AustraliaTest
     private const int AUSTRALIA_NUMERIC_CODE = 036;
     private const string AUSTRALIA_ISO2_CODE = "AU";
     private const string AUSTRALIA_ISO3_CODE = "AUS";
-    private const string AUSTRALIA_CALLING_CODE = "+61";
+    private readonly string[] AUSTRALIA_CALLING_CODE = ["+61"];
 
 
     [Fact]

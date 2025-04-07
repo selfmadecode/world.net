@@ -9,7 +9,7 @@ public sealed class CuraçaoTest
     private const string CURACAO_ISO2_CODE = "CW";
     private const string CURACAO_ISO3_CODE = "CUW";
     private const int CURACAO_NUMERIC_CODE = 531;
-    private const string CURACAO_CALLING_CODE = "+599";
+    private readonly string[] CURACAO_CALLING_CODE = ["+599"];
     private const int CURACAO_STATE_COUNT = 1;
     private static readonly string[] VALID_STATE_TYPES = { "Country" };
     

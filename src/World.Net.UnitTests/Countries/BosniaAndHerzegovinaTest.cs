@@ -10,7 +10,7 @@ public sealed class BosniaAndHerzegovinaTest
     private const int BOSNIA_AND_HERZEGOVINA_NUMERIC_CODE = 070;
     private const string BOSNIA_AND_HERZEGOVINA_ISO2_CODE = "BA";
     private const string BOSNIA_AND_HERZEGOVINA_ISO3_CODE = "BIH";
-    private const string BOSNIA_AND_HERZEGOVINA_CALLING_CODE = "+387";
+    private static readonly string[] BOSNIA_AND_HERZEGOVINA_CALLING_CODE = ["+387"];
 
 
     [Fact]

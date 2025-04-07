@@ -9,7 +9,7 @@
         private const int COOKISLANDS_NUMERIC_CODE = 184;
         private const string COOKISLANDS_ISO2_CODE = "CK";
         private const string COOKISLANDS_ISO3_CODE = "COK";
-        private const string COOKISLANDS_CALLING_CODE = "+682";
+        private readonly string[] COOKISLANDS_CALLING_CODE = ["+682"];
 
 
         [Fact]

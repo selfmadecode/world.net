@@ -27,7 +27,7 @@ internal sealed class Botswana : ICountry
     public string ISO3Code { get; } = "BWA";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+267";
+    public string[] CallingCode { get; } = ["+267"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

@@ -27,7 +27,7 @@ internal sealed class Canada : ICountry
     public string ISO3Code { get; } = "CAN";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+1";
+    public string[] CallingCode { get; } = ["+1"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

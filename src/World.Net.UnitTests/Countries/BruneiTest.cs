@@ -10,7 +10,7 @@
         private const int BRUNEI_NUMERIC_CODE = 096;
         private const string BRUNEI_ISO2_CODE = "BN";
         private const string BRUNEI_ISO3_CODE = "BRN";
-        private const string BRUNEI_CALLING_CODE = "+673";
+        private readonly string[] BRUNEI_CALLING_CODE = ["+673"];
 
         [Fact]
         public void GetCountry_ReturnsCorrectInformation_for_Brunei()

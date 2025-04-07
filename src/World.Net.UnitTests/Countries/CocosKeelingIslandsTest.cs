@@ -9,7 +9,7 @@ public sealed class CocosKeelingIslandsTest
     private const string COCOS_ISO2_CODE = "CC";
     private const string COCOS_ISO3_CODE = "CCK";
     private const int COCOS_NUMERIC_CODE = 166;
-    private const string COCOS_CALLING_CODE = "+61";
+    private readonly string[] COCOS_CALLING_CODE = ["+61"];
     private const int COCOS_STATE_COUNT = 2;
     private static readonly string[] VALID_STATE_TYPES = { "Island" };
 

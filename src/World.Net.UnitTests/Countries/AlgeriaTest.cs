@@ -9,7 +9,7 @@ public sealed class AlgeriaTest
     private const int ALGERIA_NUMERIC_CODE = 012;
     private const string ALGERIA_ISO2_CODE = "DZ";
     private const string ALGERIA_ISO3_CODE = "DZA";
-    private const string ALGERIA_CALLING_CODE = "+213";
+    private readonly string[] ALGERIA_CALLING_CODE = ["+213"];
     private const int ALGERIA_PROVINCE_COUNT = 57;
     private const string ALGERIA_STATE_TYPE = "Province";
     

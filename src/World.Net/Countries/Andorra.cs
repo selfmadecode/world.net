@@ -29,7 +29,7 @@ internal sealed class Andorra : ICountry
     public string ISO3Code { get; } = "AND";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+376";
+    public string[] CallingCode { get; } = ["+376"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
