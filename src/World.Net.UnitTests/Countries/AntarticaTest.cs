@@ -9,7 +9,7 @@ public class AntarticaTest
     private const string ANTARCTICA_ISO2_CODE = "AQ";
     private const string ANTARCTICA_ISO3_CODE = "ATA";
     private const int ANTARCTICA_NUMERIC_CODE = 10;
-    private const string ANTARCTICA_CALLING_CODE = "+672";
+    private readonly string[] ANTARCTICA_CALLING_CODE = ["+672"];
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForAntarctica()

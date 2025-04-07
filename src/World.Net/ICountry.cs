@@ -51,7 +51,7 @@ public interface ICountry
     /// <summary>
     /// The international calling code for the country.
     /// </summary>
-    string CallingCode { get; }
+    string[] CallingCode { get; }
 
     /// <summary>
     /// Gets the collection of states or administrative regions within the country.

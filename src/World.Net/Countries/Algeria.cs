@@ -29,7 +29,7 @@ internal sealed class Algeria : ICountry
     public string ISO3Code { get; } = "DZA";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+213";
+    public string[] CallingCode { get; } = ["+213"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

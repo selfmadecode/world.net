@@ -8,7 +8,7 @@ public sealed class CountryProviderTest
     private const string AFGHANISTAN_ISO3_CODE = "AFG";
     private const string AFGHANISTAN_CAPITAL = "Kabul";
     private const int AFGHANISTAN_NUMERIC_CODE = 004;
-    private const string AFGHANISTAN_CALLING_CODE = "+93";
+    private readonly string[] AFGHANISTAN_CALLING_CODE = ["+93"];
     private const int AFGHANISTAN_STATE_COUNT = 34;
     private const string AFGHANISTAN_NAME = "Afghanistan";
     private const string AFGHANISTAN_NATIVE_NAME = "افغانستان";

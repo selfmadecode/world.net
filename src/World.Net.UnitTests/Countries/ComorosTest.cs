@@ -9,7 +9,7 @@ public sealed class ComorosTest
     private const string COMOROS_ISO2_CODE = "KM";
     private const string COMOROS_ISO3_CODE = "COM";
     private const int COMOROS_NUMERIC_CODE = 174;
-    private const string COMOROS_CALLING_CODE = "+269";
+    private readonly string[] COMOROS_CALLING_CODE = ["+269"];
     private const int COMOROS_STATE_COUNT = 3;
     private static readonly string[] VALID_STATE_TYPES = { "Autonomous Island" };
     

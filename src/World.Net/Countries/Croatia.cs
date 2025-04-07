@@ -27,7 +27,7 @@ internal sealed class Croatia : ICountry
     public string ISO3Code { get; } = "HRV";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+385";
+    public string[] CallingCode { get; } = ["+385"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

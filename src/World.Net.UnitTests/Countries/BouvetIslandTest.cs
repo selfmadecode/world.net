@@ -9,7 +9,7 @@ public sealed class BouvetIslandTest
     private const int BOUVETISLAND_NUMERIC_CODE = 074;
     private const string BOUVETISLAND_ISO2_CODE = "BV";
     private const string BOUVETISLAND_ISO3_CODE = "BVT";
-    private const string BOUVETISLAND_CALLING_CODE = "+0055";
+    private readonly string[] BOUVETISLAND_CALLING_CODE = ["+0055"];
 
 
     [Fact]

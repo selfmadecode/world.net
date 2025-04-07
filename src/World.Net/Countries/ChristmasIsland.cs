@@ -27,7 +27,7 @@ internal sealed class ChristmasIsland : ICountry
     public string ISO3Code { get; } = "CXR";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+61";
+    public string[] CallingCode { get; } = ["+61"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

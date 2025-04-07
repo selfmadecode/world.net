@@ -9,7 +9,7 @@ public sealed class AzerbaijanTest
     private const string AZERBAIJAN_ISO2_CODE = "AZ";
     private const string AZERBAIJAN_ISO3_CODE = "AZE";
     private const int AZERBAIJAN_NUMERIC_CODE = 031;
-    private const string AZERBAIJAN_CALLING_CODE = "+994";
+    private readonly string[] AZERBAIJAN_CALLING_CODE = ["+994"];
     private const int AZERBAIJAN_STATE_COUNT = 75;
     private static readonly string[] VALID_STATE_TYPES = { "District", "Municipality", "Autonomous Republic", };
 

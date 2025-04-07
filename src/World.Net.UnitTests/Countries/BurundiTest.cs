@@ -9,7 +9,7 @@ public sealed class BurundiTest
     private const string BURUNDI_ISO2_CODE = "BI";
     private const string BURUNDI_ISO3_CODE = "BDI";
     private const int BURUNDI_NUMERIC_CODE = 108;
-    private const string BURUNDI_CALLING_CODE = "+257";
+    private readonly string[] BURUNDI_CALLING_CODE = ["+257"];
     private const int BURUNDI_STATE_COUNT = 18;
     private static readonly string[] VALID_STATE_TYPES = { "Province" };
 

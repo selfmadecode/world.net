@@ -9,7 +9,7 @@ public sealed class AmericanSamoaTest
     private const int AmericanSamoa_NUMERIC_CODE = 016;
     private const string AmericanSamoa_ISO2_CODE = "AS";
     private const string AmericanSamoa_ISO3_CODE = "ASM";
-    private const string AmericanSamoa_CALLING_CODE = "+1";
+    private readonly string[] AmericanSamoa_CALLING_CODE = ["+1"];
     private const int AmericanSamoa_STATE_COUNT = 0;
     
     [Fact]

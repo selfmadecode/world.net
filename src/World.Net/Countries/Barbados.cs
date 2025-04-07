@@ -27,7 +27,7 @@ internal sealed class Barbados : ICountry
     public string ISO3Code { get; } = "BRB";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+1-246";
+    public string[] CallingCode { get; } = ["+1-246"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

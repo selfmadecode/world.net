@@ -27,7 +27,7 @@ internal sealed class Curaçao : ICountry
     public string ISO3Code { get; } = "CUW";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+599";
+    public string[] CallingCode { get; } = ["+599"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

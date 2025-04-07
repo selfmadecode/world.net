@@ -9,7 +9,7 @@ public sealed class CroatiaTest
     private const string CROATIA_ISO2_CODE = "HR";
     private const string CROATIA_ISO3_CODE = "HRV";
     private const int CROATIA_NUMERIC_CODE = 191;
-    private const string CROATIA_CALLING_CODE = "+385";
+    private readonly string[] CROATIA_CALLING_CODE = ["+385"];
     private const int CROATIA_STATE_COUNT = 21;
     private static readonly string[] VALID_STATE_TYPES = { "City", "County" };
     

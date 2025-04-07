@@ -22,7 +22,7 @@ internal sealed class Chile : ICountry
 
     public string ISO3Code => "CHL";
 
-    public string CallingCode => "+56";
+    public string[] CallingCode => ["+56"];
 
     public IEnumerable<State> States =>
     [

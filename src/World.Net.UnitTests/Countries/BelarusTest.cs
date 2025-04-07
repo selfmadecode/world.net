@@ -9,7 +9,7 @@ public sealed class BelarusTest
     private const int BELARUS_NUMERIC_CODE = 112;
     private const string BELARUS_ISO2_CODE = "BY";
     private const string BELARUS_ISO3_CODE = "BLR";
-    private const string BELARUS_CALLING_CODE = "+375";
+    private readonly string[] BELARUS_CALLING_CODE = ["+375"];
     private const int BELARUS_PARISH_COUNT = 7;
     
     [Fact]

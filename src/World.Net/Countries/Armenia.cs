@@ -27,7 +27,7 @@ internal sealed class Armenia : ICountry
     public string ISO3Code { get; } = "ARM";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+374";
+    public string[] CallingCode { get; } = ["+374"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

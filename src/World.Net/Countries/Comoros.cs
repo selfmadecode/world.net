@@ -27,7 +27,7 @@ internal sealed class Comoros : ICountry
     public string ISO3Code { get; } = "COM";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+269";
+    public string[] CallingCode { get; } = ["+269"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

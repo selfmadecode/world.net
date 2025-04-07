@@ -9,7 +9,7 @@ internal static class BhutanTestData
     internal const string ISO2_CODE = "BT";
     internal const string ISO3_CODE = "BTN";
     internal const int NUMERIC_CODE = 64;
-    internal const string CALLING_CODE = "+975";
+    internal static readonly string[] CALLING_CODE = ["+975"];
     internal const string STATE_TYPE = "District";
     internal const int EXPECTED_STATE_COUNT = 20;
 }

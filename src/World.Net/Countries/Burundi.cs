@@ -27,7 +27,7 @@ internal sealed class Burundi : ICountry
     public string ISO3Code { get; } = "BDI";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+257";
+    public string[] CallingCode { get; } = ["+257"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

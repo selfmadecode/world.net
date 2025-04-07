@@ -27,7 +27,7 @@ internal sealed class Cuba : ICountry
     public string ISO3Code { get; } = "CUB";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+53";
+    public string[] CallingCode { get; } = ["+53"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

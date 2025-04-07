@@ -9,7 +9,7 @@ public sealed class ChinaTest
     private const string CHINA_ISO2_CODE = "CN";
     private const string CHINA_ISO3_CODE = "CHN";
     private const int CHINA_NUMERIC_CODE = 156;
-    private const string CHINA_CALLING_CODE = "+86";
+    private readonly string[] CHINA_CALLING_CODE = ["+86"];
     private const int CHINA_STATE_COUNT = 34; // 23 Provinces, 4 Municipalities, 5 Autonomous Regions, 2 SAR
     private static readonly string[] VALID_STATE_TYPES = { "Province", "Municipality", "Autonomous Region", "Special Administrative Region" };
 

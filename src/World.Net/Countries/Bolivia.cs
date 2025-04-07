@@ -28,7 +28,7 @@ internal sealed class Bolivia : ICountry
     public string ISO3Code { get; } = "BOL";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+591";
+    public string[] CallingCode { get; } = ["+591"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

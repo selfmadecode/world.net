@@ -9,7 +9,7 @@ public sealed class BarbadosTest
     private const int BARBADOS_NUMERIC_CODE = 052;
     private const string BARBADOS_ISO2_CODE = "BB";
     private const string BARBADOS_ISO3_CODE = "BRB";
-    private const string BARBADOS_CALLING_CODE = "+1-246";
+    private readonly string[] BARBADOS_CALLING_CODE = ["+1-246"];
     private const int BARBADOS_PARISH_COUNT = 11;
     private const string BARBADOS_STATE_TYPE = "Parish";
     

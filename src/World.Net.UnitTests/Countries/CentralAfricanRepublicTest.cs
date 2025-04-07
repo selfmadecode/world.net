@@ -9,7 +9,7 @@ public sealed class CentralAfricanRepublicTest
     private const string CAR_ISO2_CODE = "CF";
     private const string CAR_ISO3_CODE = "CAF";
     private const int CAR_NUMERIC_CODE = 140;
-    private const string CAR_CALLING_CODE = "+236";
+    private readonly string[] CAR_CALLING_CODE = ["+236"];
     private const int CAR_STATE_COUNT = 14;
     private static readonly string[] VALID_STATE_TYPES = { "Prefecture", "Capital District" };
 

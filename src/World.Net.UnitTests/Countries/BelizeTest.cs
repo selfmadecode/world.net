@@ -9,7 +9,7 @@ public sealed class BelizeTest
     private const int BELIZE_NUMERIC_CODE = 084;
     private const string BELIZE_ISO2_CODE = "BZ";
     private const string BELIZE_ISO3_CODE = "BLZ";
-    private const string BELIZE_CALLING_CODE = "+501";
+    private readonly string[] BELIZE_CALLING_CODE = ["+501"];
     private const int BELIZE_DISTRICT_COUNT = 6;
     private const string BELIZE_STATE_TYPE = "District";
     

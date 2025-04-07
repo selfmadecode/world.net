@@ -9,7 +9,7 @@ public sealed class AlandIslandsTest
     private const int ALAND_ISLANDS_NUMERIC_CODE = 248;
     private const string ALAND_ISLANDS_ISO2_CODE = "AX";
     private const string ALAND_ISLANDS_ISO3_CODE = "ALA";
-    private const string ALAND_ISLANDS_CALLING_CODE = "+358";
+    private readonly string[] ALAND_ISLANDS_CALLING_CODE = ["+358"];
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForAlandIslands()

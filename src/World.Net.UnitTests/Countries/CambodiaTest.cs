@@ -9,7 +9,7 @@ public sealed class CambodiaTest
     private const string CAMBODIA_ISO2_CODE = "KH";
     private const string CAMBODIA_ISO3_CODE = "KHM";
     private const int CAMBODIA_NUMERIC_CODE = 116;
-    private const string CAMBODIA_CALLING_CODE = "+855";
+    private readonly string[] CAMBODIA_CALLING_CODE = ["+855"];
     private const int CAMBODIA_STATE_COUNT = 25;
     private static readonly string[] VALID_STATE_TYPES = { "Province", "Municipality" };
 

@@ -27,7 +27,7 @@ internal sealed class Antarctica : ICountry
     public string ISO3Code { get; } = "ATA";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+672";
+    public string[] CallingCode { get; } = ["+672"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } = [];
