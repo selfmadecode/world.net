@@ -9,7 +9,7 @@ public sealed class EgyptTest
     private const string EGYPT_ISO2_CODE = "EG";
     private const string EGYPT_ISO3_CODE = "EGY";
     private const int EGYPT_NUMERIC_CODE = 818;
-    private const string EGYPT_CALLING_CODE = "+20";
+    private readonly string[] EGYPT_CALLING_CODE = ["+20"];
     private const int EGYPT_STATE_COUNT = 27; // 27 Governorates
     private static readonly string[] VALID_STATE_TYPES = { "Governorate" };
 

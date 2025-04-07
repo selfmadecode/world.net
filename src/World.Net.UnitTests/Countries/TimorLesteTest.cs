@@ -9,7 +9,7 @@ public sealed class TimorLesteTest
     private const string TIMORLESTE_ISO2_CODE = "TL";
     private const string TIMORLESTE_ISO3_CODE = "TLS";
     private const int TIMORLESTE_NUMERIC_CODE = 626;
-    private const string TIMORLESTE_CALLING_CODE = "+670";
+    private readonly string[] TIMORLESTE_CALLING_CODE = ["+670"];
     private const int TIMORLESTE_STATE_COUNT = 13; // 12 municipalities + 1 special administrative region
     private static readonly string[] VALID_STATE_TYPES = { "Municipality", "Special Administrative Region" };
 

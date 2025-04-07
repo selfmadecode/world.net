@@ -9,7 +9,7 @@ public sealed class DominicanRepublicTest
     private const string DOMINICANREPUBLIC_ISO2_CODE = "DO";
     private const string DOMINICANREPUBLIC_ISO3_CODE = "DOM";
     private const int DOMINICANREPUBLIC_NUMERIC_CODE = 214;
-    private const string DOMINICANREPUBLIC_CALLING_CODE = "+1-809, +1-829, +1-849";
+    private readonly string[] DOMINICANREPUBLIC_CALLING_CODE = ["+1-809", "+1-829", "+1-849"];
     private const int DOMINICANREPUBLIC_STATE_COUNT = 32; // 31 provinces + 1 National District
     private static readonly string[] VALID_STATE_TYPES = { "Province", "National District" };
 

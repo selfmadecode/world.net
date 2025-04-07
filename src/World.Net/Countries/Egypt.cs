@@ -27,7 +27,7 @@ internal sealed class Egypt : ICountry
     public string ISO3Code { get; } = "EGY";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+20";
+    public string[] CallingCode { get; } = ["+20"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>
