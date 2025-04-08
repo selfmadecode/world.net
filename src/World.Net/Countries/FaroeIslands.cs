@@ -27,7 +27,7 @@ internal sealed class FaroeIslands : ICountry
     public string ISO3Code { get; } = "FRO";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+298";
+    public string[] CallingCode { get; } = ["+298"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

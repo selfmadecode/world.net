@@ -9,7 +9,7 @@ public sealed class FaroeIslandsTest
     private const string FAROEISLANDS_ISO2_CODE = "FO";
     private const string FAROEISLANDS_ISO3_CODE = "FRO";
     private const int FAROEISLANDS_NUMERIC_CODE = 234;
-    private const string FAROEISLANDS_CALLING_CODE = "+298";
+    private readonly string[] FAROEISLANDS_CALLING_CODE = ["+298"];
     private const int FAROEISLANDS_STATE_COUNT = 6; // 6 regions
     private static readonly string[] VALID_STATE_TYPES = { "Region" };
 

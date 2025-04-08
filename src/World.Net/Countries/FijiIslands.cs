@@ -27,7 +27,7 @@ internal sealed class FijiIslands : ICountry
     public string ISO3Code { get; } = "FJI";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+679";
+    public string[] CallingCode { get; } = ["+679"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

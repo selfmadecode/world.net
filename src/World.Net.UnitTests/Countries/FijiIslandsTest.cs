@@ -9,7 +9,7 @@ public sealed class FijiIslandsTest
     private const string FIJI_ISO2_CODE = "FJ";
     private const string FIJI_ISO3_CODE = "FJI";
     private const int FIJI_NUMERIC_CODE = 242;
-    private const string FIJI_CALLING_CODE = "+679";
+    private readonly string[] FIJI_CALLING_CODE = ["+679"];
     private const int FIJI_STATE_COUNT = 15; // 14 provinces + 1 dependency
     private static readonly string[] VALID_STATE_TYPES = { "Province", "Dependency" };
 

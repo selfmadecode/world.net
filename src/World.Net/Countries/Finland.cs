@@ -27,7 +27,7 @@ internal sealed class Finland : ICountry
     public string ISO3Code { get; } = "FIN";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+358";
+    public string[] CallingCode { get; } = ["+358"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

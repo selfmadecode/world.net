@@ -9,7 +9,7 @@ public sealed class FinlandTest
     private const string FINLAND_ISO2_CODE = "FI";
     private const string FINLAND_ISO3_CODE = "FIN";
     private const int FINLAND_NUMERIC_CODE = 246;
-    private const string FINLAND_CALLING_CODE = "+358";
+    private readonly string[] FINLAND_CALLING_CODE = ["+358"];
     private const int FINLAND_STATE_COUNT = 21;
     private static readonly string[] VALID_STATE_TYPES = { "Region" };
 
