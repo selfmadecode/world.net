@@ -27,7 +27,7 @@ internal sealed class Ecuador : ICountry
     public string ISO3Code { get; } = "ECU";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+593";
+    public string[] CallingCode { get; } = ["+593"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

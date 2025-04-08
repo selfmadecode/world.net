@@ -27,7 +27,7 @@ internal sealed class CapeVerde : ICountry
     public string ISO3Code { get; } = "CPV";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+238";
+    public string[] CallingCode { get; } = ["+238"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

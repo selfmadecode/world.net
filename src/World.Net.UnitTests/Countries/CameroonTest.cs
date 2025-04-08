@@ -9,7 +9,7 @@ public sealed class CameroonTest
     private const string CAMEROON_ISO2_CODE = "CM";
     private const string CAMEROON_ISO3_CODE = "CMR";
     private const int CAMEROON_NUMERIC_CODE = 120;
-    private const string CAMEROON_CALLING_CODE = "+237";
+    private readonly string[] CAMEROON_CALLING_CODE = ["+237"];
     private const int CAMEROON_STATE_COUNT = 10;
     private static readonly string[] VALID_STATE_TYPES = { "Region" };
 

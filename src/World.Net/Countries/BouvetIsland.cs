@@ -26,7 +26,7 @@ internal sealed class BouvetIsland : ICountry
     public string ISO3Code { get; } = "BVT";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+0055";
+    public string[] CallingCode { get; } = ["+0055"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

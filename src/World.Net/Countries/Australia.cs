@@ -27,7 +27,7 @@ internal sealed class Australia : ICountry
     public string ISO3Code { get; } = "AUS";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+61";
+    public string[] CallingCode { get; } = ["+61"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

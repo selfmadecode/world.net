@@ -18,7 +18,7 @@ internal sealed class China : ICountry
 
     public string ISO3Code => "CHN";
 
-    public string CallingCode => "+86";
+    public string[] CallingCode => ["+86"];
 
     public IEnumerable<State> States =>
     [

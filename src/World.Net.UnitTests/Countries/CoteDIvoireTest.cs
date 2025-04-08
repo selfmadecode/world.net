@@ -10,7 +10,7 @@
         private const int COTEDIVOIRE_NUMERIC_CODE = 384;
         private const string COTEDIVOIRE_ISO2_CODE = "CI";
         private const string COTEDIVOIRE_ISO3_CODE = "CIV";
-        private const string COTEDIVOIRE_CALLING_CODE = "+225";
+        private readonly string[] COTEDIVOIRE_CALLING_CODE = ["+225"];
 
 
         [Fact]

@@ -27,7 +27,7 @@ internal sealed class BosniaAndHerzegovina : ICountry
     public string ISO3Code { get; } = "BIH";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+387";
+    public string[] CallingCode { get; } = ["+387"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

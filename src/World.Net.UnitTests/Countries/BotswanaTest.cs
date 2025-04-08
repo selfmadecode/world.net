@@ -10,7 +10,7 @@ public sealed class BotswanaTest
     private const int BOTSWANA_NUMERIC_CODE = 072;
     private const string BOTSWANA_ISO2_CODE = "BW";
     private const string BOTSWANA_ISO3_CODE = "BWA";
-    private const string BOTSWANA_CALLING_CODE = "+267";
+    private readonly string[] BOTSWANA_CALLING_CODE = ["+267"];
 
 
     [Fact]

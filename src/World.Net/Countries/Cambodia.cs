@@ -27,7 +27,7 @@ internal sealed class Cambodia : ICountry
     public string ISO3Code { get; } = "KHM";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+855";
+    public string[] CallingCode { get; } = ["+855"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

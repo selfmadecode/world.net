@@ -27,7 +27,7 @@ internal sealed class Aruba : ICountry
     public string ISO3Code { get; } = "ABW";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+297";
+    public string[] CallingCode { get; } = ["+297"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

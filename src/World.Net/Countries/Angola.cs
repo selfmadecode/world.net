@@ -27,7 +27,7 @@ internal sealed class Angola : ICountry
     public string ISO3Code { get; } = "AGO";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+244";
+    public string[] CallingCode { get; } = ["+244"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States =>

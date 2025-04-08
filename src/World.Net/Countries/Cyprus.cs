@@ -27,7 +27,7 @@ internal sealed class Cyprus : ICountry
     public string ISO3Code { get; } = "CYP";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+357";
+    public string[] CallingCode { get; } = ["+357"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

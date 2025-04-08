@@ -27,7 +27,7 @@ internal sealed class Bangladesh : ICountry
     public string ISO3Code { get; } = "BGD";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+880";
+    public string[] CallingCode { get; } = ["+880"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

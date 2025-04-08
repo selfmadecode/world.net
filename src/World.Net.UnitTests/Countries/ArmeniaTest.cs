@@ -10,7 +10,7 @@ public sealed class ArmeniaTest
     private const int ARMENIA_NUMERIC_CODE = 051;
     private const string ARMENIA_ISO2_CODE = "AM";
     private const string ARMENIA_ISO3_CODE = "ARM";
-    private const string ARMENIA_CALLING_CODE = "+374";
+    private readonly string[] ARMENIA_CALLING_CODE = ["+374"];
 
 
     [Fact]

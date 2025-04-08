@@ -10,7 +10,7 @@
         private const int COSTARICA_NUMERIC_CODE = 188;
         private const string COSTARICA_ISO2_CODE = "CR";
         private const string COSTARICA_ISO3_CODE = "CRI";
-        private const string COSTARICA_CALLING_CODE = "+506";
+        private readonly string[] COSTARICA_CALLING_CODE = ["+506"];
 
 
         [Fact]

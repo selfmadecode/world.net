@@ -27,7 +27,7 @@ internal sealed class Belize : ICountry
     public string ISO3Code { get; } = "BLZ";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+501";
+    public string[] CallingCode { get; } = ["+501"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

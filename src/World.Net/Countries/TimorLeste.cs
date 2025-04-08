@@ -27,7 +27,7 @@ internal sealed class TimorLeste : ICountry
     public string ISO3Code { get; } = "TLS";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+670";
+    public string[] CallingCode { get; } = ["+670"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

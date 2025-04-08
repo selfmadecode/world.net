@@ -27,7 +27,7 @@ internal sealed class Belgium : ICountry
     public string ISO3Code { get; } = "BEL";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+32";
+    public string[] CallingCode { get; } = ["+32"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

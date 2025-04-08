@@ -10,7 +10,7 @@ public sealed class AustriaTest
     private const int AUSTRIA_NUMERIC_CODE = 040;
     private const string AUSTRIA_ISO2_CODE = "AT";
     private const string AUSTRIA_ISO3_CODE = "AUT";
-    private const string AUSTRIA_CALLING_CODE = "+43";
+    private readonly string[] AUSTRIA_CALLING_CODE = ["+43"];
 
 
     [Fact]

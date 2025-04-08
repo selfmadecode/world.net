@@ -9,7 +9,7 @@ public sealed class EcuadorTest
     private const string ECUADOR_ISO2_CODE = "EC";
     private const string ECUADOR_ISO3_CODE = "ECU";
     private const int ECUADOR_NUMERIC_CODE = 218;
-    private const string ECUADOR_CALLING_CODE = "+593";
+    private readonly string[] ECUADOR_CALLING_CODE = ["+593"];
     private const int ECUADOR_STATE_COUNT = 24; // 24 provinces
     private static readonly string[] VALID_STATE_TYPES = { "Province" };
 

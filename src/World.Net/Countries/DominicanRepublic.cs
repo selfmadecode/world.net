@@ -27,7 +27,7 @@ internal sealed class DominicanRepublic : ICountry
     public string ISO3Code { get; } = "DOM";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+1-809, +1-829, +1-849";
+    public string[] CallingCode { get; } = ["+1-809", "+1-829", "+1-849"];
 
     //<inheritdoc/>
     //<inheritdoc/>

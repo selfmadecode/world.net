@@ -9,7 +9,7 @@ public sealed class AngolaTest
     private const string ANGOLA_ISO2_CODE = "AO";
     private const string ANGOLA_ISO3_CODE = "AGO";
     private const int ANGOLA_NUMERIC_CODE = 024;
-    private const string ANGOLA_CALLING_CODE = "+244";
+    private readonly string[] ANGOLA_CALLING_CODE = ["+244"];
     private const string ANGOLA_STATE_TYPE = "Province";
 
 
