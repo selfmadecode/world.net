@@ -26,7 +26,7 @@ internal sealed class Dominica : ICountry
     public string ISO3Code { get; } = "DMA";
 
     ///<inheritdoc/>
-    public string[] CallingCode { get; } = ["+1"];
+    public string[] CallingCode { get; } = ["+1-767"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

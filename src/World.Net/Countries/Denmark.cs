@@ -26,13 +26,13 @@ internal sealed class Denmark : ICountry
     public string ISO3Code { get; } = "DNK";
 
     ///<inheritdoc/>
-    public string[] CallingCode { get; } = ["+045"];
+    public string[] CallingCode { get; } = ["+45"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
     [
         new("Central Denmark", "DK-82", "Region"),
-        new("Denmark", "DK-84", "Region"),
+        new("Capital Region of Denmark", "DK-84", "Region"),
         new("North Denmark", "DK-81", "Region"),
         new("Southern Denmark", "DK-83", "Region"),
         new("Zealand", "DK-85", "Region"),

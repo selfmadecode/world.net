@@ -9,8 +9,8 @@ public sealed class DjiboutiTest
     private const int DJIBOUTI_NUMERIC_CODE = 262;
     private const string DJIBOUTI_ISO2_CODE = "DJ";
     private const string DJIBOUTI_ISO3_CODE = "DJI";
+    private static readonly string[] VALID_STATE_TYPES = { "Region", "City" };
     private readonly string[] DJIBOUTI_CALLING_CODE = ["+253"];
-
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForDjibouti()
@@ -33,5 +33,6 @@ public sealed class DjiboutiTest
         Assert.Equal(DJIBOUTI_ISO2_CODE, country.ISO2Code);
         Assert.Equal(DJIBOUTI_ISO3_CODE, country.ISO3Code);
         Assert.Equal(DJIBOUTI_CALLING_CODE, country.CallingCode);
+        Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
     }
 }

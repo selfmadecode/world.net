@@ -9,8 +9,8 @@ public sealed class DenmarkTest
     private const int DENMARK_NUMERIC_CODE = 208;
     private const string DENMARK_ISO2_CODE = "DK";
     private const string DENMARK_ISO3_CODE = "DNK";
-    private readonly string[] DENMARK_CALLING_CODE = ["+045"];
-
+    private readonly string[] DENMARK_CALLING_CODE = ["+45"];
+    private static readonly string[] VALID_STATE_TYPES = { "Region" };
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForDenmark()
@@ -32,6 +32,7 @@ public sealed class DenmarkTest
         Assert.Equal(DENMARK_NUMERIC_CODE, country.NumericCode);
         Assert.Equal(DENMARK_ISO2_CODE, country.ISO2Code);
         Assert.Equal(DENMARK_ISO3_CODE, country.ISO3Code);
+        Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
         Assert.Equal(DENMARK_CALLING_CODE, country.CallingCode);
     }
 }
