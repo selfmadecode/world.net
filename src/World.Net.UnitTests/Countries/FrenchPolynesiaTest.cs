@@ -9,6 +9,7 @@ public sealed class FrenchPolynesiaTest
     private const int FRENCH_POLYNESIA_NUMERIC_CODE = 258;
     private const string FRENCH_POLYNESIA_ISO2_CODE = "PF";
     private const string FRENCH_POLYNESIA_ISO3_CODE = "PYF";
+    private static readonly string[] VALID_STATE_TYPES = { "division" };
     private readonly string[] FRENCH_POLYNESIA_CALLING_CODE = ["+689"];
 
 
@@ -28,6 +29,7 @@ public sealed class FrenchPolynesiaTest
         Assert.Equal(FRENCH_POLYNESIA_STATE_COUNT, country.States.Count());
         Assert.Equal(FRENCH_POLYNESIA_OFFICIAL_NAME, country.OfficialName);
         Assert.Equal(FRENCH_POLYNESIA_NATIVE_NAME, country.NativeName);
+        Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
         Assert.Equal(FRENCH_POLYNESIA_CAPITAL, country.Capital);
         Assert.Equal(FRENCH_POLYNESIA_NUMERIC_CODE, country.NumericCode);
         Assert.Equal(FRENCH_POLYNESIA_ISO2_CODE, country.ISO2Code);
