@@ -71,6 +71,9 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Denmark, new Denmark() },
             { CountryIdentifier.Djibouti, new Djibouti() },
             { CountryIdentifier.Dominica, new Dominica() },
+            { CountryIdentifier.France, new France() },
+            { CountryIdentifier.FrenchGuiana, new FrenchGuiana() },
+            { CountryIdentifier.FrenchPolynesia, new FrenchPolynesia() },
 
             // Future countries can be added here in the same format.
         };
