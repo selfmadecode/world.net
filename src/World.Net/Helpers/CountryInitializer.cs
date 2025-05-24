@@ -73,6 +73,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Egypt, new Egypt() },
             { CountryIdentifier.Estonia, new Estonia() },
             { CountryIdentifier.Ethiopia, new Ethiopia() },
+            { CountryIdentifier.FalklandIslands, new FalklandIslands() },
             { CountryIdentifier.FaroeIslands, new FaroeIslands() },
             { CountryIdentifier.FijiIslands, new FijiIslands() },
             { CountryIdentifier.Finland, new Finland() },
