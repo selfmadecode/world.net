@@ -1,6 +1,6 @@
 ﻿namespace World.Net.Countries
 {
-    internal class FalklandIslands : ICountry
+    internal sealed class FalklandIslands : ICountry
     {
         public CountryIdentifier Id => CountryIdentifier.FalklandIslands;
 

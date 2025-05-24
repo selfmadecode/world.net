@@ -1,7 +1,7 @@
 ﻿
 namespace World.Net.Countries
 {
-    internal class Estonia : ICountry
+    internal sealed class Estonia : ICountry
     {
         public CountryIdentifier Id => CountryIdentifier.Estonia;
 

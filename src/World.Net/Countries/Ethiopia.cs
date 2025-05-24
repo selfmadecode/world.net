@@ -1,6 +1,6 @@
 ﻿namespace World.Net.Countries
 {
-    internal class Ethiopia : ICountry
+    internal sealed class Ethiopia : ICountry
     {
         public CountryIdentifier Id => CountryIdentifier.Ethiopia;
 
