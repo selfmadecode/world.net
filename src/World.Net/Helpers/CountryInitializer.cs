@@ -71,6 +71,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.TimorLeste, new TimorLeste() },
             { CountryIdentifier.Ecuador, new Ecuador() },
             { CountryIdentifier.Egypt, new Egypt() },
+            { CountryIdentifier.Estonia, new Estonia() },
             { CountryIdentifier.FaroeIslands, new FaroeIslands() },
             { CountryIdentifier.FijiIslands, new FijiIslands() },
             { CountryIdentifier.Finland, new Finland() },
