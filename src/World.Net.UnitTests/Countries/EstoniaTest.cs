@@ -1,6 +1,6 @@
 ﻿namespace World.Net.UnitTests.Countries
 {
-    public sealed class EstoniaTests
+    public sealed class EstoniaTest
     {
         private const string ESTONIA_NAME = "Estonia";
         private const int ESTONIA_STATE_COUNT = 15;
