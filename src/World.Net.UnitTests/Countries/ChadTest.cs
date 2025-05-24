@@ -9,7 +9,7 @@ public sealed class ChadTest
     private const string CHAD_ISO2_CODE = "TD";
     private const string CHAD_ISO3_CODE = "TCD";
     private const int CHAD_NUMERIC_CODE = 148;
-    private const string CHAD_CALLING_CODE = "+235";
+    private readonly string[] CHAD_CALLING_CODE = ["+235"];
     private const int CHAD_STATE_COUNT = 23;
     private static readonly string[] VALID_STATE_TYPES = { "Region" };
 

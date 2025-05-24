@@ -27,7 +27,7 @@ internal sealed class Cameroon : ICountry
     public string ISO3Code { get; } = "CMR";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+237";
+    public string[] CallingCode { get; } = ["+237"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

@@ -27,7 +27,7 @@ internal sealed class Azerbaijan : ICountry
     public string ISO3Code { get; } = "AZE";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+994";
+    public string[] CallingCode { get; } = ["+994"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

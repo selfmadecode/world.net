@@ -27,7 +27,7 @@ internal sealed class AntiguaAndBarbuda : ICountry
     public string ISO3Code { get; } = "ATG";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+1";
+    public string[] CallingCode { get; } = ["+1"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

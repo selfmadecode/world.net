@@ -9,7 +9,7 @@ public sealed class AndorraTest
     private const int ANDORRA_NUMERIC_CODE = 020;
     private const string ANDORRA_ISO2_CODE = "AD";
     private const string ANDORRA_ISO3_CODE = "AND";
-    private const string ANDORRA_CALLING_CODE = "+376";
+    private readonly string[] ANDORRA_CALLING_CODE = ["+376"];
     private const int ANDORRA_PARISH_COUNT = 7;
     private const string ANDORRA_STATE_TYPE = "Parish";
     

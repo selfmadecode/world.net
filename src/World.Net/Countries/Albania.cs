@@ -27,7 +27,7 @@ internal sealed class Albania : ICountry
     public string ISO3Code { get; } = "ALB";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+355";
+    public string[] CallingCode { get; } = ["+355"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

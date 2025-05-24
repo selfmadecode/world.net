@@ -9,7 +9,7 @@ public sealed class ChileTest
     private const string CHILE_ISO2_CODE = "CL";
     private const string CHILE_ISO3_CODE = "CHL";
     private const int CHILE_NUMERIC_CODE = 152;
-    private const string CHILE_CALLING_CODE = "+56";
+    private readonly string[] CHILE_CALLING_CODE = ["+56"];
     private const int CHILE_STATE_COUNT = 16;
     private static readonly string[] VALID_STATE_TYPES = { "Region" };
 

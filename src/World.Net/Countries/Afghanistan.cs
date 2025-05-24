@@ -29,7 +29,7 @@ internal sealed class Afghanistan : ICountry
     public string ISO3Code { get; } = "AFG";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+93";
+    public string[] CallingCode { get; } = ["+93"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

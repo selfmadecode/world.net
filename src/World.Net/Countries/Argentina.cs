@@ -27,7 +27,7 @@ internal sealed class Argentina : ICountry
     public string ISO3Code { get; } = "ARG";
 
     ///<inheritdoc/>
-    public string CallingCode { get; } = "+54";
+    public string[] CallingCode { get; } = ["+54"];
 
     ///<inheritdoc/>
     public IEnumerable<State> States { get; } =

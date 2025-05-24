@@ -9,7 +9,7 @@ internal static class BoliviaTestData
     internal const string ISO2_CODE = "BO";
     internal const string ISO3_CODE = "BOL";
     internal const int NUMERIC_CODE = 68;
-    internal const string CALLING_CODE = "+591";
+    internal static readonly string[] CALLING_CODE = ["+591"];
     internal const string STATE_TYPE = "Department";
     internal const int EXPECTED_STATE_COUNT = 9;
 }

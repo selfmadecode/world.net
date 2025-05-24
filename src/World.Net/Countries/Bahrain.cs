@@ -27,7 +27,7 @@ internal sealed class Bahrain : ICountry
     public string ISO3Code { get; } = "BHR";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+973";
+    public string[] CallingCode { get; } = ["+973"];
 
     //<inheritdoc/>
     public IEnumerable<State> States { get; } =

@@ -9,7 +9,7 @@ public sealed class ChristmasIslandTest
     private const string CHRISTMAS_ISLAND_ISO2_CODE = "CX";
     private const string CHRISTMAS_ISLAND_ISO3_CODE = "CXR";
     private const int CHRISTMAS_ISLAND_NUMERIC_CODE = 162;
-    private const string CHRISTMAS_ISLAND_CALLING_CODE = "+61";
+    private readonly string[] CHRISTMAS_ISLAND_CALLING_CODE = ["+61"];
     private static readonly string[] VALID_STATE_TYPES = { };
 
     [Fact]

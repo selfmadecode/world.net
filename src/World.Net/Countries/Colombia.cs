@@ -27,7 +27,7 @@ internal sealed class Colombia : ICountry
     public string ISO3Code { get; } = "COL";
 
     //<inheritdoc/>
-    public string CallingCode { get; } = "+57";
+    public string[] CallingCode { get; } = ["+57"];
 
     //<inheritdoc/>
     public IEnumerable<State> States =>

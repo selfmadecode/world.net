@@ -18,7 +18,7 @@ internal sealed class Chad : ICountry
 
     public string ISO3Code => "TCD";
 
-    public string CallingCode => "+235";
+    public string[] CallingCode => ["+235"];
 
     public IEnumerable<State> States =>
     [
