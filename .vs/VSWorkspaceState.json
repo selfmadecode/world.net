@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\.copilot"
   ],
-  "SelectedNode": "\\C:\\Users\\anyan\\Source\\Repos\\world.net",
+  "SelectedNode": "\\src\\.copilot\\copilot-country-creation.setup.md",
   "PreviewInSolutionExplorer": false
 }
