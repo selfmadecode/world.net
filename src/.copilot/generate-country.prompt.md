@@ -9,9 +9,14 @@ description: 'Generate a new Country class and Unit Test for World.Net by only p
 ## Instructions
 When you are asked to "create a country":
 
-1. **Check for Country Name**
-   - If the user provides a country name (e.g., "Create a country: Kenya"), use it directly.
-   - If the user does not provide a country name (e.g., just "Create a country"), ask: "What is the name of the country you would like to create? Please provide the official country name (e.g., 'Nigeria')." Then wait for the user to reply with the country name before proceeding.
+1. **Prompt for Country Name**
+   - Always check if the user included the country name.
+   - If the name **is provided** (e.g., "Create a country: Kenya"), use it directly.
+   - If the name **is not provided** (e.g., "Create a country"), immediately ask:
+     > "What is the name of the country you would like to create? Please provide the official country name (e.g., 'Nigeria')."
+   - After the user provides the country name, **continue automatically** with the workflow.  
+   - Do not ask for any additional information such as ISO codes, capitals, or calling codes. Use official ISO/UN data automatically.
+
 
 2. **Read C# and World.Net Standards**
    - Read and apply the standards from `src/.copilot/csharp-standards.instructions.md` and `src/.copilot/worldnet-standards.instructions.md`.
