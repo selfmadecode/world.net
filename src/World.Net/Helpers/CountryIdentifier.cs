@@ -923,6 +923,14 @@ public enum CountryIdentifier
     Kiribati,
 
     /// <summary>
+    /// The unique identifier for Kosovo.
+    /// </summary>
+    /// <remarks>
+    /// Use this identifier to reference Kosovo in operations that require a country ID.
+    /// </remarks>
+    Kosovo,
+
+    /// <summary>
     /// The unique identifier for North Korea.
     /// </summary>
     /// <remarks>
@@ -1981,15 +1989,7 @@ public enum CountryIdentifier
     /// <remarks>
     /// Use this identifier to reference Zimbabwe in operations that require a country ID.
     /// </remarks>
-    Zimbabwe,
-
-    /// <summary>
-    /// The unique identifier for Kosovo.
-    /// </summary>
-    /// <remarks>
-    /// Use this identifier to reference Kosovo in operations that require a country ID.
-    /// </remarks>
-    Kosovo,
+    Zimbabwe,   
 
     /// <summary>
     /// The unique identifier for Curaçao.
