@@ -1,11 +1,11 @@
-namespace World.Net.Countries;
+﻿namespace World.Net.Countries;
 
 internal sealed class Kyrgyzstan : ICountry
 {
     public CountryIdentifier Id => CountryIdentifier.Kyrgyzstan;
     public string Name { get; } = "Kyrgyzstan";
     public string OfficialName { get; } = "Kyrgyz Republic";
-    public string NativeName { get; } = "?????? ????????????";
+    public string NativeName { get; } = "Киргизская Республика";
     public string Capital { get; } = "Bishkek";
     public int NumericCode { get; } = 417;
     public string ISO2Code { get; } = "KG";
@@ -19,7 +19,7 @@ internal sealed class Kyrgyzstan : ICountry
         new State("Naryn", "KG-N", "Region"),
         new State("Osh", "KG-O", "Region"),
         new State("Talas", "KG-T", "Region"),
-        new State("Ysyk-Kol", "KG-Y", "Region"),
+        new State("Issyk-Kul", "KG-Y", "Region"),
         new State("Bishkek", "KG-GB", "City"),
         new State("Osh City", "KG-GO", "City")
     ];

@@ -1,4 +1,4 @@
-using World.Net;
+﻿using World.Net;
 using World.Net.Countries;
 using World.Net.Helpers;
 using Xunit;
@@ -10,7 +10,7 @@ namespace World.Net.UnitTests.Countries
         private const CountryIdentifier ExpectedId = CountryIdentifier.Kyrgyzstan;
         private const string ExpectedName = "Kyrgyzstan";
         private const string ExpectedOfficialName = "Kyrgyz Republic";
-        private const string ExpectedNativeName = "?????? ????????????";
+        private const string ExpectedNativeName = "Киргизская Республика";
         private const string ExpectedCapital = "Bishkek";
         private const int ExpectedNumericCode = 417;
         private const string ExpectedISO2Code = "KG";
@@ -24,7 +24,7 @@ namespace World.Net.UnitTests.Countries
             ("Naryn", "KG-N", "Region"),
             ("Osh", "KG-O", "Region"),
             ("Talas", "KG-T", "Region"),
-            ("Ysyk-Kol", "KG-Y", "Region"),
+            ("Issyk-Kul", "KG-Y", "Region"),
             ("Bishkek", "KG-GB", "City"),
             ("Osh City", "KG-GO", "City")
         ];
