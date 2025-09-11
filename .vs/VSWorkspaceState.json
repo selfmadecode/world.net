@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\.copilot"
   ],
-  "SelectedNode": "\\C:\\Users\\anyan\\Source\\Repos\\world.net",
   "PreviewInSolutionExplorer": false
 }
