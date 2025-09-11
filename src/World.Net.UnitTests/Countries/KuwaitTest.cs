@@ -1,4 +1,4 @@
-using World.Net;
+﻿using World.Net;
 using World.Net.Countries;
 using World.Net.Helpers;
 using Xunit;
@@ -10,7 +10,7 @@ namespace World.Net.UnitTests.Countries
         private const CountryIdentifier ExpectedId = CountryIdentifier.Kuwait;
         private const string ExpectedName = "Kuwait";
         private const string ExpectedOfficialName = "State of Kuwait";
-        private const string ExpectedNativeName = "???? ??????";
+        private const string ExpectedNativeName = "دولة الكويت";
         private const string ExpectedCapital = "Kuwait City";
         private const int ExpectedNumericCode = 414;
         private const string ExpectedISO2Code = "KW";

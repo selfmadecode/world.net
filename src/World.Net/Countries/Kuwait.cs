@@ -1,11 +1,11 @@
-namespace World.Net.Countries;
+﻿namespace World.Net.Countries;
 
 internal sealed class Kuwait : ICountry
 {
     public CountryIdentifier Id => CountryIdentifier.Kuwait;
     public string Name { get; } = "Kuwait";
     public string OfficialName { get; } = "State of Kuwait";
-    public string NativeName { get; } = "???? ??????";
+    public string NativeName { get; } = "دولة الكويت";
     public string Capital { get; } = "Kuwait City";
     public int NumericCode { get; } = 414;
     public string ISO2Code { get; } = "KW";
