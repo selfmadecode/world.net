@@ -92,7 +92,9 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Japan, new Japan() },
             { CountryIdentifier.Jersey, new Jersey() },
             { CountryIdentifier.Jordan, new Jordan() },
-            { CountryIdentifier.Kazakhstan, new Kazakhstan() }
+            { CountryIdentifier.Kazakhstan, new Kazakhstan() },
+            { CountryIdentifier.Kenya, new Kenya() },
+            { CountryIdentifier.Kiribati, new Kiribati() },
 
             // Future countries can be added here in the same format.
         };

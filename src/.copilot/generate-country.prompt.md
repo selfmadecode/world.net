@@ -29,6 +29,7 @@ When you are asked to "create a country":
    - Use immutable properties (fixed values, no setters).
    - Use the correct `CountryIdentifier.<Name>` for `Id`.
    - All data must be ISO/UN recognized and complete.
+   - **When generating the `States` property, always provide the type for each state object (e.g., `new State("Kakamega", "KE-11", "County")`). Do not omit the type argument, except if the type is exactly `"Province"` (the default), in which case you may skip it.**
 
 4. **Register in CountryInitializer**
    - Add the new country to `CountryInitializer.Initialize()` in `src/World.Net/Helpers/CountryInitializer.cs`.
@@ -96,6 +97,7 @@ src/World.Net.UnitTests/Countries/NigeriaTest.cs
 - Follow the naming and ordering conventions strictly.
 - Use only ISO/UN official data for all country properties.
 - If a country has subdivisions (states, provinces, etc.), list them in the `States` property using the correct type and ISO codes.
+- **Always provide the type argument for each state in the `States` property, unless the type is exactly `"Province"` (the default), in which case you may skip it.**
 - If you are unsure about a country's data, do not create a placeholder—skip or request clarification.
 
 ---
