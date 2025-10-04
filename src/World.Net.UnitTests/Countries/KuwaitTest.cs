@@ -1,9 +1,4 @@
-﻿using World.Net;
-using World.Net.Countries;
-using World.Net.Helpers;
-using Xunit;
-
-namespace World.Net.UnitTests.Countries
+﻿namespace World.Net.UnitTests.Countries
 {
     public class KuwaitTest
     {
