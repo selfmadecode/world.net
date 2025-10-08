@@ -4,7 +4,7 @@ using System.Text;
 
 namespace World.Net.Countries
 {
-    internal class Laos
+    public sealed class Laos : ICountry
     {
     }
 }
