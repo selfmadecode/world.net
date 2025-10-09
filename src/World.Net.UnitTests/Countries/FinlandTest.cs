@@ -10,8 +10,8 @@ public sealed class FinlandTest : AssertCountryTestBase
     private const string FINLAND_ISO3_CODE = "FIN";
     private const int FINLAND_NUMERIC_CODE = 246;
     private readonly string[] FINLAND_CALLING_CODE = ["+358"];
-    private const CountryIdentifier ExpectedId = CountryIdentifier.Finland;
-    private static readonly (string Name, string IsoCode, string Type)[] ExpectedStates =
+    private const CountryIdentifier EXPECTEDID = CountryIdentifier.Finland;
+    private static readonly (string Name, string IsoCode, string Type)[] EXPECTED_STATES =
     [
         new("Åland", "FI-01", "Region"),
         new("Central Finland", "FI-08", "Region"),
@@ -41,12 +41,12 @@ public sealed class FinlandTest : AssertCountryTestBase
     {
         // Arrange
         // Act
-        var country = CountryProvider.GetCountry(ExpectedId);
+        var country = CountryProvider.GetCountry(EXPECTEDID);
 
         // Assert
         AssertCorrectInformation(
             country,
-            ExpectedId,
+            EXPECTEDID,
             FINLAND_COUNTRY_NAME,
             FINLAND_OFFICIAL_NAME,
             FINLAND_NATIVE_NAME,
@@ -55,7 +55,7 @@ public sealed class FinlandTest : AssertCountryTestBase
             FINLAND_ISO2_CODE,
             FINLAND_ISO3_CODE,
             FINLAND_CALLING_CODE,
-            ExpectedStates
+            EXPECTED_STATES
         );
     }
 }
