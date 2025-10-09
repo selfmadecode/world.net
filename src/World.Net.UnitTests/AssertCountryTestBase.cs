@@ -15,6 +15,7 @@
             string[] expectedCallingCode,
             (string Name, string IsoCode, string Type)[] expectedStates)
         {
+            Assert.NotNull(country);
             Assert.Equal(expectedId, country.Id);
             Assert.Equal(expectedName, country.Name);
             Assert.Equal(expectedOfficialName, country.OfficialName);
@@ -24,6 +25,7 @@
             Assert.Equal(expectedISO2Code, country.ISO2Code);
             Assert.Equal(expectedISO3Code, country.ISO3Code);
             Assert.Equal(expectedCallingCode, country.CallingCode);
+            Assert.NotNull(country.States);
 
             var states = country.States.ToArray();
             Assert.Equal(expectedStates.Length, states.Length);
