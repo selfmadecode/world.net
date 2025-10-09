@@ -1,6 +1,6 @@
 ﻿namespace World.Net.UnitTests.Countries;
 
-public sealed class FinlandTest
+public sealed class FinlandTest : AssertCountryTestBase
 {
     private const string FINLAND_COUNTRY_NAME = "Finland";
     private const string FINLAND_NATIVE_NAME = "Suomen tasavalta / Republiken Finland";
@@ -10,32 +10,53 @@ public sealed class FinlandTest
     private const string FINLAND_ISO3_CODE = "FIN";
     private const int FINLAND_NUMERIC_CODE = 246;
     private readonly string[] FINLAND_CALLING_CODE = ["+358"];
-    private const int FINLAND_STATE_COUNT = 21;
-    private static readonly string[] VALID_STATE_TYPES = { "Region" };
+    private const CountryIdentifier ExpectedId = CountryIdentifier.Finland;
+    private static readonly (string Name, string IsoCode, string Type)[] ExpectedStates =
+    [
+        new("Åland", "FI-01", "Region"),
+        new("Central Finland", "FI-08", "Region"),
+        new("Central Ostrobothnia", "FI-07", "Region"),
+        new("Etelä-Karjala", "FI-02", "Region"),
+        new("Etelä-Pohjanmaa", "FI-03", "Region"),
+        new("Etelä-Savo", "FI-04", "Region"),
+        new("Kainuu", "FI-05", "Region"),
+        new("Kanta-Häme", "FI-06", "Region"),
+        new("Keski-Pohjanmaa", "FI-09", "Region"),
+        new("Keski-Suomi", "FI-10", "Region"),
+        new("Kymenlaakso", "FI-11", "Region"),
+        new("Lappi", "FI-12", "Region"),
+        new("Pirkanmaa", "FI-13", "Region"),
+        new("Pohjanmaa", "FI-14", "Region"),
+        new("Pohjois-Karjala", "FI-15", "Region"),
+        new("Pohjois-Pohjanmaa", "FI-16", "Region"),
+        new("Pohjois-Savo", "FI-17", "Region"),
+        new("Päijät-Häme", "FI-18", "Region"),
+        new("Satakunta", "FI-19", "Region"),
+        new("Uusimaa", "FI-20", "Region"),
+        new("Varsinais-Suomi", "FI-21", "Region")
+    ];
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForFinland()
     {
         // Arrange
-        CountryIdentifier existingCountryId = CountryIdentifier.Finland;
-
         // Act
-        var country = CountryProvider.GetCountry(existingCountryId);
+        var country = CountryProvider.GetCountry(ExpectedId);
 
         // Assert
-        Assert.NotNull(country);
-        Assert.Equal(existingCountryId, country.Id);
-        Assert.Equal(FINLAND_COUNTRY_NAME, country.Name);
-        Assert.Equal(FINLAND_OFFICIAL_NAME, country.OfficialName);
-        Assert.Equal(FINLAND_NATIVE_NAME, country.NativeName);
-        Assert.Equal(FINLAND_CAPITAL, country.Capital);
-        Assert.Equal(FINLAND_NUMERIC_CODE, country.NumericCode);
-        Assert.Equal(FINLAND_ISO2_CODE, country.ISO2Code);
-        Assert.Equal(FINLAND_ISO3_CODE, country.ISO3Code);
-        Assert.Equal(FINLAND_CALLING_CODE, country.CallingCode);
-        Assert.NotNull(country.States);
-        Assert.Equal(FINLAND_STATE_COUNT, country.States.Count());
-        Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
+        AssertCorrectInformation(
+            country,
+            ExpectedId,
+            FINLAND_COUNTRY_NAME,
+            FINLAND_OFFICIAL_NAME,
+            FINLAND_NATIVE_NAME,
+            FINLAND_CAPITAL,
+            FINLAND_NUMERIC_CODE,
+            FINLAND_ISO2_CODE,
+            FINLAND_ISO3_CODE,
+            FINLAND_CALLING_CODE,
+            ExpectedStates
+        );
     }
 }
 
