@@ -100,6 +100,9 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Kyrgyzstan, new Kyrgyzstan() },
             { CountryIdentifier.Laos, new Laos() },
             { CountryIdentifier.Latvia, new Latvia() },
+            { CountryIdentifier.Lebanon, new Lebanon() },
+            { CountryIdentifier.Lesotho, new Lesotho() },
+            { CountryIdentifier.Liberia, new Liberia() },
 
             // Future countries can be added here in the same format.
         };
