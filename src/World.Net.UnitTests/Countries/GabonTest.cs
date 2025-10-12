@@ -14,12 +14,12 @@ public sealed class GabonTest : AssertCountryTestBase
     private static readonly (string Name, string IsoCode, string Type)[] EXPECTED_STATES =
     [
         new("Estuaire", "GA-1", "Province"),
-        new("Haut-Ogooué", "GA-2", "Province"),
-        new("Moyen-Ogooué", "GA-3", "Province"),
-        new("Ngounié", "GA-4", "Province"),
+        new("Haut-Ogooue", "GA-2", "Province"),
+        new("Moyen-Ogooue", "GA-3", "Province"),
+        new("Ngounie", "GA-4", "Province"),
         new("Nyanga", "GA-5", "Province"),
-        new("Ogooué-Ivindo", "GA-6", "Province"),
-        new("Ogooué-Lolo", "GA-7", "Province"),
+        new("Ogooue-Ivindo", "GA-6", "Province"),
+        new("Ogooue-Lolo", "GA-7", "Province"),
         new("Ogooué-Maritime", "GA-8", "Province"),
         new("Woleu-Ntem", "GA-9", "Province")
     ];

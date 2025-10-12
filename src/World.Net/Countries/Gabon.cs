@@ -33,13 +33,13 @@ internal sealed class Gabon : ICountry
     public IEnumerable<State> States =>
     [
         new("Estuaire", "GA-1"),
-        new("Haut-Ogooué", "GA-2"),
-        new("Moyen-Ogooué", "GA-3"),
-        new("Ngounié", "GA-4"),
+        new("Haut-Ogooue", "GA-2"),
+        new("Moyen-Ogooue", "GA-3"),
+        new("Ngounie", "GA-4"),
         new("Nyanga", "GA-5"),
-        new("Ogooué-Ivindo", "GA-6"),
-        new("Ogooué-Lolo", "GA-7"),
-        new("Ogooué-Maritime", "GA-8"),
+        new("Ogooue-Ivindo", "GA-6"),
+        new("Ogooue-Lolo", "GA-7"),
+        new("Ogooue-Maritime", "GA-8"),
         new("Woleu-Ntem", "GA-9")
     ];
 }
