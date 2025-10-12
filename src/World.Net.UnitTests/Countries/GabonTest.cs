@@ -20,7 +20,7 @@ public sealed class GabonTest : AssertCountryTestBase
         new("Nyanga", "GA-5", "Province"),
         new("Ogooue-Ivindo", "GA-6", "Province"),
         new("Ogooue-Lolo", "GA-7", "Province"),
-        new("Ogooué-Maritime", "GA-8", "Province"),
+        new("Ogooue-Maritime", "GA-8", "Province"),
         new("Woleu-Ntem", "GA-9", "Province")
     ];
 
