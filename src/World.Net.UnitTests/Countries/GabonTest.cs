@@ -3,7 +3,7 @@
 public sealed class GabonTest : AssertCountryTestBase
 {
     private const string GABON_COUNTRY_NAME = "Gabon";
-    private const string GABON_NATIVE_NAME = "République gabonaise";
+    private const string GABON_NATIVE_NAME = "Republique gabonaise";
     private const string GABON_CAPITAL = "Libreville";
     private const string GABON_OFFICIAL_NAME = "Gabonese Republic";
     private const string GABON_ISO2_CODE = "GA";

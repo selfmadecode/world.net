@@ -12,7 +12,7 @@ internal sealed class Gabon : ICountry
     public string OfficialName { get; } = "Gabonese Republic";
 
     //<inheritdoc/>
-    public string NativeName => "République gabonaise";
+    public string NativeName => "Republique gabonaise";
 
     //<inheritdoc/>
     public string Capital { get; } = "Libreville";
