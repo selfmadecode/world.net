@@ -53,7 +53,7 @@
 
 
         [Fact]
-        public void GetCountry_ReturnsCorrectInformation_ForLaos()
+        public void GetCountry_ReturnsCorrectInformation_ForLatvia()
         {
             var country = CountryProvider.GetCountry(ExpectedId);
 
