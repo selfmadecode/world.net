@@ -133,6 +133,13 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Luxembourg, new Luxembourg() },
             { CountryIdentifier.MacauSAR, new MacauSAR() },
             { CountryIdentifier.Madagascar, new Madagascar() },
+            { CountryIdentifier.Nigeria, new Nigeria() },
+            { CountryIdentifier.Niue, new Niue() },
+            { CountryIdentifier.NorfolkIsland, new NorfolkIsland() },
+            { CountryIdentifier.NorthKorea, new NorthKorea() },
+            { CountryIdentifier.NorthMacedonia, new NorthMacedonia() },
+            { CountryIdentifier.NorthernMarianaIslands, new NorthernMarianaIslands() },
+            { CountryIdentifier.Norway, new Norway() },
 
             // Future countries can be added here in the same format.
         };
