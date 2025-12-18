@@ -15,18 +15,18 @@ public sealed class SaudiArabiaTest : AssertCountryTestBase
     private static readonly (string Name, string IsoCode, string Type)[] EXPECTED_STATES =
     [
         new("Riyadh", "SA-01", "Region"),
-    new("Makkah", "SA-02", "Region"),
-    new("Al Madinah", "SA-03", "Region"),
-    new("Eastern Province", "SA-04", "Region"),
-    new("Asir", "SA-05", "Region"),
-    new("Hail", "SA-06", "Region"),
-    new("Tabuk", "SA-07", "Region"),
-    new("Northern Borders", "SA-08", "Region"),
-    new("Jazan", "SA-09", "Region"),
-    new("Najran", "SA-10", "Region"),
-    new("Al Bahah", "SA-11", "Region"),
-    new("Al Jawf", "SA-12", "Region"),
-    new("Qassim", "SA-14", "Region")
+        new("Makkah", "SA-02", "Region"),
+        new("Al Madinah", "SA-03", "Region"),
+        new("Eastern Province", "SA-04", "Region"),
+        new("Asir", "SA-05", "Region"),
+        new("Tabuk", "SA-07", "Region"),
+        new("Hail", "SA-06", "Region"),
+        new("Northern Borders", "SA-08", "Region"),
+        new("Jazan", "SA-09", "Region"),
+        new("Najran", "SA-10", "Region"),
+        new("Al Bahah", "SA-11", "Region"),
+        new("Al Jawf", "SA-12", "Region"),
+        new("Qassim", "SA-14", "Region")
     ];
 
     [Fact]
