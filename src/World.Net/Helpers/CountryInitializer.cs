@@ -85,6 +85,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.FrenchGuiana, new FrenchGuiana() },
             { CountryIdentifier.FrenchPolynesia, new FrenchPolynesia() },
             { CountryIdentifier.Gabon, new Gabon() },
+            { CountryIdentifier.Georgia, new Georgia() },
             { CountryIdentifier.Iraq, new Iraq() },
             { CountryIdentifier.Ireland, new Ireland() },
             { CountryIdentifier.Israel, new Israel() },
