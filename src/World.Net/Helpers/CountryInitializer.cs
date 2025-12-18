@@ -1,4 +1,6 @@
-﻿namespace World.Net.Helpers;
+﻿using World.Net.Countries;
+
+namespace World.Net.Helpers;
 
 internal sealed class CountryInitializer
 {
@@ -140,6 +142,19 @@ internal sealed class CountryInitializer
             { CountryIdentifier.NorthMacedonia, new NorthMacedonia() },
             { CountryIdentifier.NorthernMarianaIslands, new NorthernMarianaIslands() },
             { CountryIdentifier.Norway, new Norway() },
+            { CountryIdentifier.Oman, new Oman() },
+            { CountryIdentifier.Pakistan, new Pakistan() },
+            { CountryIdentifier.Palau, new Palau() },
+            { CountryIdentifier.PalestinianTerritoryOccupied, new Palestine() },
+            { CountryIdentifier.Panama, new Panama() },
+            { CountryIdentifier.PapuaNewGuinea, new PapuaNewGuinea() },
+            { CountryIdentifier.Paraguay, new Paraguay() },
+            { CountryIdentifier.Peru, new Peru() },
+            { CountryIdentifier.Philippines, new Philippines() },
+            { CountryIdentifier.PitcairnIsland, new PitcairnIslands() },
+            { CountryIdentifier.Poland, new Poland() },
+            { CountryIdentifier.Portugal, new Portugal() },
+            { CountryIdentifier.PuertoRico, new PuertoRico() },
 
             // Future countries can be added here in the same format.
         };
