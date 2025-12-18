@@ -174,7 +174,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Senegal, new Senegal() },
             { CountryIdentifier.Serbia, new Serbia() },
             { CountryIdentifier.Seychelles, new Seychelles() },
-            { CountryIdentifier.SierraLeone, new Singapore() },
+            { CountryIdentifier.SierraLeone, new SierraLeone() },
             { CountryIdentifier.Singapore, new Singapore() },
 
             // Future countries can be added here in the same format.
