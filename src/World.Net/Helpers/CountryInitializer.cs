@@ -155,6 +155,11 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Poland, new Poland() },
             { CountryIdentifier.Portugal, new Portugal() },
             { CountryIdentifier.PuertoRico, new PuertoRico() },
+            { CountryIdentifier.Qatar, new Qatar() },
+            { CountryIdentifier.Reunion, new Reunion() },
+            { CountryIdentifier.Romania, new Romania() },
+            { CountryIdentifier.Russia, new Russia() },
+            { CountryIdentifier.Rwanda, new Rwanda() },
 
             // Future countries can be added here in the same format.
         };
