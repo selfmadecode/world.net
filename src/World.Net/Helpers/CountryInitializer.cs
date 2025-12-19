@@ -196,6 +196,7 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Taiwan, new Taiwan() },
             { CountryIdentifier.Tajikistan, new Tajikistan() },
             { CountryIdentifier.Tanzania, new Tanzania() },
+            { CountryIdentifier.Thailand, new Thailand() },
             { CountryIdentifier.TimorLeste, new TimorLeste() },
             { CountryIdentifier.Togo, new Togo() },
             { CountryIdentifier.Tokelau, new Tokelau() },
