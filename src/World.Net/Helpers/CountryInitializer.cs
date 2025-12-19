@@ -176,6 +176,23 @@ internal sealed class CountryInitializer
             { CountryIdentifier.Seychelles, new Seychelles() },
             { CountryIdentifier.SierraLeone, new SierraLeone() },
             { CountryIdentifier.Singapore, new Singapore() },
+            { CountryIdentifier.SintMaartenDutchPart, new SintMaarten() },
+            { CountryIdentifier.Slovakia, new Slovakia() },
+            { CountryIdentifier.Slovenia, new Slovenia() },
+            { CountryIdentifier.SolomonIslands, new SolomonIslands() },
+            { CountryIdentifier.Somalia, new Somalia() },
+            { CountryIdentifier.SouthAfrica, new SouthAfrica() },
+            { CountryIdentifier.SouthGeorgia, new SouthGeorgiaAndTheSouthSandwichIslands() },
+            { CountryIdentifier.SouthKorea, new SouthKorea() },
+            { CountryIdentifier.SouthSudan, new SouthSudan() },
+            { CountryIdentifier.Spain, new Spain() },
+            { CountryIdentifier.SriLanka, new SriLanka() },
+            { CountryIdentifier.Sudan, new Sudan() },
+            { CountryIdentifier.Suriname, new Suriname() },
+            { CountryIdentifier.SvalbardAndJanMayenIslands, new SvalbardAndJanMayen() },
+            { CountryIdentifier.Sweden, new Sweden() },
+            { CountryIdentifier.Switzerland, new Switzerland() },
+            { CountryIdentifier.Syria, new Syria() },
 
             // Future countries can be added here in the same format.
         };
