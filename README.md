@@ -50,3 +50,10 @@ foreach (var country in countries)
 Console.WriteLine("\nDetails for Afghanistan:");
 var afghanistan = CountryProvider.GetCountry(CountryIdentifier.AfghanistanId);
 Console.WriteLine($"Official Name: {afghanistan.OfficialName}, Capital: {afghanistan.Capital}");
+
+```
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+- **Samuel Idam** [Deanology](https://github.com/deanology)
+- **Reagan Reuben** [ReaganDev](https://github.com/ReaganDev)
