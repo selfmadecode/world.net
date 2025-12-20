@@ -9,6 +9,42 @@
   </PropertyGroup>
 	<PropertyGroup>
 		<Nullable>enable</Nullable>
+		<Title>Countries.World.NET</Title>
+		<Description>A simple package designed to retrieve a list of all countries.
+Fetch specific details about a country using its identifier.</Description>
+		<PackageProjectUrl>https://github.com/selfmadecode/world.net</PackageProjectUrl>
+		<PackageIcon>globe.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/selfmadecode/world.net</RepositoryUrl>
+		<PackageTags>countries;states;regions;provinces;territories;iso;iso3166;iso3166-1;iso3166-2;geography;location;data;dataset;global;international;world</PackageTags>
+		<PackageReleaseNotes>A comprehensive, structured dataset containing all countries and their administrative subdivisions (states, provinces, regions, and territories), designed for easy use in .NET applications.
+
+This package is ideal for address handling, localization, geographic data needs, and global-ready applications.
+Features:
+Complete list of countries with
+- States
+ - Provinces
+ - Regions
+ - Territories
+</PackageReleaseNotes>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Authors>selfmade</Authors>
+		<PackageId>Countries.World.Net</PackageId>
+		<Copyright>© 2025 SelfMadeCode. All rights reserved.</Copyright>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Include="..\..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\globe.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
