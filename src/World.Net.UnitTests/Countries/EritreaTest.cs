@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace World.Net.UnitTests.Countries
 {
-    public class EritreaTest
+    public class EritreaTest : AssertCountryTestBase
     {
         private const string ERITREA_NAME = "Eritrea";
         private const int ERITREA_STATE_COUNT = 6;
@@ -18,29 +18,38 @@ namespace World.Net.UnitTests.Countries
         private const string ERITREA_ISO3_CODE = "ERI";
         private readonly string[] ERITREA_CALLING_CODE = ["291"];
         private static readonly string[] VALID_STATE_TYPES = { "Region" };
+        private static CountryIdentifier ExpectedId => CountryIdentifier.Eritrea;
+        private static readonly (string Name, string IsoCode, string Type)[] ExpectedStates =
+        {
+            new("Anseba", "AN", "Region"),
+            new("Debub", "DU", "Region"),
+            new("Debubawi Keyih Bahri", "DK", "Region"),
+            new("Gash-Barka", "GB", "Region"),
+            new("Maekel", "MA", "Region"),
+            new("Semenawi Keyih Bahri", "SK", "Region")
+        };
 
         [Fact]
         public void GetCountry_ReturnsCorrectInformation_ForEritrea()
         {
             // Arrange
-            CountryIdentifier existingCountryId = CountryIdentifier.Eritrea;
-
             // Act
-            var country = CountryProvider.GetCountry(existingCountryId);
+            var country = CountryProvider.GetCountry(ExpectedId);
 
             // Assert
-            Assert.Equal(existingCountryId, country.Id);
-            Assert.Equal(ERITREA_NAME, country.Name);
-            Assert.NotNull(country.States);
-            Assert.Equal(ERITREA_STATE_COUNT, country.States.Count());
-            Assert.Equal(ERITREA_OFFICIAL_NAME, country.OfficialName);
-            Assert.Equal(ERITREA_NATIVE_NAME, country.NativeName);
-            Assert.Equal(ERITREA_CAPITAL, country.Capital);
-            Assert.Equal(ERITREA_NUMERIC_CODE, country.NumericCode);
-            Assert.Equal(ERITREA_ISO2_CODE, country.ISO2Code);
-            Assert.Equal(ERITREA_ISO3_CODE, country.ISO3Code);
-            Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
-            Assert.Equal(ERITREA_CALLING_CODE, country.CallingCode);
+            AssertCorrectInformation(
+                country,
+                ExpectedId,
+                ERITREA_NAME,
+                ERITREA_OFFICIAL_NAME,
+                ERITREA_NATIVE_NAME,
+                ERITREA_CAPITAL,
+                ERITREA_NUMERIC_CODE,
+                ERITREA_ISO2_CODE,
+                ERITREA_ISO3_CODE,
+                ERITREA_CALLING_CODE,
+                ExpectedStates
+            );
         }
     }
 }

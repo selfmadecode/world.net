@@ -1,5 +1,5 @@
 ﻿namespace World.Net.UnitTests.Countries;
-public sealed class JamaicaTest
+public sealed class JamaicaTest : AssertCountryTestBase
 {
     private const string JAMAICA_COUNTRY_NAME = "Jamaica";
     private const string JAMAICA_NATIVE_NAME = "Jamaica";
@@ -9,31 +9,45 @@ public sealed class JamaicaTest
     private const string JAMAICA_ISO3_CODE = "JAM";
     private const int JAMAICA_NUMERIC_CODE = 388;
     private readonly string[] JAMAICA_CALLING_CODE = ["+1-876"];
-    private const int JAMAICA_STATE_COUNT = 14;
-    private static readonly string[] VALID_STATE_TYPES = { "Parish" };
+    private const CountryIdentifier ExpectedId = CountryIdentifier.Jamaica;
+    private static readonly (string Name, string IsoCode, string Type)[] ExpectedStates =
+    [
+        ("Clarendon", "JM-13", "Parish"),
+        ("Hanover", "JM-09", "Parish"),
+        ("Kingston", "JM-01", "Parish"),
+        ("Manchester", "JM-12", "Parish"),
+        ("Portland", "JM-04", "Parish"),
+        ("Saint Andrew", "JM-02", "Parish"),
+        ("Saint Ann", "JM-06", "Parish"),
+        ("Saint Catherine", "JM-14", "Parish"),
+        ("Saint Elizabeth", "JM-11", "Parish"),
+        ("Saint James", "JM-08", "Parish"),
+        ("Saint Mary", "JM-05", "Parish"),
+        ("Saint Thomas", "JM-03", "Parish"),
+        ("Trelawny", "JM-07", "Parish"),
+        ("Westmoreland", "JM-10", "Parish"),
+    ];
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForJamaica()
     {
         // Arrange
-        CountryIdentifier existingCountryId = CountryIdentifier.Jamaica;
-
         // Act
-        var country = CountryProvider.GetCountry(existingCountryId);
+        var country = CountryProvider.GetCountry(ExpectedId);
 
         // Assert
-        Assert.NotNull(country);
-        Assert.Equal(existingCountryId, country.Id);
-        Assert.Equal(JAMAICA_COUNTRY_NAME, country.Name);
-        Assert.Equal(JAMAICA_OFFICIAL_NAME, country.OfficialName);
-        Assert.Equal(JAMAICA_NATIVE_NAME, country.NativeName);
-        Assert.Equal(JAMAICA_CAPITAL, country.Capital);
-        Assert.Equal(JAMAICA_NUMERIC_CODE, country.NumericCode);
-        Assert.Equal(JAMAICA_ISO2_CODE, country.ISO2Code);
-        Assert.Equal(JAMAICA_ISO3_CODE, country.ISO3Code);
-        Assert.Equal(JAMAICA_CALLING_CODE, country.CallingCode);
-        Assert.NotNull(country.States);
-        Assert.Equal(JAMAICA_STATE_COUNT, country.States.Count());
-        Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
+        AssertCorrectInformation(
+            country,
+            ExpectedId,
+            JAMAICA_COUNTRY_NAME,
+            JAMAICA_OFFICIAL_NAME,
+            JAMAICA_NATIVE_NAME,
+            JAMAICA_CAPITAL,
+            JAMAICA_NUMERIC_CODE,
+            JAMAICA_ISO2_CODE,
+            JAMAICA_ISO3_CODE,
+            JAMAICA_CALLING_CODE,
+            ExpectedStates
+        );
     }
 }
