@@ -9,10 +9,8 @@
   </PropertyGroup>
 	<PropertyGroup>
 		<Nullable>enable</Nullable>
-		<Title>World.NET</Title>
-		<Description>A simple package designed to:
-
-Retrieve a list of all countries.
+		<Title>Countries.World.NET</Title>
+		<Description>A simple package designed to retrieve a list of all countries.
 Fetch specific details about a country using its identifier.</Description>
 		<PackageProjectUrl>https://github.com/selfmadecode/world.net</PackageProjectUrl>
 		<PackageIcon>globe.png</PackageIcon>
@@ -31,6 +29,8 @@ Complete list of countries with
 </PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<Authors>selfmade</Authors>
+		<PackageId>Countries.World.Net</PackageId>
+		<Copyright>© 2025 SelfMadeCode. All rights reserved.</Copyright>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Include="..\..\LICENSE">
