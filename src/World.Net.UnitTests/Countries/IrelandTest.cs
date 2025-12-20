@@ -1,5 +1,5 @@
 ﻿namespace World.Net.UnitTests.Countries;
-public sealed class IrelandTest
+public sealed class IrelandTest : AssertCountryTestBase
 {
     private const string IRELAND_COUNTRY_NAME = "Ireland";
     private const string IRELAND_NATIVE_NAME = "Éire";
@@ -9,31 +9,61 @@ public sealed class IrelandTest
     private const string IRELAND_ISO3_CODE = "IRL";
     private const int IRELAND_NUMERIC_CODE = 372;
     private readonly string[] IRELAND_CALLING_CODE = ["+353"];
-    private const int IRELAND_STATE_COUNT = 30;
-    private static readonly string[] VALID_STATE_TYPES = { "County", "Province" };
+    private const CountryIdentifier ExpectedId = CountryIdentifier.Ireland;
+    private static readonly (string Name, string IsoCode, string Type)[] ExpectedStates =
+    [
+        ("Carlow", "IE-CW", "County"),
+        ("Cavan", "IE-CN", "County"),
+        ("Clare", "IE-CE", "County"),
+        ("Connacht", "IE-C", "Province"),
+        ("Cork", "IE-CO", "County"),
+        ("Donegal", "IE-DL", "County"),
+        ("Dublin", "IE-D", "County"),
+        ("Galway", "IE-G", "County"),
+        ("Kerry", "IE-KY", "County"),
+        ("Kildare", "IE-KE", "County"),
+        ("Kilkenny", "IE-KK", "County"),
+        ("Laois", "IE-LS", "County"),
+        ("Leinster", "IE-L", "Province"),
+        ("Leitrim", "IE-LM", "County"),
+        ("Limerick", "IE-LK", "County"),
+        ("Longford", "IE-LD", "County"),
+        ("Louth", "IE-LH", "County"),
+        ("Mayo", "IE-MO", "County"),
+        ("Meath", "IE-MH", "County"),
+        ("Monaghan", "IE-MN", "County"),
+        ("Munster", "IE-M", "Province"),
+        ("Offaly", "IE-OY", "County"),
+        ("Roscommon", "IE-RN", "County"),
+        ("Sligo", "IE-SO", "County"),
+        ("Tipperary", "IE-TA", "County"),
+        ("Ulster", "IE-U", "Province"),
+        ("Waterford", "IE-WD", "County"),
+        ("Westmeath", "IE-WH", "County"),
+        ("Wexford", "IE-WX", "County"),
+        ("Wicklow", "IE-WW", "County")
+    ];
 
     [Fact]
     public void GetCountry_ReturnsCorrectInformation_ForIreland()
     {
         // Arrange
-        CountryIdentifier existingCountryId = CountryIdentifier.Ireland;
-
         // Act
-        var country = CountryProvider.GetCountry(existingCountryId);
+        var country = CountryProvider.GetCountry(ExpectedId);
 
         // Assert
-        Assert.NotNull(country);
-        Assert.Equal(existingCountryId, country.Id);
-        Assert.Equal(IRELAND_COUNTRY_NAME, country.Name);
-        Assert.Equal(IRELAND_OFFICIAL_NAME, country.OfficialName);
-        Assert.Equal(IRELAND_NATIVE_NAME, country.NativeName);
-        Assert.Equal(IRELAND_CAPITAL, country.Capital);
-        Assert.Equal(IRELAND_NUMERIC_CODE, country.NumericCode);
-        Assert.Equal(IRELAND_ISO2_CODE, country.ISO2Code);
-        Assert.Equal(IRELAND_ISO3_CODE, country.ISO3Code);
-        Assert.Equal(IRELAND_CALLING_CODE, country.CallingCode);
-        Assert.NotNull(country.States);
-        Assert.Equal(IRELAND_STATE_COUNT, country.States.Count());
-        Assert.All(country.States, state => Assert.Contains(state.Type, VALID_STATE_TYPES));
+        AssertCorrectInformation(
+            country,
+            ExpectedId,
+            IRELAND_COUNTRY_NAME,
+            IRELAND_OFFICIAL_NAME,
+            IRELAND_NATIVE_NAME,
+            IRELAND_CAPITAL,
+            IRELAND_NUMERIC_CODE,
+            IRELAND_ISO2_CODE,
+            IRELAND_ISO3_CODE,
+            IRELAND_CALLING_CODE,
+            ExpectedStates
+        );
     }
 }
