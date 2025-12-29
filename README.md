@@ -1,5 +1,5 @@
 [![NuGet Version](https://img.shields.io/nuget/v/Countries.World.net.svg?style=flat&logo=nuget)](https://www.nuget.org/packages/Countries.World.Net)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/Countries.World.net.svg?style=flat&logo=nuget)](https://www.nuget.org/packages/Countries.World.net)
+![NuGet Downloads](https://img.shields.io/nuget/dt/Countries.World.net.png?style=flat&logo=nuget)
 [![License](https://img.shields.io/github/license/selfmadecode/World.net.svg?style=flat)](LICENSE)
 [![.NET ≥ 2.1](https://img.shields.io/badge/.NET-%E2%89%A52.1-512BD4?logo=dot-net&style=flat)](https://dotnet.microsoft.com/)
 [![GitHub issues](https://img.shields.io/github/issues/selfmadecode/World.net.svg?style=flat)](https://github.com/selfmadecode/World.net/issues)
