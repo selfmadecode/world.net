@@ -1,6 +1,4 @@
-﻿using World.Net.Helpers;
-
-namespace World.Net.UnitTests;
+﻿namespace World.Net.UnitTests;
 
 public sealed class CountryProviderTest
 {
@@ -56,5 +54,60 @@ public sealed class CountryProviderTest
         // Act & Assert
         var exception = Assert.Throws<CountryNotFoundException>(() => CountryProvider.GetCountry(nonExistingCountryId));
         Assert.Equal($"Country with id {nonExistingCountryId} was not found.", exception.Message);
+    }
+
+    [Fact]
+    public void GetCountries_ValidIdentifiers_ReturnsCorrectCountries()
+    {
+        // Arrange
+        var indentifiers = new List<CountryIdentifier>
+        {
+            CountryIdentifier.Afghanistan,
+            CountryIdentifier.Brazil
+        };
+
+        // Act
+        var result = CountryProvider.GetCountries(indentifiers);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+        Assert.Equal(indentifiers.Count, result.Count);
+    }
+
+    [Fact]
+    public void GetCountries_EmptyIdentifiers_ReturnsEmptyList()
+    {
+        // Arrange
+        var emptyIdentifiers = new List<CountryIdentifier>();
+
+        // Act
+        var result = CountryProvider.GetCountries(emptyIdentifiers);
+
+        // Assert
+        Assert.Empty(result);
+        Assert.Equal(emptyIdentifiers.Count, result.Count);
+    }
+
+    [Fact]
+    public void GetCountries_WhenIdentifiersContainDuplicates_ReturnsDistinctCountries()
+    {
+        // Arrange
+        var indentifiers = new List<CountryIdentifier>
+        {
+            CountryIdentifier.Afghanistan,
+            CountryIdentifier.Afghanistan,
+            CountryIdentifier.Argentina,
+            CountryIdentifier.Brazil,
+            CountryIdentifier.Brazil
+        };
+
+        // Act
+        var result = CountryProvider.GetCountries(indentifiers);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.NotEmpty(result);
+        Assert.Equal(3, result.Count);
     }
 }
