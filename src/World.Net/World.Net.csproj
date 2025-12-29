@@ -17,20 +17,42 @@ Fetch specific details about a country using its identifier.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/selfmadecode/world.net</RepositoryUrl>
 		<PackageTags>countries;states;regions;provinces;territories;iso;iso3166;iso3166-1;iso3166-2;geography;location;data;dataset;global;international;world</PackageTags>
-		<PackageReleaseNotes>A comprehensive, structured dataset containing all countries and their administrative subdivisions (states, provinces, regions, and territories), designed for easy use in .NET applications.
+		<PackageReleaseNotes>v1.1.0
 
-This package is ideal for address handling, localization, geographic data needs, and global-ready applications.
-Features:
-Complete list of countries with
-- States
- - Provinces
- - Regions
- - Territories
+New Features:
+Ability to retrived selected countries based on identifiers
+
+A new method has been added to the CountryProvider class to allow filtering countries by a collection of CountryIdentifier values.
+
+This method returns a list of unique ICountry instances corresponding to the provided country identifiers, removing any duplicates.
+
+var indentifiers = new List&lt;CountryIdentifier&gt;
+{
+    CountryIdentifier.Nigeria,
+    CountryIdentifier.Brazil
+};
+
+var selectedCountries = CountryProvider.GetCountries(indentifiers);
+
+Benefits:
+Allows more efficient retrieval of multiple countries based on identifiers.
+Handles duplicate identifiers gracefully by returning only distinct countries.
+Improves flexibility when working with country data by enabling precise selection.
+
+Breaking Changes:
+No breaking changes introduced in this release.
+
+Bug Fixes:
+N/A
+
+Deprecations:
+N/A
 </PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<Authors>selfmade</Authors>
 		<PackageId>Countries.World.Net</PackageId>
 		<Copyright>© 2025 SelfMadeCode. All rights reserved.</Copyright>
+		<Version>1.1.0</Version>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Include="..\..\LICENSE">
