@@ -21,6 +21,24 @@ catch (CountryNotFoundException ex)
     Console.WriteLine($"Error: {ex.Message}");
 }
 
+PrintSeparator("Selected Countries");
+var indentifiers = new List<CountryIdentifier>
+{
+    CountryIdentifier.Afghanistan,
+    CountryIdentifier.Armenia,
+    CountryIdentifier.Niger,
+    CountryIdentifier.Nigeria,
+    CountryIdentifier.Brazil
+};
+
+var selectedCountries = CountryProvider.GetCountries(indentifiers);
+foreach (var country in selectedCountries)
+{
+    Console.WriteLine($"Name: {country.Name,-20} | Capital: {country.Capital}");
+}
+
+Console.WriteLine();
+
 Console.WriteLine();
 Console.WriteLine("Press any key to exit...");
 Console.ReadKey();
