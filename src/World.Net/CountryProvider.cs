@@ -55,4 +55,18 @@ public static class CountryProvider
 
         throw new CountryNotFoundException($"Country with id {countryIdentifier} was not found.");
     }
+
+    /// <summary>
+    /// Retrieves multiple countries by their unique identifiers.
+    /// </summary>
+    /// <param name="countryIdentifiers">A collection of unique identifiers of the countries to retrieve.</param>
+    /// <returns>
+    /// A collection of <see cref="ICountry"/> instances corresponding to the specified <paramref name="countryIdentifiers"/>.
+    /// </returns>
+    public static IList<ICountry> GetCountries(IEnumerable<CountryIdentifier> countryIdentifiers)
+    {
+        var countries = _countries.Value.Where(x => countryIdentifiers.Contains(x.Key)).Select(x => x.Value);
+
+        return countries.ToList();
+    }
 }
