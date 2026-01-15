@@ -1,6 +1,8 @@
 ﻿// Copyright (c) Raphael Anyanwu. All rights reserved.
 // Licensed under the MIT License.
 
+using World.Net.Types;
+
 namespace World.Net;
 
 /// <summary>
@@ -57,4 +59,19 @@ public interface ICountry
     /// Gets the collection of states or administrative regions within the country.
     /// </summary>
     IEnumerable<State>  States { get; }
+
+    /// <summary>
+    /// The primary currency used by the country.
+    /// </summary>
+    Currency Currency => CurrencyProvider.GetCurrency(ISO2Code, Name);
+
+    /// <summary>
+    /// One or more time zone identifiers applicable to the country (IANA / Windows ids).
+    /// </summary>
+    IReadOnlyCollection<string> TimeZones => TimeZoneProvider.GetTimeZones(ISO2Code);
+
+    /// <summary>
+    /// Flag information for the country including ISO code, emoji and optional asset URL.
+    /// </summary>
+    CountryFlag Flag => FlagProvider.GetFlag(ISO2Code);
 }
