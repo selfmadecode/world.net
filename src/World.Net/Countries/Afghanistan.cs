@@ -32,6 +32,9 @@ internal sealed class Afghanistan : ICountry
     public string[] CallingCode { get; } = ["+93"];
 
     ///<inheritdoc/>
+    public IReadOnlyCollection<string> TimeZones { get; } =  ["Asia/Kabul", "UTC+4:30"];
+
+    ///<inheritdoc/>
     public IEnumerable<State> States { get; } =
     [
         new("Badakhshan", "AF-BDS"),
