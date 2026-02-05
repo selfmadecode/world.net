@@ -19,6 +19,7 @@
         public string ISO3Code => "SLV";
 
         public string[] CallingCode => ["503"];
+        public IReadOnlyCollection<string> TimeZones { get; } = ["America/El_Salvador", "UTC-6"];
 
         public IEnumerable<State> States =>
         [

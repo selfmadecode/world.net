@@ -15,16 +15,16 @@ public sealed class SaintLuciaTest : AssertCountryTestBase
     private static readonly (string Name, string IsoCode, string Type)[] EXPECTED_STATES =
     [
         new("Anse la Raye", "LC-01", "District"),
-    new("Canaries", "LC-02", "District"),
-    new("Castries", "LC-03", "District"),
-    new("Choiseul", "LC-04", "District"),
-    new("Dennery", "LC-05", "District"),
-    new("Gros Islet", "LC-06", "District"),
-    new("Laborie", "LC-07", "District"),
-    new("Micoud", "LC-08", "District"),
-    new("Praslin", "LC-09", "District"),
-    new("Soufriere", "LC-10", "District"),
-    new("Vieux Fort", "LC-11", "District")
+        new("Canaries", "LC-02", "District"),
+        new("Castries", "LC-03", "District"),
+        new("Choiseul", "LC-04", "District"),
+        new("Dennery", "LC-05", "District"),
+        new("Gros Islet", "LC-06", "District"),
+        new("Laborie", "LC-07", "District"),
+        new("Micoud", "LC-08", "District"),
+        new("Praslin", "LC-09", "District"),
+        new("Soufriere", "LC-10", "District"),
+        new("Vieux Fort", "LC-11", "District")
     ];
 
     [Fact]
