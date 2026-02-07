@@ -19,6 +19,7 @@
         public string ISO3Code => "GNQ";
 
         public string[] CallingCode => new[] { "240" };
+        public IReadOnlyCollection<string> TimeZones { get; } = ["Africa/Malabo", "UTC+1"];
 
         public IEnumerable<State> States =>
         [
