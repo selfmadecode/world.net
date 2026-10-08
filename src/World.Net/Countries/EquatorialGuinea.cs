@@ -10,7 +10,7 @@
 
         public string NativeName => "República de Guinea Ecuatorial";
 
-        public string Capital => "Malabo";
+        public string Capital => "Ciudad de la Paz";
 
         public int NumericCode => 226;
 

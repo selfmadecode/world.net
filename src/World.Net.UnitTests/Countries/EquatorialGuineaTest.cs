@@ -5,7 +5,7 @@
         private const string EQUATORIALGUINEA_NAME = "EquatorialGuinea";
         private const string EQUATORIALGUINEA_OFFICIAL_NAME = "Republic of Equatorial Guinea";
         private const string EQUATORIALGUINEA_NATIVE_NAME = "República de Guinea Ecuatorial";
-        private const string EQUATORIALGUINEA_CAPITAL = "Malabo";
+        private const string EQUATORIALGUINEA_CAPITAL = "Ciudad de la Paz";
         private const int EQUATORIALGUINEA_NUMERIC_CODE = 226;
         private const string EQUATORIALGUINEA_ISO2_CODE = "GQ";
         private const string EQUATORIALGUINEA_ISO3_CODE = "GNQ";
