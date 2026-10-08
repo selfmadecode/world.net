@@ -32,17 +32,17 @@ internal sealed class Norway : ICountry
     //<inheritdoc/>
     public IEnumerable<State> States =>
     [
-        new("Agder", "NO-01", "County"),
-        new("Innlandet", "NO-02", "County"),
-        new("Møre og Romsdal", "NO-03", "County"),
-        new("Nordland", "NO-04", "County"),
-        new("Oslo", "NO-05", "County"),
-        new("Rogaland", "NO-06", "County"),
-        new("Troms og Finnmark", "NO-07", "County"),
-        new("Trøndelag", "NO-08", "County"),
-        new("Vestfold og Telemark", "NO-09", "County"),
-        new("Vestland", "NO-10", "County"),
-        new("Viken", "NO-11", "County")
+        new("Agder", "NO-42", "County"),
+        new("Innlandet", "NO-34", "County"),
+        new("Møre og Romsdal", "NO-15", "County"),
+        new("Nordland", "NO-18", "County"),
+        new("Oslo", "NO-03", "County"),
+        new("Rogaland", "NO-11", "County"),
+        new("Troms og Finnmark", "NO-54", "County"),
+        new("Trøndelag", "NO-50", "County"),
+        new("Vestfold og Telemark", "NO-38", "County"),
+        new("Vestland", "NO-46", "County"),
+        new("Viken", "NO-30", "County")
     ];
 }
 

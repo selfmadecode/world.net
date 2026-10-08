@@ -32,6 +32,7 @@
             new("Oromia", "OR", "Region"),
             new("Sidama", "SI", "Region"),
             new("Somali", "SO", "Region"),
+            new("South West Ethiopia Peoples' Region", "SW", "Region"),
             new("Southern Nations, Nationalities, and Peoples' Region", "SN", "Region"),
             new("Tigray", "TI", "Region")
         ];
