@@ -38,8 +38,8 @@ N/A</PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<Authors>selfmade</Authors>
 		<PackageId>Countries.World.Net</PackageId>
-		<Copyright>© 2025 SelfMadeCode. All rights reserved.</Copyright>
-		<Version>1.1.0</Version>
+		<Copyright>© 2026 SelfMadeCode. All rights reserved.</Copyright>
+		<Version>1.2.0</Version>
 	</PropertyGroup>
 	<ItemGroup>
 	  <None Include="..\..\LICENSE">
