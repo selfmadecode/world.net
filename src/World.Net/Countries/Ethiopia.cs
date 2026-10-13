@@ -35,5 +35,11 @@
             new("Southern Nations, Nationalities, and Peoples' Region", "SN", "Region"),
             new("Tigray", "TI", "Region")
         ];
+
+        public Types.Currency Currency => new("ETB", "Ethiopian Birr", "Br");
+
+        public IReadOnlyCollection<string> TimeZones => ["Africa/Addis_Ababa"];
+
+        public Types.CountryFlag Flag => new(ISO2Code, "🇪🇹", "https://flags.example.com/ET.png");
     }
 }

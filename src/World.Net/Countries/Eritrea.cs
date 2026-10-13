@@ -19,6 +19,7 @@
         public string ISO3Code => "ERI";
 
         public string[] CallingCode => ["291"];
+        public IReadOnlyCollection<string> TimeZones { get; } = ["Africa/Asmara", "UTC+3"];
 
         public IEnumerable<State> States =>
         [

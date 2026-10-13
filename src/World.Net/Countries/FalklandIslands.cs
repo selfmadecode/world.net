@@ -19,6 +19,7 @@
         public string ISO3Code => "FLK";
 
         public string[] CallingCode => ["500"];
+        public IReadOnlyCollection<string> TimeZones { get; } = ["Atlantic/Stanley", "UTC-3"];
 
         public IEnumerable<State> States =>
         [

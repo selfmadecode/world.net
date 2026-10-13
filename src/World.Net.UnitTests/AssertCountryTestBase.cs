@@ -26,6 +26,8 @@
             Assert.Equal(expectedISO3Code, country.ISO3Code);
             Assert.Equal(expectedCallingCode, country.CallingCode);
             Assert.NotNull(country.States);
+            Assert.NotNull(country.Currency);
+            Assert.NotEmpty(country.TimeZones);
 
             var states = country.States.ToArray();
             Assert.Equal(expectedStates.Length, states.Length);

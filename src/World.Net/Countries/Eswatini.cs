@@ -19,6 +19,7 @@
         public string ISO3Code => "SWZ";
 
         public string[] CallingCode => ["268"];
+        public IReadOnlyCollection<string> TimeZones { get; } = ["Africa/Mbabane", "UTC+2"];
 
         public IEnumerable<State> States =>
         [
