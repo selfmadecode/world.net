@@ -17,37 +17,24 @@ Fetch specific details about a country using its identifier.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/selfmadecode/world.net</RepositoryUrl>
 		<PackageTags>countries;states;regions;provinces;territories;iso;iso3166;iso3166-1;iso3166-2;geography;location;data;dataset;global;international;world</PackageTags>
-		<PackageReleaseNotes>v1.1.0
+		<PackageReleaseNotes>v1.2.0
 
-New Features:
-Ability to retrived selected countries based on identifiers
+Updates
+Updated country data for Kazakhstan, Ethiopia, Norway, and Equatorial Guinea to reflect the latest 
+changes.
+Corrected Kazakhstan's capital, native name, and region codes, and added three missing regions.
+Added the South West Ethiopia Peoples' Region.
+Corrected Norway's county codes to match ISO 3166-2.
+Updated Equatorial Guinea's capital to Ciudad de la Paz.
+Breaking Changes
+Kazakhstan's region codes have changed to the current ISO 3166-2 codes. Applications relying on the previous codes must be updated.
 
-A new method has been added to the CountryProvider class to allow filtering countries by a collection of CountryIdentifier values.
-
-This method returns a list of unique ICountry instances corresponding to the provided country identifiers, removing any duplicates.
-
-var indentifiers = new List&lt;CountryIdentifier&gt;
-{
-    CountryIdentifier.Nigeria,
-    CountryIdentifier.Brazil
-};
-
-var selectedCountries = CountryProvider.GetCountries(indentifiers);
-
-Benefits:
-Allows more efficient retrieval of multiple countries based on identifiers.
-Handles duplicate identifiers gracefully by returning only distinct countries.
-Improves flexibility when working with country data by enabling precise selection.
-
-Breaking Changes:
-No breaking changes introduced in this release.
-
-Bug Fixes:
-N/A
-
-Deprecations:
-N/A
-</PackageReleaseNotes>
+Bug Fixes
+Fixed outdated country and region information.
+Corrected Kazakhstan's native name encoding.
+Updated unit tests to reflect the changes.
+Deprecations
+N/A</PackageReleaseNotes>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<Authors>selfmade</Authors>
 		<PackageId>Countries.World.Net</PackageId>
